@@ -11,26 +11,66 @@
 ## 🚀 About Me
 
 <div align="center">
-<table>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; overflow: hidden;">
 <tr>
-<td width="60%" valign="top">
+<td width="60%" valign="top" style="padding: 30px;">
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
+
+### 👋 Hello there! I'm **Krapaud**
 
 I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
 
+<br>
+
+#### 🎯 **Quick Facts**
 - 🎓 **Student** at Holberton School
 - 💻 **Specializations**: C Programming, Data Structures, Algorithms
 - 🌱 **Currently Learning**: Python, JavaScript, SQL
 - 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
 - 🤝 **Collaboration**: Always open to interesting projects!
 
-</td>
-<td width="40%" align="center">
+<br>
 
-<img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+#### 📊 **Skills Progress**
+![C Programming](https://img.shields.io/badge/C_Programming-90%25-brightgreen?style=flat-square&logo=c&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-80%25-yellowgreen?style=flat-square&logo=codeigniter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-70%25-yellow?style=flat-square&logo=python&logoColor=white)
+
+</div>
+
+</td>
+<td width="40%" align="center" style="padding: 30px;">
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
+
+<img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="180" style="border-radius: 50%; border: 4px solid #36BCF7; box-shadow: 0 8px 25px rgba(54, 188, 247, 0.4); transition: transform 0.3s ease;" />
+
 <br><br>
+
+<div style="text-align: center;">
+
 **💼 Software Developer in Training**  
 **🎓 Holberton School Student**  
-**🌍 France**
+**🌍 France** 🇫🇷
+
+<br>
+
+<div style="display: inline-block; margin: 10px 0;">
+<img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=for-the-badge&logo=rocket&logoColor=white" alt="Status"/>
+</div>
+
+<br>
+
+<div style="margin-top: 15px;">
+<img src="https://img.shields.io/github/followers/Krapaud?style=social" alt="GitHub Followers"/>
+<img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=blue" alt="Profile Views"/>
+</div>
+
+</div>
+
+</div>
 
 </td>
 </tr>
