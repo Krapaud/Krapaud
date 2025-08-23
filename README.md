@@ -11,7 +11,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 - 🎓 **Étudiant** à Holberton School
 - 💻 **Spécialisations** : Programmation C, Structures de données, Algorithmes
 - 🌱 **En cours d'apprentissage** : Python, JavaScript, SQL
-- 🎯 **Objectif** : Devenir un ingénieur logiciel expert
+- 🎯 **Objectif** : Devenir un Développeur Full-Stack ou Cyber-Sécurité !
 - 🤝 **Collaboration** : Toujours ouvert aux projets intéressants !
 
 ## 🛠️ Technologies & Outils
@@ -61,14 +61,6 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 > - 📚 Documentation complète avec page de manuel
 > - 🧪 Tests complets et comparaison avec printf standard
 
-### 🌳 [Binary Trees](https://github.com/Krapaud/holbertonschool-binary_trees)
-> **Implémentation complète des arbres binaires en C**
-> 
-> - 🏗️ Structures de données avancées
-> - 🔄 Algorithmes de parcours (préordre, inordre, postordre)
-> - 📏 Calculs de hauteur, profondeur, équilibre
-> - 🔍 Fonctions de recherche et validation
-
 ### 🐚 [Simple Shell](https://github.com/Krapaud/holbertonschool-simple_shell)
 > **Shell Unix minimaliste en C**
 > 
@@ -85,11 +77,13 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 ## 🎯 Objectifs 2025
 
-- [ ] 🚀 Maîtriser les architectures microservices
-- [ ] ☁️ Obtenir une certification AWS
+- [ ] � Maîtriser Python et ses frameworks (Django/Flask)
+- [ ] 🌐 Créer des applications web full-stack avec JavaScript
+- [ ] 🗄️ Approfondir SQL et la gestion de bases de données
+- [ ] 🔐 Explorer la cybersécurité et les tests de pénétration
+- [ ] 🚀 Développer et déployer mes premiers projets complets
 - [ ] 🤖 Contribuer à des projets open source
-- [ ] 📚 Approfondir mes connaissances en algorithmes
-- [ ] 🌐 Développer des applications web complètes
+- [ ] 📜 Obtenir des certifications en sécurité informatique
 
 ## 💡 Citations qui m'inspirent
 
