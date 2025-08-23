@@ -1,277 +1,76 @@
 # Krapaud - Software Dev<td width="40%" align="center">
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
-</div>
-
-<br><br>
-
-## 🚀 About Me
-
-<div align="center">
-<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; overflow: hidden;">
-<tr>
-<td width="60%" valign="top" style="padding: 30px;">
-
-<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
-</div>
-
-I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
-
-<br>
-
-#### 🎯 **Quick Facts**
-- 🎓 **Student** at Holberton School
-- 💻 **Specializations**: C Programming, Data Structures, Algorithms
-- 🌱 **Currently Learning**: Python, JavaScript, SQL
-- 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
-- 🤝 **Collaboration**: Always open to interesting projects!
-
-<br>
-
-#### 📊 **Skills Progress**
-![C Programming](https://img.shields.io/badge/C_Programming-90%25-brightgreen?style=flat-square&logo=c&logoColor=white)
-![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
-![Algorithms](https://img.shields.io/badge/Algorithms-80%25-yellowgreen?style=flat-square&logo=codeigniter&logoColor=white)
-![Python](https://img.shields.io/badge/Python-70%25-yellow?style=flat-square&logo=python&logoColor=white)
-
-</div>
-
-</td>
-<td width="40%" align="center" style="padding: 30px;">
-
-<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
-
-<img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="180" style="border-radius: 50%; border: 4px solid #36BCF7; box-shadow: 0 8px 25px rgba(54, 188, 247, 0.4); transition: transform 0.3s ease;" />
-
-<br><br>
-
-<div style="text-align: center;">
-
-**💼 Software Developer in Training**  
-**🎓 Holberton School Student**  
-**🌍 France** 🇫🇷
-
-<br>
-
-<div style="display: inline-block; margin: 10px 0;">
-<img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=for-the-badge&logo=rocket&logoColor=white" alt="Status"/>
-</div>
-
-<br>
-
-</div>
-
-</div>
-
-</td>
-</tr>
-</table>
-</div>
-
-## 🛠️ Technologies & Tools
+  <img src="https:/## 📊 GitHub Statistics
 
 <div align="center">
 
-### Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+<!-- Header compact avec animation -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=📊+GitHub+Analytics;🚀+Dev+Metrics;💻+Coding+Stats" alt="Stats Header" />
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
+<!-- Badges de métriques en ligne compacte -->
+<div style="margin: 15px 0;">
+<img src="https://img.shields.io/github/followers/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=flat-square&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
+<img src="https://img.shields.io/badge/dynamic/json?logo=github&style=flat-square&color=1F6FEB&labelColor=0D1117&label=Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud" alt="Repos"/>
+<img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=58A6FF&labelColor=0D1117" alt="Views"/>
+<img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
 </div>
 
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<!-- Header avec animation et gradient -->
-<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&lines=📊+GitHub+Analytics+Dashboard;�+Real-Time+Development+Metrics;💻+Coding+Journey+Insights" alt="Stats Header" />
-</div>
-
-<br>
-
-<!-- Section des badges de métriques principales -->
-<div style="background: rgba(13, 17, 23, 0.8); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
-
-### 🎯 **Métriques Essentielles**
-
-<table width="100%">
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117&logoColor=white" alt="Followers"/>
-<br><sub><strong>👥 Community</strong></sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
-<br><sub><strong>⭐ Recognition</strong></sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/dynamic/json?logo=github&style=for-the-badge&color=1F6FEB&labelColor=0D1117&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud" alt="Repos"/>
-<br><sub><strong>📚 Projects</strong></sub>
-</td>
-<td align="center" width="20%">
-<img src="https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=58A6FF&labelColor=0D1117" alt="Views"/>
-<br><sub><strong>👁️ Profile Views</strong></sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
-<br><sub><strong>🕒 Last Activity</strong></sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br>
-
-<!-- Dashboard principal avec statistiques visuelles -->
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
-
-<!-- Colonne gauche - Statistiques GitHub -->
-<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 15px; padding: 20px; border: 1px solid rgba(88, 166, 255, 0.2);">
-
-### 🔥 **Performance Analytics**
-
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=24&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=10&custom_title=🚀%20GitHub%20Performance" alt="GitHub Stats"/>
-
-<br><br>
-
-### 🎯 **Contribution Streak**
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=10" alt="GitHub Streak"/>
-
-</div>
-
-<!-- Colonne droite - Langages et activité -->
-<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(255, 107, 107, 0.1) 100%); border-radius: 15px; padding: 20px; border: 1px solid rgba(255, 107, 107, 0.2);">
-
-### � **Technology Stack**
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=10&custom_title=🌐%20Programming%20Languages" alt="Top Languages"/>
-
-<br><br>
-
-### 📈 **Activity Graph**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Timeline&radius=10" alt="Activity Graph"/>
-
-</div>
-
-</div>
-
-<br>
-
-<!-- Métriques détaillées en tableau moderne -->
-<div style="background: linear-gradient(45deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 50%, rgba(255, 107, 107, 0.1) 100%); border-radius: 15px; padding: 25px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
-
-### 📊 **Detailed Analytics Dashboard**
-
+<!-- Dashboard principal en 3 colonnes -->
 <table style="width: 100%; border-collapse: collapse;">
-<thead>
-<tr style="background: linear-gradient(90deg, #58A6FF 0%, #1F6FEB 100%); color: white;">
-<th style="padding: 15px; text-align: center; border-radius: 10px 0 0 10px;">📈 Metric</th>
-<th style="padding: 15px; text-align: center;">📊 Current Value</th>
-<th style="padding: 15px; text-align: center;">🎯 Category</th>
-<th style="padding: 15px; text-align: center; border-radius: 0 10px 10px 0;">📅 Updated</th>
+<tr>
+<!-- Colonne 1: GitHub Stats -->
+<td style="width: 33%; vertical-align: top; padding: 10px;">
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=20&card_width=300&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=8" alt="GitHub Stats"/>
+</td>
+
+<!-- Colonne 2: Top Languages -->
+<td style="width: 33%; vertical-align: top; padding: 10px;">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8" alt="Top Languages"/>
+</td>
+
+<!-- Colonne 3: Streak Stats -->
+<td style="width: 33%; vertical-align: top; padding: 10px;">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=8" alt="GitHub Streak"/>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr style="background: rgba(88, 166, 255, 0.05);">
-<td style="padding: 12px; text-align: center;"><strong>📚 Public Repositories</strong></td>
-<td style="padding: 12px; text-align: center;"><span style="color: #58A6FF; font-weight: bold;">13</span></td>
-<td style="padding: 12px; text-align: center;">Open Source</td>
-<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
-</tr>
-<tr style="background: rgba(255, 215, 0, 0.05);">
-<td style="padding: 12px; text-align: center;"><strong>⭐ Total Stars</strong></td>
-<td style="padding: 12px; text-align: center;"><span style="color: #FFD700; font-weight: bold;">2</span></td>
-<td style="padding: 12px; text-align: center;">Recognition</td>
-<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
-</tr>
-<tr style="background: rgba(31, 111, 235, 0.05);">
-<td style="padding: 12px; text-align: center;"><strong>� Total Forks</strong></td>
-<td style="padding: 12px; text-align: center;"><span style="color: #1F6FEB; font-weight: bold;">0</span></td>
-<td style="padding: 12px; text-align: center;">Collaboration</td>
-<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
-</tr>
-<tr style="background: rgba(255, 107, 107, 0.05);">
-<td style="padding: 12px; text-align: center;"><strong>👥 Followers Network</strong></td>
-<td style="padding: 12px; text-align: center;"><span style="color: #FF6B6B; font-weight: bold;">4</span></td>
-<td style="padding: 12px; text-align: center;">Community</td>
-<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
-</tr>
-<tr style="background: rgba(144, 238, 144, 0.05);">
-<td style="padding: 12px; text-align: center;"><strong>📅 Days on GitHub</strong></td>
-<td style="padding: 12px; text-align: center;"><span style="color: #90EE90; font-weight: bold;">2111</span></td>
-<td style="padding: 12px; text-align: center;">Experience</td>
-<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
-</tr>
-</tbody>
 </table>
 
+<!-- Activity Graph pleine largeur mais plus compact -->
+<div style="margin: 15px 0;">
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity&radius=8&height=300" alt="Activity Graph"/>
 </div>
 
+<!-- Métriques détaillées compactes en tableau horizontal -->
+<details>
+<summary><strong>📈 Detailed Metrics</strong> (Click to expand)</summary>
 <br>
+<table style="width: 100%; margin: 10px 0;">
+<tr style="background: rgba(88, 166, 255, 0.1);">
+<td style="padding: 8px; text-align: center;"><strong>📚 Repos:</strong> 13</td>
+<td style="padding: 8px; text-align: center;"><strong>⭐ Stars:</strong> 2</td>
+<td style="padding: 8px; text-align: center;"><strong>👥 Followers:</strong> 4</td>
+<td style="padding: 8px; text-align: center;"><strong>📅 Days:</strong> 2111</td>
+</tr>
+</table>
 
-<!-- Badges de performance avec animations -->
-<div style="background: rgba(13, 17, 23, 0.8); border-radius: 15px; padding: 20px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
-
-### 🏆 **Performance Badges**
-
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
-
-<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%20%282025%29&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=for-the-badge&logo=git&labelColor=0D1117" alt="Commits 2025"/>
-
-<img src="https://img.shields.io/badge/dynamic/json?color=blue&label=GitHub%20Years&query=%24.years&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud&style=for-the-badge&logo=github&labelColor=0D1117" alt="Years on GitHub"/>
-
-<img src="https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=1F6FEB&labelColor=0D1117" alt="Printf Forks"/>
-
+<!-- Badges de performance et langages en ligne -->
+<div style="margin: 10px 0;">
+<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%202025&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=flat-square&logo=git" alt="Commits 2025"/>
+<img src="https://img.shields.io/badge/C-5%20repos-00599C?style=flat-square&logo=c" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-3%20repos-4EAA25?style=flat-square&logo=gnu-bash" alt="Shell"/>
+<img src="https://img.shields.io/badge/Python-1%20repo-3776AB?style=flat-square&logo=python" alt="Python"/>
 </div>
+</details>
 
-### 🌐 **Primary Languages**
-
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
-
-![C](https://img.shields.io/badge/C-5%20repos-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=0D1117)
-![Shell](https://img.shields.io/badge/Shell-3%20repos-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=0D1117)
-![Python](https://img.shields.io/badge/Python-1%20repo-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117)
-
+<!-- Footer compact -->
+<div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->23/08/2025 à 14:20 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
 
-<br>
-
-<!-- Footer avec statut de mise à jour -->
-<div style="background: linear-gradient(90deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 10px; padding: 15px; text-align: center; border: 1px solid rgba(88, 166, 255, 0.2);">
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-<img src="https://img.shields.io/badge/🤖-Auto%20Updated-success?style=flat-square&logo=github-actions&logoColor=white" alt="Auto Updated"/>
-<img src="https://img.shields.io/badge/�-Real%20Time-blue?style=flat-square&logo=clockify&logoColor=white" alt="Real Time"/>
-<img src="https://img.shields.io/badge/�-Dynamic%20Data-purple?style=flat-square&logo=grafana&logoColor=white" alt="Dynamic Data"/>
-</div>
-
-<br>
-
-<sub>🔄 <em>Dashboard updated automatically • Last sync: <!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></em></sub>
-<br>
-<sub>⚡ <em>Real-time badges • Dynamic widgets • Automated workflows</em></sub>
 
 ## 🏆 Developer Achievements & Milestones
 
