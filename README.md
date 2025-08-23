@@ -99,189 +99,312 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div align="center">
 
-<!-- Titre stylisé avec animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=400&lines=📊+My+GitHub+Journey;🚀+Coding+Statistics;💻+Development+Metrics" alt="Stats Title" />
+<!-- Header avec animation et gradient -->
+<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&lines=📊+GitHub+Analytics+Dashboard;�+Real-Time+Development+Metrics;💻+Coding+Journey+Insights" alt="Stats Header" />
+</div>
+
+<br>
+
+<!-- Section des badges de métriques principales -->
+<div style="background: rgba(13, 17, 23, 0.8); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
+
+### 🎯 **Métriques Essentielles**
+
+<table width="100%">
+<tr>
+<td align="center" width="20%">
+<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117&logoColor=white" alt="Followers"/>
+<br><sub><strong>👥 Community</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
+<br><sub><strong>⭐ Recognition</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/dynamic/json?logo=github&style=for-the-badge&color=1F6FEB&labelColor=0D1117&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud" alt="Repos"/>
+<br><sub><strong>📚 Projects</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=58A6FF&labelColor=0D1117" alt="Views"/>
+<br><sub><strong>👁️ Profile Views</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
+<br><sub><strong>🕒 Last Activity</strong></sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<!-- Dashboard principal avec statistiques visuelles -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+
+<!-- Colonne gauche - Statistiques GitHub -->
+<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 15px; padding: 20px; border: 1px solid rgba(88, 166, 255, 0.2);">
+
+### 🔥 **Performance Analytics**
+
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=24&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=10&custom_title=🚀%20GitHub%20Performance" alt="GitHub Stats"/>
 
 <br><br>
 
+### 🎯 **Contribution Streak**
 
-
-<!-- Badges de métriques en temps réel -->
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
-
-![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700&labelColor=0D1117)
-![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117)
-![GitHub repositories](https://img.shields.io/badge/dynamic/json?logo=github&style=for-the-badge&color=1F6FEB&labelColor=0D1117&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud)
-![Profile views](https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=58A6FF&labelColor=0D1117)
-![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=1F6FEB&labelColor=0D1117)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=10" alt="GitHub Streak"/>
 
 </div>
 
-<!-- Badges d'accomplissements GitHub -->
-<div align="center">
+<!-- Colonne droite - Langages et activité -->
+<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(255, 107, 107, 0.1) 100%); border-radius: 15px; padding: 20px; border: 1px solid rgba(255, 107, 107, 0.2);">
 
-### 🏆 **Achievements & Milestones**
+### � **Technology Stack**
 
-<table align="center">
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/🏆-GitHub%20Stars-FFD700?style=for-the-badge&logo=github&logoColor=white" alt="Stars Achievement"/>
-<br><sub>Repository Stars</sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/🚀-Commits-1F6FEB?style=for-the-badge&logo=git&logoColor=white" alt="Commits Achievement"/>
-<br><sub>Code Contributions</sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/📚-Repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Repos Achievement"/>
-<br><sub>Public Projects</sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/🤝-Collaborations-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaboration Achievement"/>
-<br><sub>Team Projects</sub>
-</td>
-</tr>
-</table>
-
-### 📊 **Métriques en Temps Réel**
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-#### 🔥 **Activité GitHub**
-
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=24&card_width=400" alt="GitHub Stats Real-time"/>
-
-<br>
-
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117)
-
-</td>
-<td align="center" width="50%">
-
-#### 📈 **Statistiques Détaillées**
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400" alt="Most Used Languages"/>
-
-<br>
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=Activité%20des%20Contributions)
-
-</td>
-</tr>
-</table>
-
-#### 🎯 **Badges de Performance**
-
-![Commits this year](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%20%282025%29&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=for-the-badge&logo=git&labelColor=0D1117)
-![Years on GitHub](https://img.shields.io/badge/dynamic/json?color=blue&label=Années%20sur%20GitHub&query=%24.years&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud&style=for-the-badge&logo=github&labelColor=0D1117)
-![Last commit](https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117)
-
-<br>
-
-<div align="center">
-<sub>🔄 <em>Mis à jour automatiquement • Dernière synchronisation: <!--STATS_UPDATE_TIME-->23/08/2025 à 13:54 UTC<!--/STATS_UPDATE_TIME--></em></sub>
-</div>
-
-</div>
-
-
-### 📊 **Statistiques GitHub Détaillées**
-
-<div align="center">
-
-| 📈 **Métrique** | 📊 **Valeur** | 🎯 **Détails** |
-|:---|:---:|:---|
-| 📚 **Repositories publics** | **13** | Projets open source |
-| ⭐ **Total des étoiles** | **2** | Reconnaissance communauté |
-| 🍴 **Total des forks** | **0** | Projets dupliqués |
-| 👥 **Followers** | **4** | Communauté GitHub |
-| 👤 **Following** | **7** | Développeurs suivis |
-| 📅 **Jours sur GitHub** | **2111** | Ancienneté du compte |
-
-#### 🌐 **Langages Principaux**
-![C](https://img.shields.io/badge/C-5%20repos-blue?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-3%20repos-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-1%20repos-blue?style=flat-square) 
-
-<br>
-
-<sub>🤖 <em>Statistiques générées automatiquement • Dernière mise à jour: 23/08/2025 à 13:54 UTC</em></sub>
-
-</div>
-
----
-
-
-<!-- Alternative aux trophées avec des icônes personnalisées -->
-<div style="margin: 20px 0;">
-<img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target" alt="Problem Solver"/>
-<img src="https://img.shields.io/badge/💡-Innovator-yellow?style=flat-square&logo=lightbulb" alt="Innovator"/>
-<img src="https://img.shields.io/badge/🔧-Code%20Craftsman-blue?style=flat-square&logo=tools" alt="Code Craftsman"/>
-<img src="https://img.shields.io/badge/📖-Continuous%20Learner-purple?style=flat-square&logo=book" alt="Continuous Learner"/>
-<img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star" alt="Rising Star"/>
-</div>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=10&custom_title=🌐%20Programming%20Languages" alt="Top Languages"/>
 
 <br><br>
 
-### 🌟 **Unlocked Achievements**
+### 📈 **Activity Graph**
 
-<table align="center">
-<tr>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/🎓-STUDENT-blueviolet?style=for-the-badge" alt="Student Badge"/>
-<br><strong>Holberton School</strong>
-<br><sub>Active Student</sub>
-</td>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/💻-C%20EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Expert Badge"/>
-<br><strong>C Programming</strong>
-<br><sub>Low-level mastered</sub>
-</td>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/🐚-SHELL%20MASTER-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Master Badge"/>
-<br><strong>Unix Shell</strong>
-<br><sub>Shell developed</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/🖨️-PRINTF%20PRO-FF6347?style=for-the-badge" alt="Printf Pro Badge"/>
-<br><strong>Printf Creator</strong>
-<br><sub>Function reimplemented</sub>
-</td>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/🌳-DATA%20STRUCTURES-228B22?style=for-the-badge" alt="Data Structures Badge"/>
-<br><strong>Binary Trees</strong>
-<br><sub>Advanced algorithms</sub>
-</td>
-<td align="center" width="150">
-<img width="80" src="https://img.shields.io/badge/🚀-FULL%20STACK-FF1493?style=for-the-badge" alt="Full Stack Badge"/>
-<br><strong>In Progress</strong>
-<br><sub>Python, JS, SQL</sub>
-</td>
-</tr>
-</table>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Timeline&radius=10" alt="Activity Graph"/>
+
+</div>
+
+</div>
 
 <br>
 
-### 🎯 **Progress & Goals**
+<!-- Métriques détaillées en tableau moderne -->
+<div style="background: linear-gradient(45deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 50%, rgba(255, 107, 107, 0.1) 100%); border-radius: 15px; padding: 25px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
 
-<table align="center">
-<tr>
-<td align="center">
-<h4>🏅 <strong>Current Level</strong></h4>
-<img src="https://img.shields.io/badge/LEVEL-ADVANCED%20BEGINNER-brightgreen?style=for-the-badge&logo=github" alt="Current Level"/>
-<br><sub>Solid foundations acquired</sub>
-</td>
-<td align="center">
-<h4>🎯 <strong>Main Goal</strong></h4>
-<img src="https://img.shields.io/badge/TARGET-FULL%20STACK%20DEV-orange?style=for-the-badge&logo=rocket" alt="Main Target"/>
-<br><sub>Complete developer</sub>
-</td>
+### 📊 **Detailed Analytics Dashboard**
+
+<table style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr style="background: linear-gradient(90deg, #58A6FF 0%, #1F6FEB 100%); color: white;">
+<th style="padding: 15px; text-align: center; border-radius: 10px 0 0 10px;">📈 Metric</th>
+<th style="padding: 15px; text-align: center;">📊 Current Value</th>
+<th style="padding: 15px; text-align: center;">🎯 Category</th>
+<th style="padding: 15px; text-align: center; border-radius: 0 10px 10px 0;">📅 Updated</th>
 </tr>
+</thead>
+<tbody>
+<tr style="background: rgba(88, 166, 255, 0.05);">
+<td style="padding: 12px; text-align: center;"><strong>📚 Public Repositories</strong></td>
+<td style="padding: 12px; text-align: center;"><span style="color: #58A6FF; font-weight: bold;">13</span></td>
+<td style="padding: 12px; text-align: center;">Open Source</td>
+<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
+</tr>
+<tr style="background: rgba(255, 215, 0, 0.05);">
+<td style="padding: 12px; text-align: center;"><strong>⭐ Total Stars</strong></td>
+<td style="padding: 12px; text-align: center;"><span style="color: #FFD700; font-weight: bold;">2</span></td>
+<td style="padding: 12px; text-align: center;">Recognition</td>
+<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
+</tr>
+<tr style="background: rgba(31, 111, 235, 0.05);">
+<td style="padding: 12px; text-align: center;"><strong>� Total Forks</strong></td>
+<td style="padding: 12px; text-align: center;"><span style="color: #1F6FEB; font-weight: bold;">0</span></td>
+<td style="padding: 12px; text-align: center;">Collaboration</td>
+<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
+</tr>
+<tr style="background: rgba(255, 107, 107, 0.05);">
+<td style="padding: 12px; text-align: center;"><strong>👥 Followers Network</strong></td>
+<td style="padding: 12px; text-align: center;"><span style="color: #FF6B6B; font-weight: bold;">4</span></td>
+<td style="padding: 12px; text-align: center;">Community</td>
+<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
+</tr>
+<tr style="background: rgba(144, 238, 144, 0.05);">
+<td style="padding: 12px; text-align: center;"><strong>📅 Days on GitHub</strong></td>
+<td style="padding: 12px; text-align: center;"><span style="color: #90EE90; font-weight: bold;">2111</span></td>
+<td style="padding: 12px; text-align: center;">Experience</td>
+<td style="padding: 12px; text-align: center;"><!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></td>
+</tr>
+</tbody>
 </table>
+
+</div>
+
+<br>
+
+<!-- Badges de performance avec animations -->
+<div style="background: rgba(13, 17, 23, 0.8); border-radius: 15px; padding: 20px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
+
+### 🏆 **Performance Badges**
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+
+<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%20%282025%29&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=for-the-badge&logo=git&labelColor=0D1117" alt="Commits 2025"/>
+
+<img src="https://img.shields.io/badge/dynamic/json?color=blue&label=GitHub%20Years&query=%24.years&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud&style=for-the-badge&logo=github&labelColor=0D1117" alt="Years on GitHub"/>
+
+<img src="https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=1F6FEB&labelColor=0D1117" alt="Printf Forks"/>
+
+</div>
+
+### 🌐 **Primary Languages**
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+
+![C](https://img.shields.io/badge/C-5%20repos-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=0D1117)
+![Shell](https://img.shields.io/badge/Shell-3%20repos-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=0D1117)
+![Python](https://img.shields.io/badge/Python-1%20repo-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117)
+
+</div>
+
+</div>
+
+<br>
+
+<!-- Footer avec statut de mise à jour -->
+<div style="background: linear-gradient(90deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 10px; padding: 15px; text-align: center; border: 1px solid rgba(88, 166, 255, 0.2);">
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+<img src="https://img.shields.io/badge/🤖-Auto%20Updated-success?style=flat-square&logo=github-actions&logoColor=white" alt="Auto Updated"/>
+<img src="https://img.shields.io/badge/�-Real%20Time-blue?style=flat-square&logo=clockify&logoColor=white" alt="Real Time"/>
+<img src="https://img.shields.io/badge/�-Dynamic%20Data-purple?style=flat-square&logo=grafana&logoColor=white" alt="Dynamic Data"/>
+</div>
+
+<br>
+
+<sub>🔄 <em>Dashboard updated automatically • Last sync: <!--STATS_UPDATE_TIME-->23/08/2025 à 14:13 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<br>
+<sub>⚡ <em>Real-time badges • Dynamic widgets • Automated workflows</em></sub>
+
+## 🏆 Developer Achievements & Milestones
+
+<div align="center">
+
+<!-- Header moderne pour les achievements -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); padding: 25px; border-radius: 20px; margin: 20px 0;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&lines=🏆+Achievement+Unlocked;🎯+Milestone+Completed;🌟+Skills+Mastered" alt="Achievements Header" />
+</div>
+
+<br>
+
+<!-- Grille d'achievements moderne -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<!-- Achievement 1: Holberton Student -->
+<div style="background: linear-gradient(135deg, rgba(138, 43, 226, 0.1) 0%, rgba(75, 0, 130, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(138, 43, 226, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/🎓-HOLBERTON%20STUDENT-8A2BE2?style=for-the-badge&logoColor=white" alt="Student Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #8A2BE2; margin: 10px 0;">🎓 Holberton Scholar</h4>
+    <p style="margin: 5px 0; color: #666;">Active student mastering computer science fundamentals</p>
+    <div style="background: rgba(138, 43, 226, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Status:</strong> Active Learning</small>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 2: C Expert -->
+<div style="background: linear-gradient(135deg, rgba(0, 89, 156, 0.1) 0%, rgba(0, 60, 120, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(0, 89, 156, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/💻-C%20EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Expert Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #00599C; margin: 10px 0;">💻 C Programming Expert</h4>
+    <p style="margin: 5px 0; color: #666;">Low-level programming and memory management mastery</p>
+    <div style="background: rgba(0, 89, 156, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Level:</strong> Advanced</small>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 3: Shell Master -->
+<div style="background: linear-gradient(135deg, rgba(46, 139, 87, 0.1) 0%, rgba(34, 110, 70, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(46, 139, 87, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/🐚-SHELL%20MASTER-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Master Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #2E8B57; margin: 10px 0;">🐚 Unix Shell Master</h4>
+    <p style="margin: 5px 0; color: #666;">Custom shell implementation and system programming</p>
+    <div style="background: rgba(46, 139, 87, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Project:</strong> Simple Shell Completed</small>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 4: Printf Pro -->
+<div style="background: linear-gradient(135deg, rgba(255, 99, 71, 0.1) 0%, rgba(220, 60, 40, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(255, 99, 71, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/🖨️-PRINTF%20PRO-FF6347?style=for-the-badge&logoColor=white" alt="Printf Pro Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #FF6347; margin: 10px 0;">🖨️ Printf Creator</h4>
+    <p style="margin: 5px 0; color: #666;">Complete reimplementation of printf function</p>
+    <div style="background: rgba(255, 99, 71, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Features:</strong> Variadic functions mastered</small>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 5: Data Structures -->
+<div style="background: linear-gradient(135deg, rgba(34, 139, 34, 0.1) 0%, rgba(20, 100, 20, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(34, 139, 34, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/🌳-DATA%20STRUCTURES-228B22?style=for-the-badge&logoColor=white" alt="Data Structures Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #228B22; margin: 10px 0;">🌳 Data Structures Expert</h4>
+    <p style="margin: 5px 0; color: #666;">Binary trees, linked lists, and advanced algorithms</p>
+    <div style="background: rgba(34, 139, 34, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Specialty:</strong> Algorithm optimization</small>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 6: Full Stack Journey -->
+<div style="background: linear-gradient(135deg, rgba(255, 20, 147, 0.1) 0%, rgba(200, 15, 120, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(255, 20, 147, 0.3); transition: transform 0.3s ease;">
+  <div style="text-align: center;">
+    <img src="https://img.shields.io/badge/🚀-FULL%20STACK-FF1493?style=for-the-badge&logoColor=white" alt="Full Stack Achievement" style="margin-bottom: 15px;"/>
+    <h4 style="color: #FF1493; margin: 10px 0;">🚀 Full Stack Journey</h4>
+    <p style="margin: 5px 0; color: #666;">Expanding to Python, JavaScript, and SQL</p>
+    <div style="background: rgba(255, 20, 147, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
+      <small><strong>Progress:</strong> In Development</small>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<!-- Section de progression et objectifs -->
+<div style="background: linear-gradient(45deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 15px; padding: 30px; margin: 30px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
+
+### 🎯 **Current Progress & Goals**
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 20px 0;">
+
+<div style="text-align: center;">
+  <h4 style="color: #58A6FF; margin-bottom: 15px;">🏅 Current Level</h4>
+  <img src="https://img.shields.io/badge/LEVEL-ADVANCED%20BEGINNER-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Current Level"/>
+  <br><br>
+  <p style="color: #666; margin: 10px 0;">Solid foundations in systems programming</p>
+  <div style="background: rgba(34, 197, 94, 0.1); border-radius: 8px; padding: 10px; margin-top: 10px;">
+    <small><strong>Strengths:</strong> C, Shell, Algorithms, Data Structures</small>
+  </div>
+</div>
+
+<div style="text-align: center;">
+  <h4 style="color: #FF6B6B; margin-bottom: 15px;">🎯 Target Goal</h4>
+  <img src="https://img.shields.io/badge/TARGET-FULL%20STACK%20DEVELOPER-orange?style=for-the-badge&logo=rocket&logoColor=white" alt="Target Goal"/>
+  <br><br>
+  <p style="color: #666; margin: 10px 0;">Complete developer with modern tech stack</p>
+  <div style="background: rgba(255, 107, 107, 0.1); border-radius: 8px; padding: 10px; margin-top: 10px;">
+    <small><strong>Next:</strong> Python, JavaScript, Web Development</small>
+  </div>
+</div>
+
+</div>
+
+<!-- Badges d'expertise -->
+<div style="text-align: center; margin: 25px 0;">
+  <h4 style="color: #58A6FF; margin-bottom: 15px;">🌟 Expertise Badges</h4>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+    <img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target&logoColor=white" alt="Problem Solver"/>
+    <img src="https://img.shields.io/badge/💡-Innovator-yellow?style=flat-square&logo=lightbulb&logoColor=white" alt="Innovator"/>
+    <img src="https://img.shields.io/badge/🔧-Code%20Craftsman-blue?style=flat-square&logo=tools&logoColor=white" alt="Code Craftsman"/>
+    <img src="https://img.shields.io/badge/📖-Continuous%20Learner-purple?style=flat-square&logo=book&logoColor=white" alt="Continuous Learner"/>
+    <img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star&logoColor=white" alt="Rising Star"/>
+  </div>
+</div>
+
+</div>
 
 </div>
 
