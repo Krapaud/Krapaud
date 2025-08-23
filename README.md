@@ -10,7 +10,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 - 🎓 **Étudiant** à Holberton School
 - 💻 **Spécialisations** : Programmation C, Structures de données, Algorithmes
-- 🌱 **En cours d'apprentissage** : DevOps, Cloud Computing, Architecture système
+- 🌱 **En cours d'apprentissage** : Python, JavaScript, SQL
 - 🎯 **Objectif** : Devenir un ingénieur logiciel expert
 - 🤝 **Collaboration** : Toujours ouvert aux projets intéressants !
 
@@ -22,6 +22,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ### Outils & Plateformes
