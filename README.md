@@ -27,9 +27,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <td width="40%" align="center">
 
 <img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
-
 <br><br>
-
 **💼 Software Developer in Training**  
 **🎓 Holberton School Student**  
 **🌍 France**
