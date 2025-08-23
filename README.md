@@ -453,32 +453,11 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
 </div>
 
-## 📊 GitHub Statistics
 ## 🏆 Featured Projects
 
-<!-- Achievement 5: Data Structures -->
-<div style="background: linear-gradient(135deg, rgba(34, 139, 34, 0.1) 0%, rgba(20, 100, 20, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(34, 139, 34, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/🌳-DATA%20STRUCTURES-228B22?style=for-the-badge&logoColor=white" alt="Data Structures Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #228B22; margin: 10px 0;">🌳 Data Structures Expert</h4>
-    <p style="margin: 5px 0; color: #666;">Binary trees, linked lists, and advanced algorithms</p>
-    <div style="background: rgba(34, 139, 34, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Specialty:</strong> Algorithm optimization</small>
-    </div>
-  </div>
-</div>
+## 🏆 Featured Projects
 
-<!-- Achievement 6: Full Stack Journey -->
-<div style="background: linear-gradient(135deg, rgba(255, 20, 147, 0.1) 0%, rgba(200, 15, 120, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(255, 20, 147, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/🚀-FULL%20STACK-FF1493?style=for-the-badge&logoColor=white" alt="Full Stack Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #FF1493; margin: 10px 0;">🚀 Full Stack Journey</h4>
-    <p style="margin: 5px 0; color: #666;">Expanding to Python, JavaScript, and SQL</p>
-    <div style="background: rgba(255, 20, 147, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Progress:</strong> In Development</small>
-    </div>
-  </div>
-</div>
+### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
 
 </div>
 
