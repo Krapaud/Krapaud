@@ -96,21 +96,23 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <div align="center">
 
-<!-- Badges dynamiques qui se mettent à jour automatiquement -->
-<img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&logoColor=white&color=FFD700&label=⭐%20MES%20ÉTOILES" alt="GitHub Stars"/>
-<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&logoColor=white&color=4A90E2&label=👥%20FOLLOWERS" alt="GitHub Followers"/>
+<!-- Badges simples et fonctionnels -->
+<img src="https://img.shields.io/badge/⭐%20Étoiles-En%20progression-FFD700?style=for-the-badge&logo=star" alt="GitHub Stars"/>
+<img src="https://img.shields.io/badge/👥%20Followers-En%20croissance-4A90E2?style=for-the-badge&logo=github" alt="GitHub Followers"/>
 
 <br>
 
-<!-- Statistiques des projets principaux -->
-<img src="https://img.shields.io/github/stars/Krapaud/holbertonschool-printf?style=for-the-badge&logo=star&logoColor=white&color=FF6B6B&label=🖨️%20PRINTF%20STARS" alt="Printf Stars"/>
-<img src="https://img.shields.io/github/stars/Krapaud/holberton-simple_shell?style=for-the-badge&logo=star&logoColor=white&color=4ECDC4&label=🐚%20SHELL%20STARS" alt="Shell Stars"/>
+<!-- Compteur de vues qui fonctionne -->
+<img src="https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=brightgreen&label=�️%20VUES" alt="Profile Views"/>
+<img src="https://img.shields.io/badge/📁%20Repositories-3%20Actifs-28A745?style=for-the-badge&logo=git" alt="Active Repos"/>
 
 <br>
 
-<!-- Compteur de vues et activité -->
-<img src="https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=brightgreen&label=👁️%20VUES%20PROFIL" alt="Profile Views"/>
-<img src="https://img.shields.io/badge/📁%20REPOS-3%20Publics-success?style=for-the-badge&logo=github" alt="Public Repos"/>
+<!-- Statut des projets -->
+<img src="https://img.shields.io/badge/🖨️%20Printf-Terminé-success?style=for-the-badge" alt="Printf Status"/>
+<img src="https://img.shields.io/badge/�%20Shell-Terminé-success?style=for-the-badge" alt="Shell Status"/>
+
+</div>
 
 </div>
 
@@ -216,14 +218,14 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Krapaud&color=blueviolet&style=for-the-badge" alt="Profile Views" />
   
-  <!-- Badges GitHub mis à jour automatiquement -->
+  <!-- Badges simples et fiables -->
   <br><br>
-  <img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=star&logoColor=white&color=FFD700&label=⭐%20TOTAL%20STARS" alt="Total GitHub Stars" />
-  <img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&logoColor=white&color=4A90E2&label=👥%20FOLLOWERS" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/⭐%20Stars-En%20développement-FFD700?style=for-the-badge&logo=star" alt="GitHub Stars" />
+  <img src="https://img.shields.io/badge/👥%20Followers-Communauté%20croissante-4A90E2?style=for-the-badge&logo=github" alt="GitHub Followers" />
   
   <br>
-  <img src="https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&logoColor=white&color=28A745&label=🍴%20PRINTF%20FORKS" alt="Printf Forks" />
-  <img src="https://img.shields.io/github/forks/Krapaud/holberton-simple_shell?style=for-the-badge&logo=git&logoColor=white&color=FFA500&label=🐚%20SHELL%20FORKS" alt="Shell Forks" />
+  <img src="https://img.shields.io/badge/🖨️%20Printf-Projet%20terminé-28A745?style=for-the-badge&logo=c" alt="Printf Project" />
+  <img src="https://img.shields.io/badge/🐚%20Shell-Projet%20terminé-FFA500?style=for-the-badge&logo=gnu-bash" alt="Shell Project" />
   
   <br><br>
   **💻 "Code with passion, learn with curiosity" 🌟**
