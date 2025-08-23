@@ -98,15 +98,60 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+
+<!-- Titre stylisé avec animation -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=400&lines=📊+My+GitHub+Journey;🚀+Coding+Statistics;💻+Development+Metrics" alt="Stats Title" />
+
+<br><br>
+
+<!-- Grid layout pour les statistiques -->
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🎯 **Performance Overview**
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📈%20GitHub%20Performance&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=10" alt="GitHub Stats" />
+
+<br><br>
+
+### 🔥 **Contribution Streak** 
+
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=10" alt="GitHub Streak" />
+
+</td>
+<td width="50%" align="center">
+
+### 🌐 **Language Distribution**
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=💻%20Programming%20Languages&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=10" alt="Top Languages" />
+
+<br><br>
+
+### 📊 **Activity Graph**
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📈%20Contribution%20Activity&radius=10" alt="Activity Graph" />
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Badges de métriques en temps réel -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+
+![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700&labelColor=0D1117)
+![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117)
+![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=1F6FEB&labelColor=0D1117)
+
 </div>
 
+<!-- Trophées GitHub -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ## 🏆 Featured Projects
