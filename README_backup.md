@@ -1,4 +1,4 @@
-# Krapaud - Développeur en Formation
+# � Krapaud - Développeur en Formation
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Développeur+Full+Stack;Étudiant+Holberton+School;Passionné+de+Programmation;Toujours+en+apprentissage" alt="Typing SVG" />
@@ -168,6 +168,33 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 </table>
 
 <br>
+
+### 📈 **Prochains jalons**
+
+<div align="left" style="max-width: 600px; margin: 0 auto;">
+
+**🏆 Badges à débloquer :**
+- [ ] ⭐ **First Star** → Recevoir la première étoile GitHub
+- [ ] 🌟 **Rising Star** → Atteindre 5 étoiles au total  
+- [ ] ✨ **Popular Creator** → Atteindre 10 étoiles
+- [ ] 👥 **Community Builder** → Gagner 10 followers
+- [ ] 🚀 **Viral Project** → Un projet avec 25+ étoiles
+- [ ] 🤝 **Open Source Contributor** → Première contribution externe
+- [ ] 📜 **Certified Developer** → Obtenir une certification
+
+**💻 Compétences techniques :**
+- [ ] 🐍 **Python Master** → Maîtriser Python et Django/Flask
+- [ ] 🌐 **JavaScript Pro** → Développer en JS front/back
+- [ ] �️ **Database Expert** → Maîtriser SQL et NoSQL
+- [ ] � **Security Specialist** → Explorer la cybersécurité
+
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 ## 🎯 Objectifs 2025
 
