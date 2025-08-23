@@ -182,52 +182,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star" alt="Rising Star"/>
 </div>
 
-</div>
-
-</div>
-
-## 🏆 Featured Projects
-
-### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
-> **Complete re-implementation of the printf function in C**
-> 
-> - ✨ Support for multiple format specifiers (%c, %s, %d, %i, %%)
-> - 🔧 Variadic arguments handling
-> - 📚 Complete documentation with manual page
-> - 🧪 Comprehensive tests and comparison with standard printf
-
-### 🐚 [Simple Shell](https://github.com/Krapaud/holberton-simple_shell)
-> **Minimalist Unix shell in C**
-> 
-> - 💻 Interactive command interpreter
-> - 🔄 Process and signal handling
-> - 📁 File system navigation
-> - ⚡ System command execution
-
-## 📈 Charts & Statistics
-
-<div align="center">
-  
-**📊 GitHub Activity**
-  
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
-## 🏆 Badges & Achievements
-
-<div align="center">
-
-<br>
-
-</div>
-
-</div>
-
 <br><br>
 
 ### 🌟 **Unlocked Achievements**
@@ -288,7 +242,27 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </tr>
 </table>
 
-<br>
+</div>
+
+</div>
+
+## 🏆 Featured Projects
+
+### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
+> **Complete re-implementation of the printf function in C**
+> 
+> - ✨ Support for multiple format specifiers (%c, %s, %d, %i, %%)
+> - 🔧 Variadic arguments handling
+> - 📚 Complete documentation with manual page
+> - 🧪 Comprehensive tests and comparison with standard printf
+
+### 🐚 [Simple Shell](https://github.com/Krapaud/holberton-simple_shell)
+> **Minimalist Unix shell in C**
+> 
+> - 💻 Interactive command interpreter
+> - 🔄 Process and signal handling
+> - 📁 File system navigation
+> - ⚡ System command execution
 
 ## 🎯 2025 Goals
 
