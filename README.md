@@ -1,4 +1,4 @@
-# Krapaud - Student Developer
+# Krapaud - Student Develop- 📱 **Focus**: App & Web Application Developmentr
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Student+Developer;App+%26+Web+Development;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
@@ -25,7 +25,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 #### 🎯 **Quick Facts**
 - 🎓 **Student** at Holberton School
-- � **Focus**: App & Web Application Development
+- 🎯 **Focus**: App & Web Application Development
 - 💻 **Core Skills**: C Programming, Data Structures, Algorithms
 - 🌱 **Currently Learning**: Python, JavaScript, Web Technologies
 - 🎯 **Goal**: Become a proficient App & Web Developer!
@@ -52,7 +52,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div style="text-align: center;">
 
-**� App & Web Developer Student**  
+**📱 App & Web Developer Student**  
 **🎓 Holberton School**  
 **🌍 France** 🇫🇷
 
@@ -171,7 +171,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <br>
 
-**� Holberton School Student**
+**🎓 Holberton School Student**
 - ✅ **Trimestre 1:** Foundations completed
 - 🔄 **Trimestre 2:** Systems programming in progress
 - 📊 **Projects completed:** 15+ successful deliveries
@@ -200,7 +200,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - 🔧 **Memory Management:** malloc, free, valgrind proficiency
 - 🧠 **Data Structures:** Linked lists, trees, hash tables
 - ⚡ **Algorithms:** Sorting, searching, optimization
-- � **Debugging:** GDB, static analysis tools
+- 🔧 **Debugging:** GDB, static analysis tools
 - 📝 **Projects:** printf, simple_shell, binary_trees
 
 <div align="center" style="margin-top: 15px;">
@@ -244,7 +244,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
 
 <div align="center">
-<img src="https://img.shields.io/badge/�-GIT_WORKFLOW_MASTER-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=A03020" alt="Git Master Badge"/>
+<img src="https://img.shields.io/badge/🔄-GIT_WORKFLOW_MASTER-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=A03020" alt="Git Master Badge"/>
 </div>
 
 <br>
@@ -317,7 +317,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=�+Portfolio+Showcase;💻+Building+Amazing+Projects;🎯+Code+That+Makes+a+Difference" alt="Projects Header" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=🚀+Portfolio+Showcase;💻+Building+Amazing+Projects;🎯+Code+That+Makes+a+Difference" alt="Projects Header" />
 
 </div>
 
@@ -370,7 +370,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
-<img src="https://img.shields.io/badge/�-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
+<img src="https://img.shields.io/badge/🐚-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
 </div>
 
 <h3 style="color: white; text-align: center; margin: 15px 0;">
@@ -486,7 +486,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br><small><b>Major Projects</b></small>
 </td>
 <td align="center" style="padding: 15px;">
-<img src="https://img.shields.io/badge/�-50+-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Total Projects"/>
+<img src="https://img.shields.io/badge/🏅-50+-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Total Projects"/>
 <br><small><b>Total Projects</b></small>
 </td>
 <td align="center" style="padding: 15px;">
