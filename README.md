@@ -1,14 +1,14 @@
 # Krapaud - Software Developer in Training
 
 <div align="center">
-  <img src="https://readme-typing-svg.h</div>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
+</div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00FF00&background=000000&center=true&vCenter=true&width=600&height=100&lines=$ whoami;krapaud;$ ls skills/;c_programming data_structures algorithms;$ cat goals.txt;Becoming a Full-Stack Developer...;$ echo 'Hello, World! 👋'" alt="Terminal Animation" />
 </div>
 
 <br><br>
-
-### 🌟 **Unlocked Achievements**Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
-</div>
 
 ## 🚀 About Me
 
