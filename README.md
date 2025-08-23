@@ -280,15 +280,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 > *"Everyone should learn how to program, because it teaches you how to think."* – Steve Jobs
 
-## ⭐ Popular Projects
-
-<div align="center">
-
-[![Printf Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holbertonschool-printf&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holbertonschool-printf)
-[![Simple Shell Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holberton-simple_shell&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holberton-simple_shell)
-
-</div>
-
 ## 📫 Contact Me
 
 <div align="center">
