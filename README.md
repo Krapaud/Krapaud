@@ -1,7 +1,5 @@
 # Krapaud - Software Dev<td width="40%" align="center">
 
-</td>raining
-
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
 </div>
@@ -62,11 +60,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </div>
 
 <br>
-
-<div style="margin-top: 15px;">
-<img src="https://img.shields.io/github/followers/Krapaud?style=social" alt="GitHub Followers"/>
-<img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=blue" alt="Profile Views"/>
-</div>
 
 </div>
 
