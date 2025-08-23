@@ -72,7 +72,13 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=Krapaud&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=38bdae&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=38bdae&area=true&hide_border=true" alt="Contribution Graph" />
+</div>
+
+## 🏆 GitHub Trophées
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&column=7" alt="GitHub Trophies" />
 </div>
 
 ## 🎯 Objectifs 2025
@@ -111,5 +117,5 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <!-- Petite animation sympa -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/Krapaud/Krapaud/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
