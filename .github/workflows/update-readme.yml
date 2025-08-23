@@ -24,89 +24,32 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Get GitHub Stats
-      id: github-stats
+    - name: Update README timestamp only
       run: |
-        # Récupérer les statistiques du profil GitHub
-        REPOS_COUNT=$(curl -s "https://api.github.com/users/Krapaud" | jq '.public_repos')
-        FOLLOWERS_COUNT=$(curl -s "https://api.github.com/users/Krapaud" | jq '.followers')
-        FOLLOWING_COUNT=$(curl -s "https://api.github.com/users/Krapaud" | jq '.following')
-        
-        # Récupérer les commits de l'année actuelle
-        CURRENT_YEAR=$(date +%Y)
-        COMMITS_THIS_YEAR=$(curl -s "https://api.github.com/search/commits?q=author:Krapaud+author-date:${CURRENT_YEAR}-01-01..${CURRENT_YEAR}-12-31" -H "Accept: application/vnd.github.cloak-preview" | jq '.total_count // 0')
-        
-        # Récupérer les langages les plus utilisés
-        LANGUAGES=$(curl -s "https://api.github.com/users/Krapaud/repos?per_page=100" | jq -r '.[].language' | grep -v null | sort | uniq -c | sort -nr | head -5)
-        
-        # Calculer le nombre de jours depuis la création du compte
-        CREATED_AT=$(curl -s "https://api.github.com/users/Krapaud" | jq -r '.created_at')
-        DAYS_SINCE_CREATION=$(( ($(date +%s) - $(date -d "$CREATED_AT" +%s)) / 86400 ))
-        
-        echo "repos_count=$REPOS_COUNT" >> $GITHUB_OUTPUT
-        echo "followers_count=$FOLLOWERS_COUNT" >> $GITHUB_OUTPUT
-        echo "following_count=$FOLLOWING_COUNT" >> $GITHUB_OUTPUT
-        echo "commits_this_year=$COMMITS_THIS_YEAR" >> $GITHUB_OUTPUT
-        echo "days_since_creation=$DAYS_SINCE_CREATION" >> $GITHUB_OUTPUT
-        echo "current_date=$(date '+%d/%m/%Y à %H:%M UTC')" >> $GITHUB_OUTPUT
-
-    - name: Update README with fresh stats
-      run: |
-        # Créer un fichier temporaire avec les nouvelles statistiques
-        cat > stats_update.md << 'EOF'
-        ### 📊 **Statistiques en Temps Réel**
-        
-        <div align="center">
-        
-        | 📈 Métrique | 🔢 Valeur | 📅 Dernière MAJ |
-        |-------------|-----------|------------------|
-        | 📚 **Repositories** | **${{ steps.github-stats.outputs.repos_count }}** | ${{ steps.github-stats.outputs.current_date }} |
-        | 👥 **Followers** | **${{ steps.github-stats.outputs.followers_count }}** | ${{ steps.github-stats.outputs.current_date }} |
-        | 🚀 **Commits cette année** | **${{ steps.github-stats.outputs.commits_this_year }}** | ${{ steps.github-stats.outputs.current_date }} |
-        | ⏱️ **Jours sur GitHub** | **${{ steps.github-stats.outputs.days_since_creation }}** | ${{ steps.github-stats.outputs.current_date }} |
-        
-        </div>
-        
-        ---
-        
-        <div align="center">
-        <sub>🤖 <em>Mis à jour automatiquement par GitHub Actions</em> 🔄</sub>
-        </div>
-        EOF
-        
-        # Chercher et remplacer la section dans le README
+        # Mettre à jour uniquement le timestamp
         python3 << 'PYTHON_SCRIPT'
         import re
+        from datetime import datetime
         
         # Lire le README actuel
         with open('README.md', 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Lire les nouvelles stats
-        with open('stats_update.md', 'r', encoding='utf-8') as f:
-            new_stats = f.read()
+        # Générer le timestamp de mise à jour
+        update_time = datetime.now().strftime('%d/%m/%Y à %H:%M UTC')
         
-        # Pattern pour trouver la section à remplacer (après les badges d'accomplissements)
-        pattern = r'(### 🏆 \*\*Achievements & Milestones\*\*.*?</table>\s*</div>)'
-        
-        # Remplacer ou ajouter la section des stats en temps réel
-        if re.search(pattern, content, re.DOTALL):
-            # Ajouter après la section achievements
-            content = re.sub(
-                pattern,
-                r'\1\n\n' + new_stats,
-                content,
-                flags=re.DOTALL
-            )
-        else:
-            # Si le pattern n'est pas trouvé, ajouter à la fin de la section GitHub Statistics
-            stats_section_end = content.find('</div>\n\n## 🏆 Featured Projects')
-            if stats_section_end != -1:
-                content = content[:stats_section_end] + '\n\n' + new_stats + '\n\n</div>\n\n## 🏆 Featured Projects' + content[stats_section_end + len('</div>\n\n## 🏆 Featured Projects'):]
+        # Mettre à jour uniquement le timestamp dans le README
+        content = re.sub(
+            r'<!--STATS_UPDATE_TIME-->.*?<!--/STATS_UPDATE_TIME-->',
+            f'<!--STATS_UPDATE_TIME-->{update_time}<!--/STATS_UPDATE_TIME-->',
+            content
+        )
         
         # Écrire le nouveau contenu
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(content)
+            
+        print(f"✅ Timestamp mis à jour: {update_time}")
         PYTHON_SCRIPT
 
     - name: Commit and push changes

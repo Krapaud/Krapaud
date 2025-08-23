@@ -68,70 +68,19 @@ def update_readme_stats(stats):
         # Générer le timestamp de mise à jour
         update_time = datetime.now().strftime('%d/%m/%Y à %H:%M UTC')
         
-        # Mettre à jour le timestamp dans le README
+        # Mettre à jour uniquement le timestamp dans le README
         content = re.sub(
             r'<!--STATS_UPDATE_TIME-->.*?<!--/STATS_UPDATE_TIME-->',
             f'<!--STATS_UPDATE_TIME-->{update_time}<!--/STATS_UPDATE_TIME-->',
             content
         )
         
-        # Créer une section de statistiques enrichies
-        enhanced_stats = f"""
-### 📊 **Statistiques GitHub Détaillées**
-
-<div align="center">
-
-| 📈 **Métrique** | 📊 **Valeur** | 🎯 **Détails** |
-|:---|:---:|:---|
-| 📚 **Repositories publics** | **{stats['public_repos']}** | Projets open source |
-| ⭐ **Total des étoiles** | **{stats['total_stars']}** | Reconnaissance communauté |
-| 🍴 **Total des forks** | **{stats['total_forks']}** | Projets dupliqués |
-| 👥 **Followers** | **{stats['followers']}** | Communauté GitHub |
-| 👤 **Following** | **{stats['following']}** | Développeurs suivis |
-| 📅 **Jours sur GitHub** | **{stats['days_on_github']}** | Ancienneté du compte |
-
-#### 🌐 **Langages Principaux**
-"""
-        
-        # Ajouter les langages les plus utilisés
-        if stats['languages']:
-            sorted_languages = sorted(stats['languages'].items(), key=lambda x: x[1], reverse=True)[:5]
-            for lang, count in sorted_languages:
-                enhanced_stats += f"![{lang}](https://img.shields.io/badge/{lang}-{count}%20repos-blue?style=flat-square) "
-            enhanced_stats += "\n"
-        
-        enhanced_stats += f"""
-<br>
-
-<sub>🤖 <em>Statistiques générées automatiquement • Dernière mise à jour: {update_time}</em></sub>
-
-</div>
-
----
-"""
-        
-        # Chercher où insérer les statistiques détaillées
-        # Les insérer après la section "Métriques en Temps Réel"
-        pattern = r'(#### 🎯 \*\*Badges de Performance\*\*.*?<sub>🔄.*?</div>\s*</div>)'
-        
-        if re.search(pattern, content, re.DOTALL):
-            content = re.sub(
-                pattern,
-                r'\1\n\n' + enhanced_stats,
-                content,
-                flags=re.DOTALL
-            )
-        
         # Écrire le nouveau contenu
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(content)
         
         print(f"✅ README.md mis à jour avec succès!")
-        print(f"📊 Statistiques pour @{stats['username']}:")
-        print(f"   📚 {stats['public_repos']} repositories")
-        print(f"   ⭐ {stats['total_stars']} étoiles")
-        print(f"   👥 {stats['followers']} followers")
-        print(f"   📅 {stats['days_on_github']} jours sur GitHub")
+        print(f"📊 Timestamp mis à jour: {update_time}")
         
         return True
         
