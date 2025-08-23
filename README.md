@@ -469,21 +469,211 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 ## 🏆 Featured Projects
 
-### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
-> **Complete re-implementation of the printf function in C**
-> 
-> - ✨ Support for multiple format specifiers (%c, %s, %d, %i, %%)
-> - 🔧 Variadic arguments handling
-> - 📚 Complete documentation with manual page
-> - 🧪 Comprehensive tests and comparison with standard printf
+<div align="center">
 
-### 🐚 [Simple Shell](https://github.com/Krapaud/holberton-simple_shell)
-> **Minimalist Unix shell in C**
-> 
-> - 💻 Interactive command interpreter
-> - 🔄 Process and signal handling
-> - 📁 File system navigation
-> - ⚡ System command execution
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=�+Portfolio+Showcase;💻+Building+Amazing+Projects;🎯+Code+That+Makes+a+Difference" alt="Projects Header" />
+
+</div>
+
+<br>
+
+<!-- Projects Grid Layout -->
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tr>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Printf Project Card -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
+
+<div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🖨️-PRINTF_IMPLEMENTATION-8A2BE2?style=for-the-badge&logoColor=white&labelColor=4B0082" alt="Printf Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-printf" style="color: white; text-decoration: none;">📝 Custom Printf Function</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete re-implementation of the printf function in C</strong></p>
+</div>
+
+**🔥 Key Features:**
+- ✨ **Format Specifiers:** %c, %s, %d, %i, %%
+- 🔧 **Variadic Functions:** Advanced argument handling
+- 📚 **Documentation:** Complete manual page included
+- 🧪 **Testing Suite:** Comprehensive validation tests
+- 🏅 **Code Quality:** Betty standard compliant
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
+<img src="https://img.shields.io/badge/Grade-Perfect-gold?style=flat-square&logo=star&logoColor=white" alt="Grade"/>
+</div>
+
+</div>
+
+</td>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Simple Shell Project Card -->
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
+
+<div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/�-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holberton-simple_shell" style="color: white; text-decoration: none;">⚡ Unix Shell Interpreter</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Custom Unix shell built from scratch in C</strong></p>
+</div>
+
+**🚀 Core Features:**
+- 💻 **Command Execution:** Interactive interpreter
+- 🔄 **Process Control:** Fork, exec, wait system calls
+- 📁 **I/O Operations:** File handling and redirection
+- 🎯 **Signal Management:** SIGINT, SIGTERM handling
+- 🌐 **Environment:** PATH resolution and variables
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
+<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
+</div>
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Binary Trees Project Card -->
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+
+<div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🌳-BINARY_TREES-228B22?style=for-the-badge&logo=tree&logoColor=white&labelColor=006400" alt="Trees Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-binary_trees" style="color: white; text-decoration: none;">🌲 Data Structures Mastery</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete binary trees implementation and algorithms</strong></p>
+</div>
+
+**🧠 Implementations:**
+- 🏗️ **Tree Operations:** Insert, delete, search
+- 🔄 **Traversals:** Pre/In/Post-order algorithms
+- 📏 **Analysis:** Height, depth, balance calculations
+- 🎯 **Validation:** Perfect, full, balanced trees
+- ⚡ **Optimization:** Efficient memory management
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Concepts-Advanced-red?style=flat-square&logo=brain&logoColor=white" alt="Advanced"/>
+</div>
+
+</div>
+
+</td>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Low Level Programming Card -->
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+
+<div style="position: absolute; bottom: -35px; right: -35px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 110px; height: 110px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/⚙️-LOW_LEVEL-FF4500?style=for-the-badge&logo=gear&logoColor=white&labelColor=CC3300" alt="Low Level Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-low_level_programming" style="color: white; text-decoration: none;">🔧 Systems Programming</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Comprehensive collection of C programming projects</strong></p>
+</div>
+
+**💡 Project Areas:**
+- 🧮 **Algorithms:** Sorting, searching, recursion
+- 🔗 **Data Structures:** Linked lists, hash tables
+- 💾 **Memory:** Dynamic allocation, pointers
+- 📄 **File I/O:** System calls and manipulation
+- 🔧 **Functions:** Nested loops, variadic functions
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Projects-50+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
+<img src="https://img.shields.io/badge/Mastery-Expert-purple?style=flat-square&logo=trophy&logoColor=white" alt="Mastery"/>
+</div>
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<!-- Project Statistics -->
+<div align="center">
+<div style="background: rgba(88, 166, 255, 0.05); border-radius: 15px; padding: 25px; margin: 25px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
+
+<h3 style="color: #58A6FF; margin-bottom: 20px;">📊 Project Portfolio Overview</h3>
+
+<table style="width: 100%; margin: 15px 0;">
+<tr>
+<td align="center" style="padding: 15px;">
+<img src="https://img.shields.io/badge/🏆-4+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Major Projects"/>
+<br><small><b>Major Projects</b></small>
+</td>
+<td align="center" style="padding: 15px;">
+<img src="https://img.shields.io/badge/�-50+-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Total Projects"/>
+<br><small><b>Total Projects</b></small>
+</td>
+<td align="center" style="padding: 15px;">
+<img src="https://img.shields.io/badge/📚-15+-green?style=for-the-badge&logoColor=white&labelColor=28A745" alt="Concepts"/>
+<br><small><b>Concepts Mastered</b></small>
+</td>
+<td align="center" style="padding: 15px;">
+<img src="https://img.shields.io/badge/⭐-100%25-brightgreen?style=for-the-badge&logoColor=white&labelColor=28A745" alt="Success Rate"/>
+<br><small><b>Success Rate</b></small>
+</td>
+</tr>
+</table>
+
+<!-- Tech Stack pour les projets -->
+<div style="margin: 20px 0;">
+<h4 style="color: #58A6FF; margin-bottom: 10px;">🛠️ Technologies Used</h4>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;">
+<img src="https://img.shields.io/badge/C-Expert-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-Advanced-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
+<img src="https://img.shields.io/badge/Git-Proficient-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/Linux-Experienced-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/GDB-Debugging-FF6B6B?style=flat-square&logo=bug&logoColor=white" alt="GDB"/>
+<img src="https://img.shields.io/badge/Valgrind-Memory-9C27B0?style=flat-square&logo=memory&logoColor=white" alt="Valgrind"/>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Call to Action -->
+<div align="center" style="margin: 30px 0;">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=700&lines=🚀+Explore+my+repositories+for+more+projects!;💡+Each+project+tells+a+story+of+learning;🎯+Building+tomorrow's+solutions+today" alt="Projects Footer" />
+</div>
 
 ## 💡 Inspiring Quotes
 
