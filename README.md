@@ -448,6 +448,20 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </table>
 </div>
 
+<!-- Badges d'expertise -->
+<div align="center">
+<div style="text-align: center; margin: 25px 0;">
+  <h4 style="color: #58A6FF; margin-bottom: 15px;">🌟 Expertise Badges</h4>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+    <img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target&logoColor=white" alt="Problem Solver"/>
+    <img src="https://img.shields.io/badge/💡-Innovator-yellow?style=flat-square&logo=lightbulb&logoColor=white" alt="Innovator"/>
+    <img src="https://img.shields.io/badge/🔧-Code%20Craftsman-blue?style=flat-square&logo=tools&logoColor=white" alt="Code Craftsman"/>
+    <img src="https://img.shields.io/badge/📖-Continuous%20Learner-purple?style=flat-square&logo=book&logoColor=white" alt="Continuous Learner"/>
+    <img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star&logoColor=white" alt="Rising Star"/>
+  </div>
+</div>
+</div>
+
 <!-- Motivational Footer -->
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
