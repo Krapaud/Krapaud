@@ -199,11 +199,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div align="center">
 
-<!-- Dynamic badges that update automatically -->
-![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700)
-![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=4A90E2)
-![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=8A2BE2)
-
 <br>
 
 <!-- Compteur de vues qui fonctionne -->
