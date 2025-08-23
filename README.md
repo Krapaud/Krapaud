@@ -452,19 +452,9 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
 </div>
-</div>
 
-<!-- Achievement 4: Printf Pro -->
-<div style="background: linear-gradient(135deg, rgba(255, 99, 71, 0.1) 0%, rgba(220, 60, 40, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(255, 99, 71, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/🖨️-PRINTF%20PRO-FF6347?style=for-the-badge&logoColor=white" alt="Printf Pro Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #FF6347; margin: 10px 0;">🖨️ Printf Creator</h4>
-    <p style="margin: 5px 0; color: #666;">Complete reimplementation of printf function</p>
-    <div style="background: rgba(255, 99, 71, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Features:</strong> Variadic functions mastered</small>
-    </div>
-  </div>
-</div>
+## 📊 GitHub Statistics
+## 🏆 Featured Projects
 
 <!-- Achievement 5: Data Structures -->
 <div style="background: linear-gradient(135deg, rgba(34, 139, 34, 0.1) 0%, rgba(20, 100, 20, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(34, 139, 34, 0.3); transition: transform 0.3s ease;">
