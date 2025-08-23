@@ -96,9 +96,10 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <div align="center">
 
-<!-- Badges simples et fonctionnels -->
-<img src="https://img.shields.io/badge/⭐%20Étoiles-En%20progression-FFD700?style=for-the-badge&logo=star" alt="GitHub Stars"/>
-<img src="https://img.shields.io/badge/👥%20Followers-En%20croissance-4A90E2?style=for-the-badge&logo=github" alt="GitHub Followers"/>
+<!-- Badges dynamiques qui se mettent à jour automatiquement -->
+![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700)
+![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=4A90E2)
+![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=8A2BE2)
 
 <br>
 
