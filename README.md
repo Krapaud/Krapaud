@@ -147,9 +147,41 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 </div>
 
-<!-- Trophées GitHub -->
+<!-- Badges d'accomplissements GitHub -->
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies"/>
+
+### 🏆 **Achievements & Milestones**
+
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/🏆-GitHub%20Stars-FFD700?style=for-the-badge&logo=github&logoColor=white" alt="Stars Achievement"/>
+<br><sub>Repository Stars</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/🚀-Commits-1F6FEB?style=for-the-badge&logo=git&logoColor=white" alt="Commits Achievement"/>
+<br><sub>Code Contributions</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/📚-Repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Repos Achievement"/>
+<br><sub>Public Projects</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/🤝-Collaborations-FF6B6B?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaboration Achievement"/>
+<br><sub>Team Projects</sub>
+</td>
+</tr>
+</table>
+
+<!-- Alternative aux trophées avec des icônes personnalisées -->
+<div style="margin: 20px 0;">
+<img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target" alt="Problem Solver"/>
+<img src="https://img.shields.io/badge/💡-Innovator-yellow?style=flat-square&logo=lightbulb" alt="Innovator"/>
+<img src="https://img.shields.io/badge/🔧-Code%20Craftsman-blue?style=flat-square&logo=tools" alt="Code Craftsman"/>
+<img src="https://img.shields.io/badge/📖-Continuous%20Learner-purple?style=flat-square&logo=book" alt="Continuous Learner"/>
+<img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star" alt="Rising Star"/>
+</div>
+
 </div>
 
 </div>
