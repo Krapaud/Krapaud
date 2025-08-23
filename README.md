@@ -1,7 +1,7 @@
-# Krapaud - Software Developer
+# Krapaud - Étudiant Développeur
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Étudiant+Développeur;App+%26+Web+Development;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
 </div>
 
 <br><br>
@@ -19,16 +19,17 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
 </div>
 
-I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
+I'm a passionate student developer at **Holberton School**, specialized in app and web application development. I love learning new technologies and building innovative solutions.
 
 <br>
 
 #### 🎯 **Quick Facts**
 - 🎓 **Student** at Holberton School
-- 💻 **Specializations**: C Programming, Data Structures, Algorithms
-- 🌱 **Currently Learning**: Python, JavaScript, SQL
-- 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
-- 🤝 **Collaboration**: Always open to interesting projects!
+- � **Focus**: App & Web Application Development
+- 💻 **Core Skills**: C Programming, Data Structures, Algorithms
+- 🌱 **Currently Learning**: Python, JavaScript, Web Technologies
+- 🎯 **Goal**: Become a proficient App & Web Developer!
+- 🤝 **Collaboration**: Always open to learning opportunities!
 
 <br>
 
@@ -51,8 +52,8 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div style="text-align: center;">
 
-**💼 Software Developer in Training**  
-**🎓 Holberton School Student**  
+**� App & Web Developer Student**  
+**🎓 Holberton School**  
 **🌍 France** 🇫🇷
 
 <br>
