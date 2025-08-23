@@ -83,7 +83,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <div style="margin: 15px 0;">
 <img src="https://img.shields.io/github/followers/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Followers"/>
 <img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=flat-square&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
-<img src="https://img.shields.io/badge/dynamic/json?logo=github&style=flat-square&color=1F6FEB&labelColor=0D1117&label=Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud" alt="Repos"/>
+<img src="https://img.shields.io/badge/Repos-13-1F6FEB?style=flat-square&logo=github&labelColor=0D1117" alt="Repositories"/>
 <img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=58A6FF&labelColor=0D1117" alt="Views"/>
 <img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
 </div>
@@ -128,10 +128,10 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <!-- Badges de performance et langages en ligne -->
 <div style="margin: 10px 0;">
-<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%202025&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=flat-square&logo=git" alt="Commits 2025"/>
-<img src="https://img.shields.io/badge/C-5%20repos-00599C?style=flat-square&logo=c" alt="C"/>
-<img src="https://img.shields.io/badge/Shell-3%20repos-4EAA25?style=flat-square&logo=gnu-bash" alt="Shell"/>
-<img src="https://img.shields.io/badge/Python-1%20repo-3776AB?style=flat-square&logo=python" alt="Python"/>
+<img src="https://img.shields.io/badge/Commits_2025-1100+-brightgreen?style=flat-square&logo=git" alt="Commits 2025"/>
+<img src="https://img.shields.io/badge/C-5_repos-00599C?style=flat-square&logo=c" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-3_repos-4EAA25?style=flat-square&logo=gnu-bash" alt="Shell"/>
+<img src="https://img.shields.io/badge/Python-1_repo-3776AB?style=flat-square&logo=python" alt="Python"/>
 </div>
 </details>
 
