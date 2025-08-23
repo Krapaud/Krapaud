@@ -294,50 +294,207 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div align="center">
 
-<!-- Header moderne pour les achievements -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); padding: 25px; border-radius: 20px; margin: 20px 0;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&lines=🏆+Achievement+Unlocked;🎯+Milestone+Completed;🌟+Skills+Mastered" alt="Achievements Header" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=🏆+Achievement+System+Activated;🎯+Unlocking+Developer+Milestones;🌟+Mastering+the+Code+Journey" alt="Achievements Header" />
+
 </div>
 
 <br>
 
-<!-- Grille d'achievements moderne -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+<!-- Achievement Cards Layout -->
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tr>
+<td width="50%" valign="top">
 
-<!-- Achievement 1: Holberton Student -->
-<div style="background: linear-gradient(135deg, rgba(138, 43, 226, 0.1) 0%, rgba(75, 0, 130, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(138, 43, 226, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/🎓-HOLBERTON%20STUDENT-8A2BE2?style=for-the-badge&logoColor=white" alt="Student Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #8A2BE2; margin: 10px 0;">🎓 Holberton Scholar</h4>
-    <p style="margin: 5px 0; color: #666;">Active student mastering computer science fundamentals</p>
-    <div style="background: rgba(138, 43, 226, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Status:</strong> Active Learning</small>
-    </div>
-  </div>
+### 🎓 **Academic Excellence**
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
+
+<div style="position: absolute; top: -20px; right: -20px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 80px; height: 80px;"></div>
+
+<div align="center">
+<img src="https://img.shields.io/badge/🎓-HOLBERTON_SCHOLAR-8A2BE2?style=for-the-badge&logoColor=white&labelColor=4B0082" alt="Holberton Badge"/>
 </div>
 
-<!-- Achievement 2: C Expert -->
-<div style="background: linear-gradient(135deg, rgba(0, 89, 156, 0.1) 0%, rgba(0, 60, 120, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(0, 89, 156, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/💻-C%20EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Expert Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #00599C; margin: 10px 0;">💻 C Programming Expert</h4>
-    <p style="margin: 5px 0; color: #666;">Low-level programming and memory management mastery</p>
-    <div style="background: rgba(0, 89, 156, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Level:</strong> Advanced</small>
-    </div>
-  </div>
+<br>
+
+**� Holberton School Student**
+- ✅ **Trimestre 1:** Foundations completed
+- 🔄 **Trimestre 2:** Systems programming in progress
+- 📊 **Projects completed:** 15+ successful deliveries
+- 🏅 **Betty Style:** Clean code standards mastered
+- 🤝 **Peer Learning:** Active collaboration and code reviews
+
+<div align="center" style="margin-top: 15px;">
+<img src="https://img.shields.io/badge/Status-Active_Learning-brightgreen?style=flat-square&logo=graduation-cap&logoColor=white" alt="Status"/>
+<img src="https://img.shields.io/badge/Progress-Advanced-blue?style=flat-square&logo=target&logoColor=white" alt="Progress"/>
 </div>
 
-<!-- Achievement 3: Shell Master -->
-<div style="background: linear-gradient(135deg, rgba(46, 139, 87, 0.1) 0%, rgba(34, 110, 70, 0.1) 100%); border-radius: 15px; padding: 25px; border: 2px solid rgba(46, 139, 87, 0.3); transition: transform 0.3s ease;">
-  <div style="text-align: center;">
-    <img src="https://img.shields.io/badge/🐚-SHELL%20MASTER-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Master Achievement" style="margin-bottom: 15px;"/>
-    <h4 style="color: #2E8B57; margin: 10px 0;">🐚 Unix Shell Master</h4>
-    <p style="margin: 5px 0; color: #666;">Custom shell implementation and system programming</p>
-    <div style="background: rgba(46, 139, 87, 0.1); border-radius: 8px; padding: 8px; margin-top: 10px;">
-      <small><strong>Project:</strong> Simple Shell Completed</small>
-    </div>
-  </div>
+</div>
+
+### 💻 **Programming Mastery**
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
+
+<div style="position: absolute; top: -30px; left: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
+
+<div align="center">
+<img src="https://img.shields.io/badge/💻-C_PROGRAMMING_EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=003D5C" alt="C Expert Badge"/>
+</div>
+
+<br>
+
+**🚀 C Programming Expertise**
+- 🔧 **Memory Management:** malloc, free, valgrind proficiency
+- 🧠 **Data Structures:** Linked lists, trees, hash tables
+- ⚡ **Algorithms:** Sorting, searching, optimization
+- � **Debugging:** GDB, static analysis tools
+- 📝 **Projects:** printf, simple_shell, binary_trees
+
+<div align="center" style="margin-top: 15px;">
+<img src="https://img.shields.io/badge/Level-Expert-red?style=flat-square&logo=code&logoColor=white" alt="Level"/>
+<img src="https://img.shields.io/badge/Mastery-90%25-success?style=flat-square&logo=chart-line&logoColor=white" alt="Mastery"/>
+</div>
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+### 🐚 **System Programming**
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
+
+<div style="position: absolute; bottom: -40px; right: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
+
+<div align="center">
+<img src="https://img.shields.io/badge/🐚-SHELL_ARCHITECT-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Master Badge"/>
+</div>
+
+<br>
+
+**⚡ Unix Shell Mastery**
+- 🖥️ **Simple Shell:** Custom command interpreter built
+- 🔄 **Process Control:** Fork, exec, wait system calls
+- 📁 **File Operations:** I/O redirection, pipe handling
+- 🎯 **Signal Handling:** SIGINT, SIGTERM management
+- 🌐 **Environment:** PATH resolution, variable expansion
+
+<div align="center" style="margin-top: 15px;">
+<img src="https://img.shields.io/badge/Project-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
+<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
+</div>
+
+</div>
+
+### 🛠️ **DevOps & Collaboration**
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
+
+<div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
+
+<div align="center">
+<img src="https://img.shields.io/badge/�-GIT_WORKFLOW_MASTER-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=A03020" alt="Git Master Badge"/>
+</div>
+
+<br>
+
+**📊 Version Control Excellence**
+- 📈 **Contributions:** 1,100+ commits this year
+- 🌿 **Branching:** Feature branches, merge strategies
+- 🔄 **Pull Requests:** Code review and collaboration
+- 📋 **Issues:** Project management and tracking
+- 🤝 **Team Work:** Pair programming, peer reviews
+
+<div align="center" style="margin-top: 15px;">
+<img src="https://img.shields.io/badge/Commits-1100+-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
+</div>
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<!-- Milestone Timeline -->
+<div align="center">
+<details>
+<summary><b>🗓️ Developer Journey Timeline</b></summary>
+
+<br>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 25px; margin: 20px;">
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tr>
+<td width="33%" align="center" valign="top">
+
+#### 🎯 **2024 Achievements**
+- ✅ Started Holberton School
+- ✅ Mastered C fundamentals
+- ✅ First shell project
+- ✅ Printf implementation
+- ✅ Memory management expertise
+
+</td>
+<td width="33%" align="center" valign="top">
+
+#### 🚀 **2025 Current Goals**
+- 🔄 Advanced C projects
+- 🔄 Python development
+- 🔄 Web technologies
+- 🔄 Database management
+- 🔄 Full-stack journey
+
+</td>
+<td width="33%" align="center" valign="top">
+
+#### 🌟 **Future Milestones**
+- 🎯 Cybersecurity specialization
+- 🎯 Cloud computing
+- 🎯 AI/ML fundamentals
+- 🎯 Open source contributions
+- 🎯 Tech leadership
+
+</td>
+</tr>
+</table>
+
+</div>
+
+</details>
+</div>
+
+<br>
+
+<!-- Achievement Stats -->
+<div align="center">
+<table style="background: rgba(88, 166, 255, 0.05); border-radius: 15px; padding: 20px; margin: 20px 0;">
+<tr>
+<td align="center" style="padding: 10px;">
+<img src="https://img.shields.io/badge/🏆-15+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Projects"/>
+<br><small><b>Projects Completed</b></small>
+</td>
+<td align="center" style="padding: 10px;">
+<img src="https://img.shields.io/badge/⭐-90%25-brightgreen?style=for-the-badge&logoColor=white&labelColor=28A745" alt="C Mastery"/>
+<br><small><b>C Programming</b></small>
+</td>
+<td align="center" style="padding: 10px;">
+<img src="https://img.shields.io/badge/📊-1100+-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<br><small><b>Git Contributions</b></small>
+</td>
+<td align="center" style="padding: 10px;">
+<img src="https://img.shields.io/badge/🎓-Advanced-purple?style=for-the-badge&logoColor=white&labelColor=6F42C1" alt="Level"/>
+<br><small><b>Skill Level</b></small>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- Motivational Footer -->
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
+</div>
 </div>
 
 <!-- Achievement 4: Printf Pro -->
