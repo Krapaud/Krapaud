@@ -76,23 +76,147 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div align="center">
 
-### Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=🛠️+My+Tech+Arsenal;💻+Building+with+Modern+Tools;🚀+Crafting+Digital+Solutions" alt="Tech Stack Header" />
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+</div>
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+<br>
 
+<!-- Tech Stack Cards Layout -->
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 💻 **Languages**
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=c,python,js,bash,html,css" alt="Programming Languages" />
+</div>
+
+<br>
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white&labelColor=0D1117)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0D1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=0D1117)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=0D1117)
+
+**📊 Proficiency:**
+- **C Programming:** ████████▓░ 85%
+- **Python:** ███████░░░ 70%
+- **JavaScript:** ██████░░░░ 60%
+- **Shell/Bash:** ████████░░ 80%
+
+</div>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🔧 **Tools & Platforms**
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,linux,vscode,docker,vim,github" alt="Development Tools" />
+</div>
+
+<br>
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=0D1117)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0D1117)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=0D1117)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0D1117)
+
+**🛠️ Experience:**
+- **Git/GitHub:** ████████▓░ 85%
+- **Linux/Unix:** ████████░░ 80%
+- **VS Code:** ███████▓░░ 75%
+- **Docker:** ██████░░░░ 60%
+
+</div>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### ☁️ **Cloud & DevOps**
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=aws,azure,nginx,mysql,sqlite,mongodb" alt="Cloud & Database" />
+</div>
+
+<br>
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=0D1117)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white&labelColor=0D1117)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=0D1117)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=0D1117)
+
+**☁️ Learning:**
+- **AWS Basics:** █████░░░░░ 50%
+- **Azure Fundamentals:** ████░░░░░░ 40%
+- **Database Design:** ██████▓░░░ 65%
+- **DevOps Practices:** ████░░░░░░ 40%
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<!-- Additional Skills Section -->
+<div align="center">
+<details>
+<summary><b>🎯 Additional Skills & Learning Path</b></summary>
+
+<br>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 90%;">
+<tr>
+<td width="50%" valign="top">
+
+#### 📚 **Currently Learning**
+- 🌐 **Web Development:** HTML5, CSS3, DOM Manipulation
+- 🐍 **Advanced Python:** Flask, Django, API Development
+- 🗄️ **Database Management:** SQL Optimization, NoSQL
+- 🔐 **Cybersecurity:** Network Security, Ethical Hacking
+
+#### 🎯 **Next Goals (2025)**
+- ⚛️ **Frontend Frameworks:** React.js, Vue.js
+- 🏗️ **Backend Development:** Node.js, Express.js
+- 📱 **Mobile Development:** React Native
+- 🤖 **AI/ML Basics:** TensorFlow, Scikit-learn
+
+</td>
+<td width="50%" valign="top">
+
+#### 💡 **Problem Solving**
+- **Data Structures:** Arrays, Linked Lists, Trees, Hash Tables
+- **Algorithms:** Sorting, Searching, Graph Algorithms
+- **System Design:** Low-level programming, Memory Management
+- **Debugging:** GDB, Valgrind, Code Analysis
+
+#### 🏆 **Achievements**
+- 📊 **Holberton Projects:** 15+ completed successfully
+- 🏅 **Peer Learning:** Top contributor in group projects
+- 💻 **Code Quality:** Following Betty coding standards
+- 🤝 **Collaboration:** Git workflow expert
+
+</td>
+</tr>
+</table>
+
+</details>
+</div>
+
+<br>
+
+<!-- Animated skill bar -->
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=800&lines=💪+Constantly+improving+and+learning+new+technologies;🚀+Ready+to+tackle+challenging+projects+and+collaborate;🎯+Focused+on+clean+code%2C+best+practices%2C+and+innovation" alt="Skills Footer" />
 </div>
 
 ## 📊 GitHub Statistics
