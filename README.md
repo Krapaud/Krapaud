@@ -190,21 +190,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <div align="center">
 
-### 🎖️ **GitHub Statistics**
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📊%20My%20Statistics" alt="GitHub Stats" />
-
-<br>
-
-### 📊 **GitHub Metrics**
-
-<div align="center">
-
-<br>
-
-<!-- Compteur de vues qui fonctionne -->
-<img src="https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=brightgreen&label=�️%20VUES" alt="Profile Views"/>
-<img src="https://img.shields.io/badge/📁%20Repositories-3%20Actifs-28A745?style=for-the-badge&logo=git" alt="Active Repos"/>
-
 <br>
 
 <!-- Statut des projets -->
