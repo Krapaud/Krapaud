@@ -416,57 +416,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <br>
 
-<!-- Milestone Timeline -->
-<div align="center">
-<details>
-<summary><b>🗓️ Developer Journey Timeline</b></summary>
-
-<br>
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 25px; margin: 20px;">
-
-<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
-<tr>
-<td width="33%" align="center" valign="top">
-
-#### 🎯 **2024 Achievements**
-- ✅ Started Holberton School
-- ✅ Mastered C fundamentals
-- ✅ First shell project
-- ✅ Printf implementation
-- ✅ Memory management expertise
-
-</td>
-<td width="33%" align="center" valign="top">
-
-#### 🚀 **2025 Current Goals**
-- 🔄 Advanced C projects
-- 🔄 Python development
-- 🔄 Web technologies
-- 🔄 Database management
-- 🔄 Full-stack journey
-
-</td>
-<td width="33%" align="center" valign="top">
-
-#### 🌟 **Future Milestones**
-- 🎯 Cybersecurity specialization
-- 🎯 Cloud computing
-- 🎯 AI/ML fundamentals
-- 🎯 Open source contributions
-- 🎯 Tech leadership
-
-</td>
-</tr>
-</table>
-
-</div>
-
-</details>
-</div>
-
-<br>
-
 <!-- Achievement Stats -->
 <div align="center">
 <table style="background: rgba(88, 166, 255, 0.05); border-radius: 15px; padding: 20px; margin: 20px 0;">
