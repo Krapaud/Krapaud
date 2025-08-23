@@ -104,9 +104,9 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 **📊 Proficiency:**
 - **C Programming:** █████████░ 90%
-- **Python:** ████░░░░░░ 40%
-- **JavaScript:** ███░░░░░░░ 30%
-- **Shell/Bash:** █████████░ 90%
+- **Python:** ██░░░░░░░░ 20%
+- **JavaScript:** █░░░░░░░░░ 10%
+- **Shell/Bash:** ████████░░ 80%
 
 </div>
 
@@ -131,7 +131,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 - **Git/GitHub:** █████████░ 90%
 - **Linux/Unix:** ████████░░ 80%
 - **VS Code:** ███████░░░ 70%
-- **Docker:** ███░░░░░░░ 30%
+- **Docker:** ██░░░░░░░░ 20%
 
 </div>
 
@@ -153,10 +153,10 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=0D1117)
 
 **☁️ Learning:**
-- **AWS Basics:** ██░░░░░░░░ 20%
-- **Azure Fundamentals:** ██░░░░░░░░ 20%
-- **Database Design:** ████░░░░░░ 40%
-- **DevOps Practices:** ███░░░░░░░ 30%
+- **AWS Basics:** █░░░░░░░░░ 10%
+- **Azure Fundamentals:** █░░░░░░░░░ 10%
+- **Database Design:** ███░░░░░░░ 30%
+- **DevOps Practices:** ██░░░░░░░░ 20%
 
 </div>
 
