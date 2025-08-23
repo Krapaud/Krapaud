@@ -92,9 +92,20 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <br>
 
-### 📊 **Métriques en temps réel**
-<img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=star&logoColor=white&color=FFD700&label=⭐%20STARS" alt="GitHub Stars" />
-<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&logoColor=white&color=4B9FFF&label=👥%20FOLLOWERS" alt="GitHub Followers" />
+### 📊 **Métriques GitHub**
+
+<div align="center">
+
+<!-- Métriques personnalisées fiables -->
+![GitHub Stats](https://img.shields.io/badge/⭐%20Stars-En%20croissance-FFD700?style=for-the-badge&logo=github)
+![GitHub Followers](https://img.shields.io/badge/👥%20Followers-En%20développement-4B9FFF?style=for-the-badge&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=brightgreen&label=👁️%20VUES%20DU%20PROFIL)
+
+<!-- Badges de progression -->
+![Repositories](https://img.shields.io/badge/📁%20Repositories-3%20Actifs-success?style=for-the-badge&logo=git)
+![Commits](https://img.shields.io/badge/💻%20Commits-En%20cours-blue?style=for-the-badge&logo=github)
+
+</div>
 
 <br><br>
 
