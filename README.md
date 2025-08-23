@@ -103,10 +103,10 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=0D1117)
 
 **📊 Proficiency:**
-- **C Programming:** ████████▓░ 85%
-- **Python:** ███████░░░ 70%
-- **JavaScript:** ██████░░░░ 60%
-- **Shell/Bash:** ████████░░ 80%
+- **C Programming:** █████████░ 90%
+- **Python:** ████░░░░░░ 40%
+- **JavaScript:** ███░░░░░░░ 30%
+- **Shell/Bash:** █████████░ 90%
 
 </div>
 
@@ -128,10 +128,10 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0D1117)
 
 **🛠️ Experience:**
-- **Git/GitHub:** ████████▓░ 85%
+- **Git/GitHub:** █████████░ 90%
 - **Linux/Unix:** ████████░░ 80%
-- **VS Code:** ███████▓░░ 75%
-- **Docker:** ██████░░░░ 60%
+- **VS Code:** ███████░░░ 70%
+- **Docker:** ███░░░░░░░ 30%
 
 </div>
 
@@ -153,10 +153,10 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=0D1117)
 
 **☁️ Learning:**
-- **AWS Basics:** █████░░░░░ 50%
-- **Azure Fundamentals:** ████░░░░░░ 40%
-- **Database Design:** ██████▓░░░ 65%
-- **DevOps Practices:** ████░░░░░░ 40%
+- **AWS Basics:** ██░░░░░░░░ 20%
+- **Azure Fundamentals:** ██░░░░░░░░ 20%
+- **Database Design:** ████░░░░░░ 40%
+- **DevOps Practices:** ███░░░░░░░ 30%
 
 </div>
 
