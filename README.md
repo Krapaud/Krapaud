@@ -1,4 +1,14 @@
-# Krapaud - Software Developer in Training
+# Krapaud - Software Dev<td width="40%" align="center">
+
+<img src="./jpeg.jpeg" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+
+<br><br>
+
+**💼 Software Developer in Training**  
+**🎓 Holberton School Student**  
+**🌍 France**
+
+</td>raining
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
@@ -24,7 +34,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </td>
 <td width="40%" align="center">
 
-<img src="https://avatars.githubusercontent.com/u/YourGitHubUserID?v=4" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+<img src="https://avatars.githubusercontent.com/u/Krapaud?v=4&s=200" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
 
 <br><br>
 
