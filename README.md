@@ -15,7 +15,9 @@
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
 
-### 👋 Hello there! I'm **Krapaud**
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
+</div>
 
 I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
 
@@ -68,10 +70,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </td>
 </tr>
 </table>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
 </div>
 
 ## 🛠️ Technologies & Tools
