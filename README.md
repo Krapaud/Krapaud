@@ -104,39 +104,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <br><br>
 
-<!-- Grid layout pour les statistiques -->
-<table>
-<tr>
-<td width="50%" align="center">
 
-### 🎯 **Performance Overview**
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📈%20GitHub%20Performance&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=10" alt="GitHub Stats" />
-
-<br><br>
-
-### 🔥 **Contribution Streak** 
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=10" alt="GitHub Streak" />
-
-</td>
-<td width="50%" align="center">
-
-### 🌐 **Language Distribution**
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=💻%20Programming%20Languages&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=10" alt="Top Languages" />
-
-<br><br>
-
-### 📊 **Activity Graph**
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📈%20Contribution%20Activity&radius=10" alt="Activity Graph" />
-
-</td>
-</tr>
-</table>
-
-<br>
 
 <!-- Badges de métriques en temps réel -->
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
