@@ -192,10 +192,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 <br>
 
-<!-- Statut des projets -->
-<img src="https://img.shields.io/badge/🖨️%20Printf-Terminé-success?style=for-the-badge" alt="Printf Status"/>
-<img src="https://img.shields.io/badge/�%20Shell-Terminé-success?style=for-the-badge" alt="Shell Status"/>
-
 </div>
 
 </div>
