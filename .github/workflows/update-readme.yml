@@ -4,9 +4,10 @@ on:
   schedule:
     # Mise à jour automatique tous les jours à 6h UTC
     - cron: '0 6 * * *'
-  push:
-    branches: [ main ]
   workflow_dispatch: # Permet de déclencher manuellement
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -16,13 +17,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
 
     - name: Update README timestamp only
       run: |
@@ -31,38 +26,47 @@ jobs:
         import re
         from datetime import datetime
         
-        # Lire le README actuel
-        with open('README.md', 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Générer le timestamp de mise à jour
-        update_time = datetime.now().strftime('%d/%m/%Y à %H:%M UTC')
-        
-        # Mettre à jour uniquement le timestamp dans le README
-        content = re.sub(
-            r'<!--STATS_UPDATE_TIME-->.*?<!--/STATS_UPDATE_TIME-->',
-            f'<!--STATS_UPDATE_TIME-->{update_time}<!--/STATS_UPDATE_TIME-->',
-            content
-        )
-        
-        # Écrire le nouveau contenu
-        with open('README.md', 'w', encoding='utf-8') as f:
-            f.write(content)
+        try:
+            # Lire le README actuel
+            with open('README.md', 'r', encoding='utf-8') as f:
+                content = f.read()
             
-        print(f"✅ Timestamp mis à jour: {update_time}")
+            # Générer le timestamp de mise à jour
+            update_time = datetime.now().strftime('%d/%m/%Y à %H:%M UTC')
+            
+            # Mettre à jour uniquement le timestamp dans le README
+            new_content = re.sub(
+                r'<!--STATS_UPDATE_TIME-->.*?<!--/STATS_UPDATE_TIME-->',
+                f'<!--STATS_UPDATE_TIME-->{update_time}<!--/STATS_UPDATE_TIME-->',
+                content
+            )
+            
+            # Vérifier si quelque chose a changé
+            if new_content != content:
+                # Écrire le nouveau contenu
+                with open('README.md', 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                print(f"✅ Timestamp mis à jour: {update_time}")
+            else:
+                print("ℹ️ Aucun changement nécessaire")
+                
+        except Exception as e:
+            print(f"❌ Erreur: {e}")
+            exit(1)
         PYTHON_SCRIPT
 
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
         
         # Vérifier s'il y a des changements
         if git diff --quiet; then
-          echo "Aucun changement détecté"
+          echo "ℹ️ Aucun changement détecté"
+          exit 0
         else
           git add README.md
-          git commit -m "🤖 Mise à jour automatique des statistiques GitHub - $(date '+%d/%m/%Y %H:%M')"
-          git push
-          echo "README mis à jour avec succès !"
+          git commit -m "🤖 Auto-update timestamp - $(date '+%d/%m/%Y %H:%M UTC')"
+          git push origin main
+          echo "✅ README mis à jour avec succès !"
         fi

@@ -1,0 +1,33 @@
+name: Minimal README Update
+
+on:
+  workflow_dispatch: # Manuel seulement
+  schedule:
+    - cron: '0 6 * * *' # Tous les jours à 6h UTC
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Update timestamp
+      run: |
+        # Simple mise à jour du timestamp
+        DATE=$(date '+%d/%m/%Y à %H:%M UTC')
+        sed -i "s|<!--STATS_UPDATE_TIME-->.*<!--/STATS_UPDATE_TIME-->|<!--STATS_UPDATE_TIME-->${DATE}<!--/STATS_UPDATE_TIME-->|" README.md
+        
+    - name: Commit if changed
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        
+        if ! git diff --quiet README.md; then
+          git add README.md
+          git commit -m "🤖 Update timestamp"
+          git push
+        fi
