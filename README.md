@@ -1,33 +1,37 @@
-# Krapaud - Développeur en Formation
+# Krapaud - Software Developer in Training
 
 <div align="center">
-  <img src="https://readme-typing-svg.hero![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=8A2BE2)
+  <img src="https://readme-typing-svg.h</div>
 
-</div>Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Développeur+Full+Stack;Étudiant+Holberton+School;Passionné+de+Programmation;Toujours+en+apprentissage" alt="Typing SVG" />
 </div>
 
-## 🚀 À propos de moi
+<br><br>
 
-Je suis un développeur passionné et étudiant à **Holberton School**, spécialisé dans la programmation low-level et les technologies modernes. J'aime résoudre des problèmes complexes et créer des solutions élégantes.
+### 🌟 **Unlocked Achievements**Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
+</div>
 
-- 🎓 **Étudiant** à Holberton School
-- 💻 **Spécialisations** : Programmation C, Structures de données, Algorithmes
-- 🌱 **En cours d'apprentissage** : Python, JavaScript, SQL
-- 🎯 **Objectif** : Devenir un Développeur Full-Stack ou Cyber-Sécurité !
-- 🤝 **Collaboration** : Toujours ouvert aux projets intéressants !
+## 🚀 About Me
 
-## 🛠️ Technologies & Outils
+I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
+
+- 🎓 **Student** at Holberton School
+- 💻 **Specializations**: C Programming, Data Structures, Algorithms
+- 🌱 **Currently Learning**: Python, JavaScript, SQL
+- 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
+- 🤝 **Collaboration**: Always open to interesting projects!
+
+## 🛠️ Technologies & Tools
 
 <div align="center">
 
-### Langages de programmation
+### Programming Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### Outils & Plateformes
+### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
@@ -39,7 +43,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 </div>
 
-## 📊 Statistiques GitHub
+## 📊 GitHub Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
@@ -53,29 +57,29 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
-## 🏆 Projets phares
+## 🏆 Featured Projects
 
 ### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
-> **Ré-implémentation complète de la fonction printf en C**
+> **Complete re-implementation of the printf function in C**
 > 
-> - ✨ Support de multiples spécificateurs de format (%c, %s, %d, %i, %%)
-> - 🔧 Gestion des arguments variadiques
-> - 📚 Documentation complète avec page de manuel
-> - 🧪 Tests complets et comparaison avec printf standard
+> - ✨ Support for multiple format specifiers (%c, %s, %d, %i, %%)
+> - 🔧 Variadic arguments handling
+> - 📚 Complete documentation with manual page
+> - 🧪 Comprehensive tests and comparison with standard printf
 
 ### 🐚 [Simple Shell](https://github.com/Krapaud/holberton-simple_shell)
-> **Shell Unix minimaliste en C**
+> **Minimalist Unix shell in C**
 > 
-> - 💻 Interpréteur de commandes interactif
-> - 🔄 Gestion des processus et signaux
-> - 📁 Navigation dans le système de fichiers
-> - ⚡ Exécution de commandes système
+> - 💻 Interactive command interpreter
+> - 🔄 Process and signal handling
+> - 📁 File system navigation
+> - ⚡ System command execution
 
-## 📈 Graphiques & Statistiques
+## 📈 Charts & Statistics
 
 <div align="center">
   
-**📊 Activité GitHub**
+**📊 GitHub Activity**
   
 <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 
@@ -85,20 +89,20 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 </div>
 
-## 🏆 Badges & Accomplissements
+## 🏆 Badges & Achievements
 
 <div align="center">
 
-### 🎖️ **Statistiques GitHub**
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📊%20Mes%20Statistiques" alt="GitHub Stats" />
+### 🎖️ **GitHub Statistics**
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📊%20My%20Statistics" alt="GitHub Stats" />
 
 <br>
 
-### 📊 **Métriques GitHub**
+### 📊 **GitHub Metrics**
 
 <div align="center">
 
-<!-- Badges dynamiques qui se mettent à jour automatiquement -->
+<!-- Dynamic badges that update automatically -->
 ![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700)
 ![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=4A90E2)
 ![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=8A2BE2)
@@ -121,40 +125,40 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <br><br>
 
-### 🌟 **Accomplissements débloqués**
+### 🌟 **Unlocked Achievements**
 
 <table align="center">
 <tr>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/🎓-STUDENT-blueviolet?style=for-the-badge" alt="Student Badge"/>
 <br><strong>Holberton School</strong>
-<br><sub>Étudiant actif</sub>
+<br><sub>Active Student</sub>
 </td>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/💻-C%20EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Expert Badge"/>
 <br><strong>C Programming</strong>
-<br><sub>Low-level maîtrisé</sub>
+<br><sub>Low-level mastered</sub>
 </td>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/🐚-SHELL%20MASTER-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Master Badge"/>
 <br><strong>Unix Shell</strong>
-<br><sub>Shell développé</sub>
+<br><sub>Shell developed</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/🖨️-PRINTF%20PRO-FF6347?style=for-the-badge" alt="Printf Pro Badge"/>
 <br><strong>Printf Creator</strong>
-<br><sub>Fonction réimplémentée</sub>
+<br><sub>Function reimplemented</sub>
 </td>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/🌳-DATA%20STRUCTURES-228B22?style=for-the-badge" alt="Data Structures Badge"/>
 <br><strong>Binary Trees</strong>
-<br><sub>Algorithmes avancés</sub>
+<br><sub>Advanced algorithms</sub>
 </td>
 <td align="center" width="150">
 <img width="80" src="https://img.shields.io/badge/🚀-FULL%20STACK-FF1493?style=for-the-badge" alt="Full Stack Badge"/>
-<br><strong>En progression</strong>
+<br><strong>In Progress</strong>
 <br><sub>Python, JS, SQL</sub>
 </td>
 </tr>
@@ -162,42 +166,42 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <br>
 
-### 🎯 **Progression & Objectifs**
+### 🎯 **Progress & Goals**
 
 <table align="center">
 <tr>
 <td align="center">
-<h4>🏅 <strong>Niveau actuel</strong></h4>
-<img src="https://img.shields.io/badge/LEVEL-DÉBUTANT%20AVANCÉ-brightgreen?style=for-the-badge&logo=github" alt="Current Level"/>
-<br><sub>Solides bases acquises</sub>
+<h4>🏅 <strong>Current Level</strong></h4>
+<img src="https://img.shields.io/badge/LEVEL-ADVANCED%20BEGINNER-brightgreen?style=for-the-badge&logo=github" alt="Current Level"/>
+<br><sub>Solid foundations acquired</sub>
 </td>
 <td align="center">
-<h4>🎯 <strong>Objectif principal</strong></h4>
+<h4>🎯 <strong>Main Goal</strong></h4>
 <img src="https://img.shields.io/badge/TARGET-FULL%20STACK%20DEV-orange?style=for-the-badge&logo=rocket" alt="Main Target"/>
-<br><sub>Développeur complet</sub>
+<br><sub>Complete developer</sub>
 </td>
 </tr>
 </table>
 
 <br>
 
-## 🎯 Objectifs 2025
+## 🎯 2025 Goals
 
-- [ ] � Maîtriser Python et ses frameworks (Django/Flask)
-- [ ] 🌐 Créer des applications web full-stack avec JavaScript
-- [ ] 🗄️ Approfondir SQL et la gestion de bases de données
-- [ ] 🔐 Explorer la cybersécurité et les tests de pénétration
-- [ ] 🚀 Développer et déployer mes premiers projets complets
-- [ ] 🤖 Contribuer à des projets open source
-- [ ] 📜 Obtenir des certifications en sécurité informatique
+- [ ] 🐍 Master Python and its frameworks (Django/Flask)
+- [ ] 🌐 Create full-stack web applications with JavaScript
+- [ ] 🗄️ Deepen SQL and database management knowledge
+- [ ] 🔐 Explore cybersecurity and penetration testing
+- [ ] 🚀 Develop and deploy my first complete projects
+- [ ] 🤖 Contribute to open source projects
+- [ ] 📜 Obtain cybersecurity certifications
 
-## 💡 Citations qui m'inspirent
+## 💡 Inspiring Quotes
 
-> *"Le code est comme l'humour. Quand vous devez l'expliquer, c'est mauvais."* – Cory House
+> *"Code is like humor. When you have to explain it, it's bad."* – Cory House
 
-> *"Tout le monde devrait apprendre à programmer, car cela vous apprend à penser."* – Steve Jobs
+> *"Everyone should learn how to program, because it teaches you how to think."* – Steve Jobs
 
-## ⭐ Projets populaires
+## ⭐ Popular Projects
 
 <div align="center">
 
@@ -206,7 +210,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 </div>
 
-## 📫 Me contacter
+## 📫 Contact Me
 
 <div align="center">
 
@@ -223,7 +227,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
   **💻 "Code with passion, learn with curiosity" 🌟**
 </div>
 
-<!-- Petite animation sympa -->
+<!-- Cool little animation -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
