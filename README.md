@@ -83,6 +83,58 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 </div>
 
+## 🏆 Badges & Accomplissements
+
+<div align="center">
+
+### 🎖️ **Badges GitHub**
+<img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10&column=6" alt="GitHub Trophies" />
+
+### 🌟 **Accomplissements**
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/🎓-Holberton_Student-blueviolet?style=for-the-badge" alt="Holberton Student" />
+<br><sub><b>Étudiant Holberton School</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/💻-C_Expert-00599C?style=for-the-badge&logo=c" alt="C Expert" />
+<br><sub><b>Programmation C avancée</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/🐚-Shell_Master-121011?style=for-the-badge&logo=gnu-bash" alt="Shell Master" />
+<br><sub><b>Shell Unix développé</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/🖨️-Printf_Creator-success?style=for-the-badge" alt="Printf Creator" />
+<br><sub><b>Printf ré-implémenté</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/🌳-Data_Structures-green?style=for-the-badge" alt="Data Structures" />
+<br><sub><b>Arbres binaires maîtrisés</b></sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/🚀-Full_Stack_Journey-ff6b6b?style=for-the-badge" alt="Full Stack Journey" />
+<br><sub><b>En route vers le Full-Stack</b></sub>
+</td>
+</tr>
+</table>
+
+### 📊 **Progression des étoiles**
+<img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=github&color=yellow&label=⭐%20Total%20Stars" alt="Total Stars" />
+<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=blue&label=👥%20Followers" alt="Followers" />
+
+### 🎯 **Objectifs de badges**
+- [ ] ⭐ **First Star** - Obtenir la première étoile 
+- [ ] 🌟 **Rising Star** - Atteindre 5 étoiles
+- [ ] ✨ **Popular Creator** - Atteindre 10 étoiles
+- [ ] 🏆 **Community Favorite** - Atteindre 25 étoiles
+- [ ] 🚀 **Viral Project** - Atteindre 50 étoiles
+
+</div>
+
 ## 🎯 Objectifs 2025
 
 - [ ] � Maîtriser Python et ses frameworks (Django/Flask)
