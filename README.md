@@ -14,7 +14,10 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
 </div>
 
-## 🏆 Featured Projectsdient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; overflow: hidden;">
+## 🚀 About Me
+
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; overflow: hidden;">
 <tr>
 <td width="60%" valign="top" style="padding: 30px;">
 
