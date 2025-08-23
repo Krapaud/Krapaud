@@ -87,8 +87,10 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <div align="center">
 
-### 🎖️ **Badges GitHub**
-<img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10&column=6" alt="GitHub Trophies" />
+### 🎖️ **Statistiques de progression**
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Statistiques%20GitHub" alt="GitHub Stats Detailed" />
+</div>
 
 ### 🌟 **Accomplissements**
 <table>
@@ -123,15 +125,40 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 </table>
 
 ### 📊 **Progression des étoiles**
+<div align="center">
+  
 <img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=github&color=yellow&label=⭐%20Total%20Stars" alt="Total Stars" />
 <img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=blue&label=👥%20Followers" alt="Followers" />
+<img src="https://img.shields.io/badge/🏆-Repositories-green?style=for-the-badge" alt="Repositories" />
 
-### 🎯 **Objectifs de badges**
+<br><br>
+
+<!-- Badges de niveau personnalisés -->
+<img src="https://img.shields.io/badge/Level-Débutant_Avancé-brightgreen?style=for-the-badge&logo=github" alt="Level" />
+<img src="https://img.shields.io/badge/Focus-Low_Level-blue?style=for-the-badge&logo=c" alt="Focus" />
+<img src="https://img.shields.io/badge/Journey-Full_Stack-ff6b6b?style=for-the-badge" alt="Journey" />
+
+</div>
+
+### 🎯 **Objectifs de badges & Accomplissements**
+
+<div align="center">
+
+**🏆 Badges débloqués :**
+- ✅ **🎓 Student** - Étudiant actif 
+- ✅ **💻 Coder** - Projets en C
+- ✅ **🐚 Shell Builder** - Shell développé
+- ✅ **🖨️ Printf Master** - Printf implémenté
+- ✅ **🌳 Data Structures** - Arbres binaires
+
+**🎯 Prochains objectifs :**
 - [ ] ⭐ **First Star** - Obtenir la première étoile 
 - [ ] 🌟 **Rising Star** - Atteindre 5 étoiles
 - [ ] ✨ **Popular Creator** - Atteindre 10 étoiles
-- [ ] 🏆 **Community Favorite** - Atteindre 25 étoiles
-- [ ] 🚀 **Viral Project** - Atteindre 50 étoiles
+- [ ] 👥 **Community Builder** - 10 followers
+- [ ] 🚀 **Viral Project** - 25 étoiles
+
+</div>
 
 </div>
 
