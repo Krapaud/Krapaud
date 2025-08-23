@@ -69,16 +69,18 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 > - 📁 Navigation dans le système de fichiers
 > - ⚡ Exécution de commandes système
 
-## 📈 Contribution Graph
+## 📈 Graphiques & Statistiques
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=38bdae&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
+  
+**📊 Activité GitHub**
+  
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 
-## 🏆 GitHub Trophées
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Krapaud&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15&column=7" alt="GitHub Trophies" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
 </div>
 
 ## 🎯 Objectifs 2025
