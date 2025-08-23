@@ -87,76 +87,99 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 <div align="center">
 
-### 🎖️ **Statistiques de progression**
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Statistiques%20GitHub" alt="GitHub Stats Detailed" />
-</div>
+### 🎖️ **Statistiques GitHub**
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=📊%20Mes%20Statistiques" alt="GitHub Stats" />
 
-### 🌟 **Accomplissements**
-<table>
+<br>
+
+### 📊 **Métriques en temps réel**
+<img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=star&logoColor=white&color=FFD700&label=⭐%20STARS" alt="GitHub Stars" />
+<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&logoColor=white&color=4B9FFF&label=👥%20FOLLOWERS" alt="GitHub Followers" />
+
+<br><br>
+
+### 🌟 **Accomplissements débloqués**
+
+<table align="center">
 <tr>
-<td align="center">
-<img src="https://img.shields.io/badge/🎓-Holberton_Student-blueviolet?style=for-the-badge" alt="Holberton Student" />
-<br><sub><b>Étudiant Holberton School</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/🎓-STUDENT-blueviolet?style=for-the-badge" alt="Student Badge"/>
+<br><strong>Holberton School</strong>
+<br><sub>Étudiant actif</sub>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/💻-C_Expert-00599C?style=for-the-badge&logo=c" alt="C Expert" />
-<br><sub><b>Programmation C avancée</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/💻-C%20EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Expert Badge"/>
+<br><strong>C Programming</strong>
+<br><sub>Low-level maîtrisé</sub>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/🐚-Shell_Master-121011?style=for-the-badge&logo=gnu-bash" alt="Shell Master" />
-<br><sub><b>Shell Unix développé</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/🐚-SHELL%20MASTER-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Master Badge"/>
+<br><strong>Unix Shell</strong>
+<br><sub>Shell développé</sub>
 </td>
 </tr>
 <tr>
-<td align="center">
-<img src="https://img.shields.io/badge/🖨️-Printf_Creator-success?style=for-the-badge" alt="Printf Creator" />
-<br><sub><b>Printf ré-implémenté</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/🖨️-PRINTF%20PRO-FF6347?style=for-the-badge" alt="Printf Pro Badge"/>
+<br><strong>Printf Creator</strong>
+<br><sub>Fonction réimplémentée</sub>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/🌳-Data_Structures-green?style=for-the-badge" alt="Data Structures" />
-<br><sub><b>Arbres binaires maîtrisés</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/🌳-DATA%20STRUCTURES-228B22?style=for-the-badge" alt="Data Structures Badge"/>
+<br><strong>Binary Trees</strong>
+<br><sub>Algorithmes avancés</sub>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/🚀-Full_Stack_Journey-ff6b6b?style=for-the-badge" alt="Full Stack Journey" />
-<br><sub><b>En route vers le Full-Stack</b></sub>
+<td align="center" width="150">
+<img width="80" src="https://img.shields.io/badge/🚀-FULL%20STACK-FF1493?style=for-the-badge" alt="Full Stack Badge"/>
+<br><strong>En progression</strong>
+<br><sub>Python, JS, SQL</sub>
 </td>
 </tr>
 </table>
 
-### 📊 **Progression des étoiles**
-<div align="center">
-  
-<img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=github&color=yellow&label=⭐%20Total%20Stars" alt="Total Stars" />
-<img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=blue&label=👥%20Followers" alt="Followers" />
-<img src="https://img.shields.io/badge/🏆-Repositories-green?style=for-the-badge" alt="Repositories" />
+<br>
 
-<br><br>
+### 🎯 **Progression & Objectifs**
 
-<!-- Badges de niveau personnalisés -->
-<img src="https://img.shields.io/badge/Level-Débutant_Avancé-brightgreen?style=for-the-badge&logo=github" alt="Level" />
-<img src="https://img.shields.io/badge/Focus-Low_Level-blue?style=for-the-badge&logo=c" alt="Focus" />
-<img src="https://img.shields.io/badge/Journey-Full_Stack-ff6b6b?style=for-the-badge" alt="Journey" />
+<table align="center">
+<tr>
+<td align="center">
+<h4>🏅 <strong>Niveau actuel</strong></h4>
+<img src="https://img.shields.io/badge/LEVEL-DÉBUTANT%20AVANCÉ-brightgreen?style=for-the-badge&logo=github" alt="Current Level"/>
+<br><sub>Solides bases acquises</sub>
+</td>
+<td align="center">
+<h4>🎯 <strong>Objectif principal</strong></h4>
+<img src="https://img.shields.io/badge/TARGET-FULL%20STACK%20DEV-orange?style=for-the-badge&logo=rocket" alt="Main Target"/>
+<br><sub>Développeur complet</sub>
+</td>
+</tr>
+</table>
+
+<br>
+
+### 📈 **Prochains jalons**
+
+<div align="left" style="max-width: 600px; margin: 0 auto;">
+
+**🏆 Badges à débloquer :**
+- [ ] ⭐ **First Star** → Recevoir la première étoile GitHub
+- [ ] 🌟 **Rising Star** → Atteindre 5 étoiles au total  
+- [ ] ✨ **Popular Creator** → Atteindre 10 étoiles
+- [ ] 👥 **Community Builder** → Gagner 10 followers
+- [ ] 🚀 **Viral Project** → Un projet avec 25+ étoiles
+- [ ] 🤝 **Open Source Contributor** → Première contribution externe
+- [ ] 📜 **Certified Developer** → Obtenir une certification
+
+**💻 Compétences techniques :**
+- [ ] 🐍 **Python Master** → Maîtriser Python et Django/Flask
+- [ ] 🌐 **JavaScript Pro** → Développer en JS front/back
+- [ ] �️ **Database Expert** → Maîtriser SQL et NoSQL
+- [ ] � **Security Specialist** → Explorer la cybersécurité
 
 </div>
 
-### 🎯 **Objectifs de badges & Accomplissements**
-
-<div align="center">
-
-**🏆 Badges débloqués :**
-- ✅ **🎓 Student** - Étudiant actif 
-- ✅ **💻 Coder** - Projets en C
-- ✅ **🐚 Shell Builder** - Shell développé
-- ✅ **🖨️ Printf Master** - Printf implémenté
-- ✅ **🌳 Data Structures** - Arbres binaires
-
-**🎯 Prochains objectifs :**
-- [ ] ⭐ **First Star** - Obtenir la première étoile 
-- [ ] 🌟 **Rising Star** - Atteindre 5 étoiles
-- [ ] ✨ **Popular Creator** - Atteindre 10 étoiles
-- [ ] 👥 **Community Builder** - 10 followers
-- [ ] 🚀 **Viral Project** - 25 étoiles
+</div>
 
 </div>
 
