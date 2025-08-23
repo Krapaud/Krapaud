@@ -99,6 +99,15 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 
 > *"Tout le monde devrait apprendre à programmer, car cela vous apprend à penser."* – Steve Jobs
 
+## ⭐ Projets populaires
+
+<div align="center">
+
+[![Printf Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holbertonschool-printf&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holbertonschool-printf)
+[![Simple Shell Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holbertonschool-simple_shell&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holbertonschool-simple_shell)
+
+</div>
+
 ## 📫 Me contacter
 
 <div align="center">
@@ -114,6 +123,13 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Krapaud&color=blueviolet&style=for-the-badge" alt="Profile Views" />
   
+  <!-- Badges GitHub -->
+  <br><br>
+  <img src="https://img.shields.io/github/stars/Krapaud?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=blue" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=github&color=green" alt="Printf Forks" />
+  
+  <br><br>
   **💻 "Code with passion, learn with curiosity" 🌟**
 </div>
 
