@@ -86,7 +86,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 <div align="center">
 <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 
 ### 💻 **Languages**
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 10px;">
@@ -111,7 +111,7 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </div>
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 
 ### 🔧 **Tools & Platforms**
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 10px;">
@@ -132,31 +132,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 - **Linux/Unix:** ████████░░ 80%
 - **VS Code:** ███████░░░ 70%
 - **Docker:** ██░░░░░░░░ 20%
-
-</div>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### ☁️ **Cloud & DevOps**
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 10px;">
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=aws,azure,nginx,mysql,sqlite,mongodb" alt="Cloud & Database" />
-</div>
-
-<br>
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=0D1117)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white&labelColor=0D1117)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=0D1117)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=0D1117)
-
-**☁️ Learning:**
-- **AWS Basics:** █░░░░░░░░░ 10%
-- **Azure Fundamentals:** █░░░░░░░░░ 10%
-- **Database Design:** ███░░░░░░░ 30%
-- **DevOps Practices:** ██░░░░░░░░ 20%
 
 </div>
 
