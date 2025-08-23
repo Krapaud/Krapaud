@@ -8,6 +8,11 @@
 
 ## 🚀 About Me
 
+<div align="center">
+<table>
+<tr>
+<td width="60%" valign="top">
+
 I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
 
 - 🎓 **Student** at Holberton School
@@ -15,6 +20,22 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 - 🌱 **Currently Learning**: Python, JavaScript, SQL
 - 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
 - 🤝 **Collaboration**: Always open to interesting projects!
+
+</td>
+<td width="40%" align="center">
+
+<img src="https://avatars.githubusercontent.com/u/YourGitHubUserID?v=4" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 3px solid #36BCF7; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+
+<br><br>
+
+**💼 Software Developer in Training**  
+**🎓 Holberton School Student**  
+**🌍 France**
+
+</td>
+</tr>
+</table>
+</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
