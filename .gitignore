@@ -1,0 +1,31 @@
+# Fichiers de cache et temporaires
+*.log
+*.tmp
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Stats temporaires
+stats_update.md
+*.backup
+
+# Clés et secrets (au cas où)
+*.key
+*.pem
+config.json
+secrets.json

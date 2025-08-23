@@ -143,6 +143,8 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 ![GitHub User's stars](https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=for-the-badge&logo=star&color=FFD700&labelColor=0D1117)
 ![GitHub followers](https://img.shields.io/github/followers/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117)
+![GitHub repositories](https://img.shields.io/badge/dynamic/json?logo=github&style=for-the-badge&color=1F6FEB&labelColor=0D1117&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud)
+![Profile views](https://komarev.com/ghpvc/?username=Krapaud&style=for-the-badge&color=58A6FF&labelColor=0D1117)
 ![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=1F6FEB&labelColor=0D1117)
 
 </div>
@@ -172,6 +174,77 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 </td>
 </tr>
 </table>
+
+### 📊 **Métriques en Temps Réel**
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+#### 🔥 **Activité GitHub**
+
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=24&card_width=400" alt="GitHub Stats Real-time"/>
+
+<br>
+
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117)
+
+</td>
+<td align="center" width="50%">
+
+#### 📈 **Statistiques Détaillées**
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400" alt="Most Used Languages"/>
+
+<br>
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=Activité%20des%20Contributions)
+
+</td>
+</tr>
+</table>
+
+#### 🎯 **Badges de Performance**
+
+![Commits this year](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Commits%20%282025%29&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3AKrapaud%2Bauthor-date%3A2025-01-01..2025-12-31&style=for-the-badge&logo=git&labelColor=0D1117)
+![Years on GitHub](https://img.shields.io/badge/dynamic/json?color=blue&label=Années%20sur%20GitHub&query=%24.years&url=https%3A%2F%2Fapi.github.com%2Fusers%2FKrapaud&style=for-the-badge&logo=github&labelColor=0D1117)
+![Last commit](https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117)
+
+<br>
+
+<div align="center">
+<sub>🔄 <em>Mis à jour automatiquement • Dernière synchronisation: <!--STATS_UPDATE_TIME-->23/08/2025 à 13:54 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+</div>
+
+</div>
+
+
+### 📊 **Statistiques GitHub Détaillées**
+
+<div align="center">
+
+| 📈 **Métrique** | 📊 **Valeur** | 🎯 **Détails** |
+|:---|:---:|:---|
+| 📚 **Repositories publics** | **13** | Projets open source |
+| ⭐ **Total des étoiles** | **2** | Reconnaissance communauté |
+| 🍴 **Total des forks** | **0** | Projets dupliqués |
+| 👥 **Followers** | **4** | Communauté GitHub |
+| 👤 **Following** | **7** | Développeurs suivis |
+| 📅 **Jours sur GitHub** | **2111** | Ancienneté du compte |
+
+#### 🌐 **Langages Principaux**
+![C](https://img.shields.io/badge/C-5%20repos-blue?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-3%20repos-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-1%20repos-blue?style=flat-square) 
+
+<br>
+
+<sub>🤖 <em>Statistiques générées automatiquement • Dernière mise à jour: 23/08/2025 à 13:54 UTC</em></sub>
+
+</div>
+
+---
+
 
 <!-- Alternative aux trophées avec des icônes personnalisées -->
 <div style="margin: 20px 0;">
