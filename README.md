@@ -469,63 +469,6 @@ I'm a passionate developer and student at **Holberton School**, specialized in l
 
 ## 🏆 Featured Projects
 
-## 🏆 Featured Projects
-
-### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
-
-</div>
-
-<br>
-
-<!-- Section de progression et objectifs -->
-<div style="background: linear-gradient(45deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 15px; padding: 30px; margin: 30px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
-
-### 🎯 **Current Progress & Goals**
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 20px 0;">
-
-<div style="text-align: center;">
-  <h4 style="color: #58A6FF; margin-bottom: 15px;">🏅 Current Level</h4>
-  <img src="https://img.shields.io/badge/LEVEL-ADVANCED%20BEGINNER-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Current Level"/>
-  <br><br>
-  <p style="color: #666; margin: 10px 0;">Solid foundations in systems programming</p>
-  <div style="background: rgba(34, 197, 94, 0.1); border-radius: 8px; padding: 10px; margin-top: 10px;">
-    <small><strong>Strengths:</strong> C, Shell, Algorithms, Data Structures</small>
-  </div>
-</div>
-
-<div style="text-align: center;">
-  <h4 style="color: #FF6B6B; margin-bottom: 15px;">🎯 Target Goal</h4>
-  <img src="https://img.shields.io/badge/TARGET-FULL%20STACK%20DEVELOPER-orange?style=for-the-badge&logo=rocket&logoColor=white" alt="Target Goal"/>
-  <br><br>
-  <p style="color: #666; margin: 10px 0;">Complete developer with modern tech stack</p>
-  <div style="background: rgba(255, 107, 107, 0.1); border-radius: 8px; padding: 10px; margin-top: 10px;">
-    <small><strong>Next:</strong> Python, JavaScript, Web Development</small>
-  </div>
-</div>
-
-</div>
-
-<!-- Badges d'expertise -->
-<div style="text-align: center; margin: 25px 0;">
-  <h4 style="color: #58A6FF; margin-bottom: 15px;">🌟 Expertise Badges</h4>
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target&logoColor=white" alt="Problem Solver"/>
-    <img src="https://img.shields.io/badge/💡-Innovator-yellow?style=flat-square&logo=lightbulb&logoColor=white" alt="Innovator"/>
-    <img src="https://img.shields.io/badge/🔧-Code%20Craftsman-blue?style=flat-square&logo=tools&logoColor=white" alt="Code Craftsman"/>
-    <img src="https://img.shields.io/badge/📖-Continuous%20Learner-purple?style=flat-square&logo=book&logoColor=white" alt="Continuous Learner"/>
-    <img src="https://img.shields.io/badge/🌟-Rising%20Star-orange?style=flat-square&logo=star&logoColor=white" alt="Rising Star"/>
-  </div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-## 🏆 Featured Projects
-
 ### 🖨️ [Printf Implementation](https://github.com/Krapaud/holbertonschool-printf)
 > **Complete re-implementation of the printf function in C**
 > 
