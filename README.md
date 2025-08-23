@@ -1,7 +1,101 @@
-# Krapaud - Software Dev<td width="40%" align="center">
+# Krapaud - Software Developer
 
 <div align="center">
-  <img src="https:/## 📊 GitHub Statistics
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
+</div>
+
+<br><br>
+
+## 🚀 About Me
+
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; overflow: hidden;">
+<tr>
+<td width="60%" valign="top" style="padding: 30px;">
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
+</div>
+
+I'm a passionate developer and student at **Holberton School**, specialized in low-level programming and modern technologies. I love solving complex problems and creating elegant solutions.
+
+<br>
+
+#### 🎯 **Quick Facts**
+- 🎓 **Student** at Holberton School
+- 💻 **Specializations**: C Programming, Data Structures, Algorithms
+- 🌱 **Currently Learning**: Python, JavaScript, SQL
+- 🎯 **Goal**: Become a Full-Stack Developer or Cybersecurity Expert!
+- 🤝 **Collaboration**: Always open to interesting projects!
+
+<br>
+
+#### 📊 **Skills Progress**
+![C Programming](https://img.shields.io/badge/C_Programming-90%25-brightgreen?style=flat-square&logo=c&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-80%25-yellowgreen?style=flat-square&logo=codeigniter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-70%25-yellow?style=flat-square&logo=python&logoColor=white)
+
+</div>
+
+</td>
+<td width="40%" align="center" style="padding: 30px;">
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 25px; border: 1px solid rgba(255,255,255,0.2);">
+
+<img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="180" style="border-radius: 50%; border: 4px solid #36BCF7; box-shadow: 0 8px 25px rgba(54, 188, 247, 0.4); transition: transform 0.3s ease;" />
+
+<br><br>
+
+<div style="text-align: center;">
+
+**💼 Software Developer in Training**  
+**🎓 Holberton School Student**  
+**🌍 France** 🇫🇷
+
+<br>
+
+<div style="display: inline-block; margin: 10px 0;">
+<img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=for-the-badge&logo=rocket&logoColor=white" alt="Status"/>
+</div>
+
+<br>
+
+</div>
+
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+## 🛠️ Technologies & Tools
+
+<div align="center">
+
+### Programming Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+</div>
+
+## 📊 GitHub Statistics
 
 <div align="center">
 
