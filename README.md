@@ -1,7 +1,9 @@
 # Krapaud - Développeur en Formation
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Développeur+Full+Stack;Étudiant+Holberton+School;Passionné+de+Programmation;Toujours+en+apprentissage" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.hero![Printf Forks](https://img.shields.io/github/forks/Krapaud/holbertonschool-printf?style=for-the-badge&logo=git&color=8A2BE2)
+
+</div>Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Développeur+Full+Stack;Étudiant+Holberton+School;Passionné+de+Programmation;Toujours+en+apprentissage" alt="Typing SVG" />
 </div>
 
 ## 🚀 À propos de moi
@@ -217,18 +219,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Krapaud&color=blueviolet&style=for-the-badge" alt="Profile Views" />
   
-  <!-- Badges simples et fiables -->
-  <br><br>
-  <img src="https://img.shields.io/badge/⭐%20Stars-En%20développement-FFD700?style=for-the-badge&logo=star" alt="GitHub Stars" />
-  <img src="https://img.shields.io/badge/👥%20Followers-Communauté%20croissante-4A90E2?style=for-the-badge&logo=github" alt="GitHub Followers" />
-  
-  <br>
-  <img src="https://img.shields.io/badge/🖨️%20Printf-Projet%20terminé-28A745?style=for-the-badge&logo=c" alt="Printf Project" />
-  <img src="https://img.shields.io/badge/🐚%20Shell-Projet%20terminé-FFA500?style=for-the-badge&logo=gnu-bash" alt="Shell Project" />
-  
-  <br><br>
   **💻 "Code with passion, learn with curiosity" 🌟**
 </div>
 
