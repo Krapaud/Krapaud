@@ -61,7 +61,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 > - 📚 Documentation complète avec page de manuel
 > - 🧪 Tests complets et comparaison avec printf standard
 
-### 🐚 [Simple Shell](https://github.com/Krapaud/holbertonschool-simple_shell)
+### 🐚 [Simple Shell](https://github.com/Krapaud/holberton-simple_shell)
 > **Shell Unix minimaliste en C**
 > 
 > - 💻 Interpréteur de commandes interactif
@@ -104,7 +104,7 @@ Je suis un développeur passionné et étudiant à **Holberton School**, spécia
 <div align="center">
 
 [![Printf Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holbertonschool-printf&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holbertonschool-printf)
-[![Simple Shell Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holbertonschool-simple_shell&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holbertonschool-simple_shell)
+[![Simple Shell Repo](https://github-readme-stats.vercel.app/api/pin/?username=Krapaud&repo=holberton-simple_shell&theme=tokyonight&hide_border=true)](https://github.com/Krapaud/holberton-simple_shell)
 
 </div>
 
