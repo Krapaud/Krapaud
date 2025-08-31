@@ -1,113 +1,127 @@
 #!/usr/bin/env python3
 """
-Script pour mettre à jour automatiquement les statistiques GitHub dans le README.md
-Usage: python3 update_stats.py
+GitHub Stats Auto-Updater - Version complète
+Automatically updates GitHub statistics in README.md and stats.json
 """
 
+import os
 import json
-import re
+import subprocess
 import requests
 from datetime import datetime
-import os
-import sys
+import re
 
-def get_github_stats(username):
-    """Récupère les statistiques GitHub pour un utilisateur donné"""
-    
-    base_url = "https://api.github.com"
-    
-    try:
-        # Informations utilisateur
-        user_response = requests.get(f"{base_url}/users/{username}")
-        user_data = user_response.json()
+class GitHubStatsUpdater:
+    def __init__(self, username="Krapaud"):
+        self.username = username
+        self.base_path = "/home/krapaud"
+        self.profile_path = "/home/krapaud/Krapaud"
+        self.stats = {}
         
-        # Repositories
-        repos_response = requests.get(f"{base_url}/users/{username}/repos?per_page=100")
-        repos_data = repos_response.json()
+    def get_git_repos(self):
+        """Find all git repositories"""
+        repos = []
+        for item in os.listdir(self.base_path):
+            repo_path = os.path.join(self.base_path, item)
+            if os.path.isdir(repo_path) and os.path.exists(os.path.join(repo_path, ".git")):
+                repos.append({"name": item, "path": repo_path})
+        return repos
+    
+    def count_commits_2025(self, repo_path):
+        """Count commits in 2025 for a repository"""
+        try:
+            result = subprocess.run(
+                ["git", "-C", repo_path, "log", "--oneline", "--since=2025-01-01"],
+                capture_output=True, text=True
+            )
+            return len(result.stdout.strip().split('\n')) if result.stdout.strip() else 0
+        except:
+            return 0
+    
+    def collect_stats(self):
+        """Collect all statistics"""
+        print("🔍 Collecting GitHub statistics...")
         
-        # Calcul des statistiques
-        stats = {
-            'username': username,
-            'public_repos': user_data.get('public_repos', 0),
-            'followers': user_data.get('followers', 0),
-            'following': user_data.get('following', 0),
-            'created_at': user_data.get('created_at', ''),
-            'total_stars': sum(repo.get('stargazers_count', 0) for repo in repos_data if isinstance(repos_data, list)),
-            'total_forks': sum(repo.get('forks_count', 0) for repo in repos_data if isinstance(repos_data, list)),
-            'languages': {}
+        repos = self.get_git_repos()
+        total_commits_2025 = 0
+        
+        for repo in repos:
+            print(f"  📂 Analyzing {repo['name']}...")
+            commits_2025 = self.count_commits_2025(repo['path'])
+            total_commits_2025 += commits_2025
+        
+        self.stats = {
+            "last_updated": datetime.now().strftime("%d/%m/%Y à %H:%M UTC"),
+            "total_repos": len(repos),
+            "commits_2025": total_commits_2025
         }
         
-        # Calcul du nombre de jours depuis la création
-        if stats['created_at']:
-            from datetime import datetime
-            created_date = datetime.strptime(stats['created_at'][:10], '%Y-%m-%d')
-            days_since_creation = (datetime.now() - created_date).days
-            stats['days_on_github'] = days_since_creation
-        
-        # Langages les plus utilisés
-        if isinstance(repos_data, list):
-            for repo in repos_data:
-                if repo.get('language'):
-                    lang = repo['language']
-                    stats['languages'][lang] = stats['languages'].get(lang, 0) + 1
-        
-        return stats
-        
-    except Exception as e:
-        print(f"Erreur lors de la récupération des statistiques: {e}")
-        return None
-
-def update_readme_stats(stats):
-    """Met à jour le README.md avec les nouvelles statistiques"""
+        print(f"✅ Stats collected: {total_commits_2025} commits in 2025, {len(repos)} repos")
+        return self.stats
     
-    try:
-        # Lire le fichier README actuel
-        with open('README.md', 'r', encoding='utf-8') as f:
+    def save_stats_json(self):
+        """Save statistics to JSON file"""
+        stats_file = os.path.join(self.profile_path, "stats.json")
+        with open(stats_file, 'w') as f:
+            json.dump(self.stats, f, indent=2)
+        print(f"💾 Statistics saved to {stats_file}")
+    
+    def update_readme(self):
+        """Update README.md with new statistics"""
+        readme_path = os.path.join(self.profile_path, "README.md")
+        
+        with open(readme_path, 'r') as f:
             content = f.read()
         
-        # Générer le timestamp de mise à jour
-        update_time = datetime.now().strftime('%d/%m/%Y à %H:%M UTC')
-        
-        # Mettre à jour uniquement le timestamp dans le README
+        # Update timestamp
+        new_timestamp = self.stats['last_updated']
         content = re.sub(
             r'<!--STATS_UPDATE_TIME-->.*?<!--/STATS_UPDATE_TIME-->',
-            f'<!--STATS_UPDATE_TIME-->{update_time}<!--/STATS_UPDATE_TIME-->',
+            f'<!--STATS_UPDATE_TIME-->{new_timestamp}<!--/STATS_UPDATE_TIME-->',
             content
         )
         
-        # Écrire le nouveau contenu
-        with open('README.md', 'w', encoding='utf-8') as f:
+        # Update commit count
+        content = re.sub(
+            r'badge/Commits-\d+-brightgreen',
+            f"badge/Commits-{self.stats['commits_2025']}-brightgreen",
+            content
+        )
+        
+        content = re.sub(
+            r'badge/📊-\d+-blue',
+            f"badge/📊-{self.stats['commits_2025']}-blue",
+            content
+        )
+        
+        with open(readme_path, 'w') as f:
             f.write(content)
         
-        print(f"✅ README.md mis à jour avec succès!")
-        print(f"📊 Timestamp mis à jour: {update_time}")
+        print("📝 README.md updated successfully")
+    
+    def run(self):
+        """Run the complete update process"""
+        print("🚀 Starting GitHub Stats Auto-Update...")
+        print("=" * 50)
+        
+        try:
+            self.collect_stats()
+            self.save_stats_json()
+            self.update_readme()
+            
+            print("=" * 50)
+            print("✅ Auto-update completed successfully!")
+            print(f"📊 Summary:")
+            print(f"   • Total repositories: {self.stats['total_repos']}")
+            print(f"   • Commits in 2025: {self.stats['commits_2025']}")
+            print(f"   • Last updated: {self.stats['last_updated']}")
+            
+        except Exception as e:
+            print(f"❌ Error during update: {e}")
+            return False
         
         return True
-        
-    except Exception as e:
-        print(f"❌ Erreur lors de la mise à jour du README: {e}")
-        return False
-
-def main():
-    """Fonction principale"""
-    
-    username = "Krapaud"  # Remplacez par votre nom d'utilisateur GitHub
-    
-    print(f"🔄 Récupération des statistiques GitHub pour @{username}...")
-    
-    # Récupérer les statistiques
-    stats = get_github_stats(username)
-    
-    if not stats:
-        print("❌ Impossible de récupérer les statistiques GitHub")
-        sys.exit(1)
-    
-    # Mettre à jour le README
-    if update_readme_stats(stats):
-        print("🎉 Mise à jour terminée avec succès!")
-    else:
-        print("❌ Échec de la mise à jour")
-        sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    updater = GitHubStatsUpdater()
+    updater.run()

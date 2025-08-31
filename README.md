@@ -125,18 +125,18 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </tr>
 </table>
 
-<!-- Badges de performance et langages en ligne -->
+<!-- Badges de performance et langages en ligne (Auto-updated) -->
 <div style="margin: 10px 0;">
-<img src="https://img.shields.io/badge/Commits_2025-1100+-brightgreen?style=flat-square&logo=git" alt="Commits 2025"/>
-<img src="https://img.shields.io/badge/C-5_repos-00599C?style=flat-square&logo=c" alt="C"/>
-<img src="https://img.shields.io/badge/Shell-3_repos-4EAA25?style=flat-square&logo=gnu-bash" alt="Shell"/>
-<img src="https://img.shields.io/badge/Python-1_repo-3776AB?style=flat-square&logo=python" alt="Python"/>
+<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&style=flat-square&logo=git&label=Commits%202025&query=commits_2025&url=https://raw.githubusercontent.com/Krapaud/Krapaud/main/stats.json" alt="Commits 2025"/>
+<img src="https://img.shields.io/github/search/Krapaud/holbertonschool-low_level_programming/language%3AC?style=flat-square&logo=c&label=C&color=00599C" alt="C"/>
+<img src="https://img.shields.io/github/search/Krapaud/holbertonschool-shell/language%3AShell?style=flat-square&logo=gnu-bash&label=Shell&color=4EAA25" alt="Shell"/>
+<img src="https://img.shields.io/github/search/Krapaud/holbertonschool-printf/language%3APython?style=flat-square&logo=python&label=Python&color=3776AB" alt="Python"/>
 </div>
 </details>
 
 <!-- Footer compact -->
 <div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 06:09 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:21 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
@@ -248,14 +248,14 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **📊 Version Control Excellence**
-- 📈 **Contributions:** 1,100+ commits this year
+- 📈 **Contributions:** 802 commits this year
 - 🌿 **Branching:** Feature branches, merge strategies
 - 🔄 **Pull Requests:** Code review and collaboration
 - 📋 **Issues:** Project management and tracking
 - 🤝 **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-1100+-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-802-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -281,7 +281,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br><small><b>C Programming</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/📊-1100+-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<img src="https://img.shields.io/badge/📊-802-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
 <br><small><b>Git Contributions</b></small>
 </td>
 <td align="center" style="padding: 10px;">

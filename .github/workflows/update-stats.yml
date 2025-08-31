@@ -1,0 +1,58 @@
+name: 🔄 Auto-Update GitHub Stats
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC (8:00 AM CEST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'update_stats.py'
+      - '.github/workflows/update-stats.yml'
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    name: 📊 Update GitHub Statistics
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: 🚀 Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch all history for all branches and tags
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: 📊 Run Stats Update
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python update_stats.py
+        
+    - name: 🔧 Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: 💾 Commit and Push Changes
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Auto-update GitHub stats - $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
