@@ -37,11 +37,11 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 ![Data Structures](https://img.shields.io/badge/Data_Structures-90%25-brightgreen?style=flat-square&logo=buffer&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/Algorithms-85%25-green?style=flat-square&logo=codeigniter&logoColor=white)
 ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-80%25-green?style=flat-square&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-75%25-yellowgreen?style=flat-square&logo=python&logoColor=white)
-![Web Development](https://img.shields.io/badge/Web_Development-70%25-yellowgreen?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-65%25-yellow?style=flat-square&logo=javascript&logoColor=white)
-![Problem Solving](https://img.shields.io/badge/Problem_Solving-90%25-brightgreen?style=flat-square&logo=target&logoColor=white)
-![Git & Version Control](https://img.shields.io/badge/Git_&_Version_Control-85%25-green?style=flat-square&logo=git&logoColor=white)
+![Unix/Linux Systems](https://img.shields.io/badge/Unix/Linux_Systems-95%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
+![Git & Version Control](https://img.shields.io/badge/Git___Version_Control-90%25-brightgreen?style=flat-square&logo=git&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-95%25-brightgreen?style=flat-square&logo=target&logoColor=white)
+![Low-level Programming](https://img.shields.io/badge/Low-level_Programming-90%25-brightgreen?style=flat-square&logo=chip&logoColor=white)
+![Software Engineering](https://img.shields.io/badge/Software_Engineering-85%25-green?style=flat-square&logo=engineeringskills&logoColor=white)
 
 </div>
 
@@ -142,7 +142,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Footer compact -->
 <div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:57 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 20:00 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
@@ -254,14 +254,14 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **📊 Version Control Excellence**
-- 📈 **Contributions:** 809 commits this year
+- 📈 **Contributions:** 810 commits this year
 - 🌿 **Branching:** Feature branches, merge strategies
 - 🔄 **Pull Requests:** Code review and collaboration
 - 📋 **Issues:** Project management and tracking
 - 🤝 **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-809-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-810-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -287,7 +287,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br><small><b>C Programming</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/📊-809-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<img src="https://img.shields.io/badge/📊-810-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
 <br><small><b>Git Contributions</b></small>
 </td>
 <td align="center" style="padding: 10px;">

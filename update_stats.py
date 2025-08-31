@@ -177,30 +177,41 @@ class GitHubStatsUpdater:
         content = re.sub(r'badge/📊-\d+-blue', f'badge/📊-{commits_2025}-blue', content)
         content = re.sub(r'- 📈 \*\*Contributions:\*\* \d+ commits this year', f'- 📈 **Contributions:** {commits_2025} commits this year', content)
         
-        # Update skills badges
+        # Update skills badges - COMPLETE AUTO-GENERATION
         if 'skills' in self.stats:
             skills = self.stats['skills']
             
-            skill_mappings = {
-                'C Programming': ('C_Programming', 'c'),
-                'Python': ('Python', 'python'),
-                'Data Structures': ('Data_Structures', 'buffer'),
-                'Algorithms': ('Algorithms', 'codeigniter'),
-                'System Programming': ('System_Programming', 'linux'),
-                'Web Development': ('Web_Development', 'html5'),
-                'JavaScript': ('JavaScript', 'javascript'),
-                'Shell Scripting': ('Shell_Scripting', 'gnu-bash')
+            # Logo mappings for skills
+            skill_logos = {
+                'C Programming': 'c',
+                'System Programming': 'linux', 
+                'Data Structures': 'buffer',
+                'Algorithms': 'codeigniter',
+                'Shell Scripting': 'gnu-bash',
+                'Unix/Linux Systems': 'linux',
+                'Git & Version Control': 'git',
+                'Problem Solving': 'target',
+                'Low-level Programming': 'chip',
+                'Software Engineering': 'engineeringskills'
             }
             
-            for skill_name, (badge_name, logo) in skill_mappings.items():
-                if skill_name in skills:
-                    percentage = skills[skill_name]
-                    color = self.get_skill_color(percentage)
-                    
-                    # Update existing badge
-                    pattern = rf'!\[{re.escape(skill_name)}\]\([^)]+\)'
-                    replacement = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
-                    content = re.sub(pattern, replacement, content)
+            # Generate all skill badges automatically
+            skill_badges = []
+            for skill_name, percentage in skills.items():
+                color = self.get_skill_color(percentage)
+                badge_name = skill_name.replace(' ', '_').replace('&', '_')
+                logo = skill_logos.get(skill_name, 'star')
+                
+                badge = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
+                skill_badges.append(badge)
+            
+            # Replace the entire Skills Progress section
+            skills_section = '\n'.join(skill_badges)
+            
+            # Find and replace the skills progress section
+            pattern = r'#### 📊 \*\*Skills Progress\*\*\n(.*?)\n\n</div>'
+            replacement = f'#### 📊 **Skills Progress**\n{skills_section}\n\n</div>'
+            content = re.sub(pattern, replacement, content, flags=re.DOTALL)
         
         with open(readme_path, 'w') as f:
             f.write(content)
