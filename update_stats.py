@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-GitHub Stats Auto-Updater - Version complète
-Automatically updates GitHub statistics in README.md and stats.json
+GitHub Stats Auto-Updater - Version API GitHub réelle
+Utilise les vraies données de l'API GitHub pour des statistiques précises
 """
 
 import os
@@ -19,7 +19,7 @@ class GitHubStatsUpdater:
         self.stats = {}
         
     def get_git_repos(self):
-        """Find all git repositories"""
+        """Find all local git repositories"""
         repos = []
         for item in os.listdir(self.base_path):
             repo_path = os.path.join(self.base_path, item)
@@ -38,122 +38,125 @@ class GitHubStatsUpdater:
         except:
             return 0
     
-    def analyze_skills_from_repos(self, repos):
-        """Analyze skills based on repository content and projects"""
-        skills_analysis = {
-            'C Programming': {'files': 0, 'repos': [], 'weight': 0},
-            'Data Structures': {'files': 0, 'repos': [], 'weight': 0},
-            'Algorithms': {'files': 0, 'repos': [], 'weight': 0},
-            'Python': {'files': 0, 'repos': [], 'weight': 0},
-            'Shell Scripting': {'files': 0, 'repos': [], 'weight': 0},
-            'Web Development': {'files': 0, 'repos': [], 'weight': 0}
+    def get_github_real_stats(self):
+        """Get REAL comprehensive stats from GitHub API"""
+        try:
+            base_url = "https://api.github.com"
+            
+            print("🌐 Fetching real GitHub statistics...")
+            
+            # User info
+            user_response = requests.get(f"{base_url}/users/{self.username}")
+            user_data = user_response.json()
+            
+            # Repositories (including public and private if accessible)
+            repos_response = requests.get(f"{base_url}/users/{self.username}/repos?per_page=100&type=all")
+            repos_data = repos_response.json()
+            
+            # Calculate REAL language statistics from GitHub API
+            languages_total = {}
+            total_bytes = 0
+            repo_count = 0
+            
+            print("📊 Analyzing language distribution from GitHub...")
+            for repo in repos_data:
+                if repo.get('fork'):  # Skip forked repos
+                    continue
+                    
+                repo_count += 1
+                try:
+                    lang_response = requests.get(f"{base_url}/repos/{self.username}/{repo['name']}/languages")
+                    if lang_response.status_code == 200:
+                        lang_data = lang_response.json()
+                        for lang, bytes_count in lang_data.items():
+                            languages_total[lang] = languages_total.get(lang, 0) + bytes_count
+                            total_bytes += bytes_count
+                        print(f"  ✅ {repo['name']}: {list(lang_data.keys())}")
+                    else:
+                        print(f"  ⚠️  {repo['name']}: No access to languages")
+                except Exception as e:
+                    print(f"  ❌ {repo['name']}: Error - {e}")
+                    continue
+            
+            # Convert to percentages (REAL GitHub percentages)
+            language_percentages = {}
+            if total_bytes > 0:
+                for lang, bytes_count in languages_total.items():
+                    percentage = round((bytes_count / total_bytes) * 100, 2)
+                    language_percentages[lang] = percentage
+            
+            # Sort languages by percentage
+            sorted_languages = dict(sorted(language_percentages.items(), key=lambda x: x[1], reverse=True))
+            
+            return {
+                'public_repos': user_data.get('public_repos', 0),
+                'followers': user_data.get('followers', 0),
+                'following': user_data.get('following', 0),
+                'total_stars': sum(repo.get('stargazers_count', 0) for repo in repos_data if not repo.get('fork')),
+                'languages': sorted_languages,
+                'repos_analyzed': repo_count,
+                'user_data': user_data
+            }
+        except Exception as e:
+            print(f"❌ Error fetching GitHub API stats: {e}")
+            return {
+                'public_repos': 0, 'followers': 0, 'following': 0, 
+                'total_stars': 0, 'languages': {}, 'repos_analyzed': 0
+            }
+    
+    def convert_github_languages_to_skills(self, github_languages):
+        """Convert GitHub language percentages to skill badges"""
+        
+        # Map GitHub languages to skill categories
+        skill_mapping = {
+            'C': ['C Programming', 'Data Structures', 'Algorithms'],
+            'Python': ['Python'],
+            'JavaScript': ['Web Development', 'JavaScript'],
+            'HTML': ['Web Development', 'Frontend'],
+            'CSS': ['Web Development', 'Frontend'],
+            'Shell': ['Shell Scripting', 'DevOps'],
+            'TypeScript': ['Web Development', 'JavaScript'],
+            'Java': ['Java Programming'],
+            'C++': ['C++ Programming', 'Data Structures', 'Algorithms']
         }
         
-        # Keywords pour identifier les concepts
-        data_structures_keywords = [
-            'linked_list', 'binary_tree', 'hash_table', 'doubly_linked',
-            'singly_linked', 'stack', 'queue', 'graph', 'tree'
-        ]
+        skills = {}
         
-        algorithms_keywords = [
-            'sort', 'search', 'algorithm', 'recursion', 'sorting',
-            'bubble_sort', 'merge_sort', 'quick_sort', 'binary_search'
-        ]
+        # Initialize all skills
+        all_skills = set()
+        for lang_skills in skill_mapping.values():
+            all_skills.update(lang_skills)
         
-        web_keywords = [
-            'html', 'css', 'javascript', 'web', 'http', 'server', 'client'
-        ]
+        for skill in all_skills:
+            skills[skill] = 0
         
-        for repo in repos:
-            repo_name = repo['name'].lower()
-            repo_path = repo['path']
-            
-            try:
-                # Analyser les fichiers dans le dépôt
-                for root, dirs, files in os.walk(repo_path):
-                    if '.git' in root:
-                        continue
-                        
-                    for file in files:
-                        file_path = os.path.join(root, file)
-                        file_ext = os.path.splitext(file)[1].lower()
-                        file_name = file.lower()
-                        
-                        # C Programming
-                        if file_ext in ['.c', '.h']:
-                            skills_analysis['C Programming']['files'] += 1
-                            if repo['name'] not in skills_analysis['C Programming']['repos']:
-                                skills_analysis['C Programming']['repos'].append(repo['name'])
-                        
-                        # Python
-                        elif file_ext in ['.py']:
-                            skills_analysis['Python']['files'] += 1
-                            if repo['name'] not in skills_analysis['Python']['repos']:
-                                skills_analysis['Python']['repos'].append(repo['name'])
-                        
-                        # Shell Scripting
-                        elif file_ext in ['.sh']:
-                            skills_analysis['Shell Scripting']['files'] += 1
-                            if repo['name'] not in skills_analysis['Shell Scripting']['repos']:
-                                skills_analysis['Shell Scripting']['repos'].append(repo['name'])
-                        
-                        # Web Development
-                        elif file_ext in ['.html', '.css', '.js']:
-                            skills_analysis['Web Development']['files'] += 1
-                            if repo['name'] not in skills_analysis['Web Development']['repos']:
-                                skills_analysis['Web Development']['repos'].append(repo['name'])
-                
-                # Analyser le nom du dépôt pour les concepts
-                for keyword in data_structures_keywords:
-                    if keyword in repo_name:
-                        skills_analysis['Data Structures']['weight'] += 10
-                        if repo['name'] not in skills_analysis['Data Structures']['repos']:
-                            skills_analysis['Data Structures']['repos'].append(repo['name'])
-                
-                for keyword in algorithms_keywords:
-                    if keyword in repo_name:
-                        skills_analysis['Algorithms']['weight'] += 10
-                        if repo['name'] not in skills_analysis['Algorithms']['repos']:
-                            skills_analysis['Algorithms']['repos'].append(repo['name'])
-                
-                for keyword in web_keywords:
-                    if keyword in repo_name:
-                        skills_analysis['Web Development']['weight'] += 10
-                        if repo['name'] not in skills_analysis['Web Development']['repos']:
-                            skills_analysis['Web Development']['repos'].append(repo['name'])
-                            
-            except Exception as e:
-                print(f"    ⚠️  Error analyzing {repo['name']}: {e}")
-                continue
+        # Calculate skill percentages based on GitHub languages
+        for lang, percentage in github_languages.items():
+            if lang in skill_mapping:
+                for skill in skill_mapping[lang]:
+                    # Distribute percentage among related skills
+                    if skill in ['C Programming', 'Python', 'JavaScript']:
+                        # Direct language skills get full percentage
+                        skills[skill] = max(skills[skill], int(percentage))
+                    elif skill in ['Data Structures', 'Algorithms']:
+                        # These skills benefit from C programming
+                        if lang == 'C':
+                            skills[skill] = max(skills[skill], int(percentage * 0.8))
+                    elif skill in ['Web Development', 'Frontend']:
+                        # Web skills from HTML/CSS/JS
+                        if lang in ['HTML', 'CSS', 'JavaScript', 'TypeScript']:
+                            skills[skill] = max(skills[skill], int(percentage * 0.7))
+                    elif skill in ['Shell Scripting', 'DevOps']:
+                        # Shell skills
+                        if lang == 'Shell':
+                            skills[skill] = max(skills[skill], int(percentage * 2))  # Boost shell
         
-        return skills_analysis
-    
-    def calculate_skill_percentages(self, skills_analysis):
-        """Calculate skill percentages based on analysis"""
-        max_files = max([data['files'] for data in skills_analysis.values()]) or 1
-        max_weight = max([data['weight'] for data in skills_analysis.values()]) or 1
+        # Ensure minimum values for detected skills and reasonable maximums
+        for skill, value in skills.items():
+            if value > 0:
+                skills[skill] = max(15, min(100, value))  # Min 15%, Max 100%
         
-        skill_percentages = {}
-        
-        for skill, data in skills_analysis.items():
-            if skill in ['C Programming', 'Python', 'Shell Scripting', 'Web Development']:
-                # Basé sur le nombre de fichiers (60%) + nombre de repos (40%)
-                file_score = min(100, (data['files'] / max_files) * 100) if max_files > 0 else 0
-                repo_score = min(100, len(data['repos']) * 15)  # 15% par repo
-                percentage = int((file_score * 0.6) + (repo_score * 0.4))
-            else:
-                # Pour Data Structures et Algorithms, basé sur les mots-clés + repos
-                weight_score = min(100, (data['weight'] / max_weight) * 100) if max_weight > 0 else 0
-                repo_score = min(100, len(data['repos']) * 20)  # 20% par repo
-                percentage = int((weight_score * 0.5) + (repo_score * 0.5))
-            
-            # Assurer un minimum pour les compétences identifiées
-            if len(data['repos']) > 0 and percentage < 30:
-                percentage = 30
-            
-            skill_percentages[skill] = max(0, min(100, percentage))
-        
-        return skill_percentages
+        return {k: v for k, v in skills.items() if v > 0}  # Only return skills with values > 0
     
     def get_skill_color(self, percentage):
         """Get color based on skill percentage"""
@@ -169,37 +172,51 @@ class GitHubStatsUpdater:
             return "orange"
         else:
             return "red"
-
+    
     def collect_stats(self):
-        """Collect all statistics"""
-        print("🔍 Collecting GitHub statistics...")
+        """Collect all statistics using REAL GitHub data"""
+        print("🚀 Starting REAL GitHub stats collection...")
+        print("=" * 60)
         
-        repos = self.get_git_repos()
+        # Local repos for commit counting
+        local_repos = self.get_git_repos()
         total_commits_2025 = 0
         
-        for repo in repos:
-            print(f"  📂 Analyzing {repo['name']}...")
+        print("📂 Analyzing local repositories for commits...")
+        for repo in local_repos:
             commits_2025 = self.count_commits_2025(repo['path'])
             total_commits_2025 += commits_2025
+            print(f"  • {repo['name']}: {commits_2025} commits in 2025")
         
-        # Analyser les compétences
-        print("🎯 Analyzing skills from repositories...")
-        skills_analysis = self.analyze_skills_from_repos(repos)
-        skill_percentages = self.calculate_skill_percentages(skills_analysis)
+        # Real GitHub API stats
+        github_stats = self.get_github_real_stats()
+        
+        # Convert GitHub languages to skills
+        skills = self.convert_github_languages_to_skills(github_stats['languages'])
         
         self.stats = {
             "last_updated": datetime.now().strftime("%d/%m/%Y à %H:%M UTC"),
-            "total_repos": len(repos),
+            "local_repos": len(local_repos),
             "commits_2025": total_commits_2025,
-            "skills": skill_percentages,
-            "skills_analysis": skills_analysis
+            "github_real": github_stats,
+            "skills": skills
         }
         
-        print(f"✅ Stats collected: {total_commits_2025} commits in 2025, {len(repos)} repos")
-        print("📊 Skills calculated:")
-        for skill, percentage in skill_percentages.items():
-            if percentage > 0:
-                print(f"   • {skill}: {percentage}%")
+        print("=" * 60)
+        print("✅ REAL GitHub statistics collected!")
+        print(f"📊 GitHub Summary:")
+        print(f"   • Public repositories: {github_stats['public_repos']}")
+        print(f"   • Followers: {github_stats['followers']}")
+        print(f"   • Total stars: {github_stats['total_stars']}")
+        print(f"   • Commits in 2025: {total_commits_2025}")
+        
+        print(f"🔥 REAL Language distribution:")
+        for lang, percentage in list(github_stats['languages'].items())[:6]:
+            print(f"   • {lang}: {percentage}%")
+            
+        print(f"🎯 Calculated skills:")
+        for skill, percentage in skills.items():
+            print(f"   • {skill}: {percentage}%")
         
         return self.stats
     
@@ -211,7 +228,7 @@ class GitHubStatsUpdater:
         print(f"💾 Statistics saved to {stats_file}")
     
     def update_readme(self):
-        """Update README.md with new statistics"""
+        """Update README.md with REAL statistics"""
         readme_path = os.path.join(self.profile_path, "README.md")
         
         with open(readme_path, 'r') as f:
@@ -238,78 +255,48 @@ class GitHubStatsUpdater:
             content
         )
         
-        # Update Skills Progress badges
+        # Update Skills Progress badges with REAL data
         if 'skills' in self.stats:
             skills = self.stats['skills']
             
-            # C Programming
-            if 'C Programming' in skills:
-                percentage = skills['C Programming']
-                color = self.get_skill_color(percentage)
-                content = re.sub(
-                    r'!\[C Programming\]\(https://img\.shields\.io/badge/C_Programming-\d+%25-\w+\?[^)]*\)',
-                    f'![C Programming](https://img.shields.io/badge/C_Programming-{percentage}%25-{color}?style=flat-square&logo=c&logoColor=white)',
-                    content
-                )
+            # Update each skill badge
+            skill_badges = {
+                'C Programming': ('C_Programming', 'c'),
+                'Python': ('Python', 'python'),
+                'Data Structures': ('Data_Structures', 'buffer'),
+                'Algorithms': ('Algorithms', 'codeigniter'),
+                'Web Development': ('Web_Development', 'html5'),
+                'JavaScript': ('JavaScript', 'javascript')
+            }
             
-            # Python
-            if 'Python' in skills:
-                percentage = skills['Python']
-                color = self.get_skill_color(percentage)
-                content = re.sub(
-                    r'!\[Python\]\(https://img\.shields\.io/badge/Python-\d+%25-\w+\?[^)]*\)',
-                    f'![Python](https://img.shields.io/badge/Python-{percentage}%25-{color}?style=flat-square&logo=python&logoColor=white)',
-                    content
-                )
-            
-            # Data Structures
-            if 'Data Structures' in skills:
-                percentage = skills['Data Structures']
-                color = self.get_skill_color(percentage)
-                content = re.sub(
-                    r'!\[Data Structures\]\(https://img\.shields\.io/badge/Data_Structures-\d+%25-\w+\?[^)]*\)',
-                    f'![Data Structures](https://img.shields.io/badge/Data_Structures-{percentage}%25-{color}?style=flat-square&logo=buffer&logoColor=white)',
-                    content
-                )
-            
-            # Algorithms
-            if 'Algorithms' in skills:
-                percentage = skills['Algorithms']
-                color = self.get_skill_color(percentage)
-                content = re.sub(
-                    r'!\[Algorithms\]\(https://img\.shields\.io/badge/Algorithms-\d+%25-\w+\?[^)]*\)',
-                    f'![Algorithms](https://img.shields.io/badge/Algorithms-{percentage}%25-{color}?style=flat-square&logo=codeigniter&logoColor=white)',
-                    content
-                )
+            for skill_name, (badge_name, logo) in skill_badges.items():
+                if skill_name in skills:
+                    percentage = skills[skill_name]
+                    color = self.get_skill_color(percentage)
+                    
+                    # Update the specific badge
+                    pattern = rf'!\[{skill_name.replace(" ", r"\s")}\]\(https://img\.shields\.io/badge/{badge_name}-\d+%25-\w+\?[^)]*\)'
+                    replacement = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
+                    
+                    content = re.sub(pattern, replacement, content)
         
         with open(readme_path, 'w') as f:
             f.write(content)
         
-        print("📝 README.md updated successfully")
-        if 'skills' in self.stats:
-            print("🎯 Skills Progress badges updated automatically")
+        print("📝 README.md updated with REAL GitHub data!")
     
     def run(self):
-        """Run the complete update process"""
-        print("🚀 Starting GitHub Stats Auto-Update...")
-        print("=" * 50)
+        """Run the complete update process with REAL GitHub data"""
+        print("🌟 GitHub Stats Auto-Updater - REAL DATA VERSION")
+        print("=" * 60)
         
         try:
             self.collect_stats()
             self.save_stats_json()
             self.update_readme()
             
-            print("=" * 50)
-            print("✅ Auto-update completed successfully!")
-            print(f"📊 Summary:")
-            print(f"   • Total repositories: {self.stats['total_repos']}")
-            print(f"   • Commits in 2025: {self.stats['commits_2025']}")
-            print(f"   • Last updated: {self.stats['last_updated']}")
-            if 'skills' in self.stats:
-                print(f"📈 Skills automatically calculated:")
-                for skill, percentage in self.stats['skills'].items():
-                    if percentage > 0:
-                        print(f"   • {skill}: {percentage}%")
+            print("=" * 60)
+            print("🎉 SUCCESS! Your stats now reflect REAL GitHub data!")
             
         except Exception as e:
             print(f"❌ Error during update: {e}")

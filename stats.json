@@ -1,61 +1,68 @@
 {
-  "last_updated": "31/08/2025 \u00e0 19:27 UTC",
-  "total_repos": 9,
-  "commits_2025": 803,
-  "skills": {
-    "C Programming": 96,
-    "Data Structures": 43,
-    "Algorithms": 60,
-    "Python": 30,
-    "Shell Scripting": 30,
-    "Web Development": 0
-  },
-  "skills_analysis": {
-    "C Programming": {
-      "files": 237,
-      "repos": [
-        "holberton-simple_shell",
-        "holbertonschool-zero_day",
-        "holbertonschool-printf",
-        "holbertonschool-binary_trees",
-        "holbertonschool-low_level_programming",
-        "holbertonschool-sorting_algorithms"
-      ],
-      "weight": 0
+  "last_updated": "31/08/2025 \u00e0 19:32 UTC",
+  "local_repos": 9,
+  "commits_2025": 804,
+  "github_real": {
+    "public_repos": 16,
+    "followers": 4,
+    "following": 7,
+    "total_stars": 5,
+    "languages": {
+      "Python": 28.52,
+      "JavaScript": 25.02,
+      "HTML": 21.15,
+      "C": 11.54,
+      "CSS": 11.5,
+      "Shell": 1.61,
+      "Makefile": 0.54,
+      "Dockerfile": 0.11
     },
-    "Data Structures": {
-      "files": 0,
-      "repos": [
-        "holbertonschool-binary_trees"
-      ],
-      "weight": 20
-    },
-    "Algorithms": {
-      "files": 0,
-      "repos": [
-        "holbertonschool-sorting_algorithms"
-      ],
-      "weight": 30
-    },
-    "Python": {
-      "files": 2,
-      "repos": [
-        "Krapaud"
-      ],
-      "weight": 0
-    },
-    "Shell Scripting": {
-      "files": 3,
-      "repos": [
-        "holberton-simple_shell",
-        "Krapaud"
-      ],
-      "weight": 0
-    },
-    "Web Development": {
-      "files": 0,
-      "repos": [],
-      "weight": 0
+    "repos_analyzed": 17,
+    "user_data": {
+      "login": "Krapaud",
+      "id": 57646714,
+      "node_id": "MDQ6VXNlcjU3NjQ2NzE0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57646714?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Krapaud",
+      "html_url": "https://github.com/Krapaud",
+      "followers_url": "https://api.github.com/users/Krapaud/followers",
+      "following_url": "https://api.github.com/users/Krapaud/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Krapaud/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Krapaud/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Krapaud/subscriptions",
+      "organizations_url": "https://api.github.com/users/Krapaud/orgs",
+      "repos_url": "https://api.github.com/users/Krapaud/repos",
+      "events_url": "https://api.github.com/users/Krapaud/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Krapaud/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Krapaud",
+      "company": null,
+      "blog": "",
+      "location": "France",
+      "email": null,
+      "hireable": null,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 16,
+      "public_gists": 0,
+      "followers": 4,
+      "following": 7,
+      "created_at": "2019-11-12T00:24:05Z",
+      "updated_at": "2025-08-25T10:28:54Z"
     }
+  },
+  "skills": {
+    "Algorithms": 15,
+    "Data Structures": 15,
+    "DevOps": 15,
+    "C Programming": 15,
+    "Python": 28,
+    "JavaScript": 25,
+    "Frontend": 15,
+    "Web Development": 17,
+    "Shell Scripting": 15
   }
 }
