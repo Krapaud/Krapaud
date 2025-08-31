@@ -32,10 +32,10 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 #### 📊 **Skills Progress**
-![C Programming](https://img.shields.io/badge/C_Programming-90%25-brightgreen?style=flat-square&logo=c&logoColor=white)
-![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
-![Algorithms](https://img.shields.io/badge/Algorithms-80%25-yellowgreen?style=flat-square&logo=codeigniter&logoColor=white)
-![Python](https://img.shields.io/badge/Python-70%25-yellow?style=flat-square&logo=python&logoColor=white)
+![C Programming](https://img.shields.io/badge/C_Programming-96%25-brightgreen?style=flat-square&logo=c&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data_Structures-43%25-red?style=flat-square&logo=buffer&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-60%25-yellow?style=flat-square&logo=codeigniter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-30%25-red?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
@@ -136,7 +136,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Footer compact -->
 <div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:21 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:27 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
@@ -255,7 +255,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - 🤝 **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-802-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-803-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -281,7 +281,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br><small><b>C Programming</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/📊-802-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<img src="https://img.shields.io/badge/📊-803-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
 <br><small><b>Git Contributions</b></small>
 </td>
 <td align="center" style="padding: 10px;">

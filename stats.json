@@ -1,5 +1,61 @@
 {
-  "last_updated": "31/08/2025 \u00e0 19:21 UTC",
+  "last_updated": "31/08/2025 \u00e0 19:27 UTC",
   "total_repos": 9,
-  "commits_2025": 802
+  "commits_2025": 803,
+  "skills": {
+    "C Programming": 96,
+    "Data Structures": 43,
+    "Algorithms": 60,
+    "Python": 30,
+    "Shell Scripting": 30,
+    "Web Development": 0
+  },
+  "skills_analysis": {
+    "C Programming": {
+      "files": 237,
+      "repos": [
+        "holberton-simple_shell",
+        "holbertonschool-zero_day",
+        "holbertonschool-printf",
+        "holbertonschool-binary_trees",
+        "holbertonschool-low_level_programming",
+        "holbertonschool-sorting_algorithms"
+      ],
+      "weight": 0
+    },
+    "Data Structures": {
+      "files": 0,
+      "repos": [
+        "holbertonschool-binary_trees"
+      ],
+      "weight": 20
+    },
+    "Algorithms": {
+      "files": 0,
+      "repos": [
+        "holbertonschool-sorting_algorithms"
+      ],
+      "weight": 30
+    },
+    "Python": {
+      "files": 2,
+      "repos": [
+        "Krapaud"
+      ],
+      "weight": 0
+    },
+    "Shell Scripting": {
+      "files": 3,
+      "repos": [
+        "holberton-simple_shell",
+        "Krapaud"
+      ],
+      "weight": 0
+    },
+    "Web Development": {
+      "files": 0,
+      "repos": [],
+      "weight": 0
+    }
+  }
 }
