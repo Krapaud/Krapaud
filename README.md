@@ -33,9 +33,9 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 #### 📊 **Skills Progress**
 ![C Programming](https://img.shields.io/badge/C_Programming-100%25-brightgreen?style=flat-square&logo=c&logoColor=white)
-![Data Structures](https://img.shields.io/badge/Data_Structures-75%25-yellowgreen?style=flat-square&logo=buffer&logoColor=white)
-![Algorithms](https://img.shields.io/badge/Algorithms-70%25-yellowgreen?style=flat-square&logo=codeigniter&logoColor=white)
-![Python](https://img.shields.io/badge/Python-70%25-yellowgreen?style=flat-square&logo=python&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Algorithms-80%25-green?style=flat-square&logo=codeigniter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-75%25-yellowgreen?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
@@ -82,7 +82,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="margin: 15px 0;">
 <img src="https://img.shields.io/github/followers/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Followers"/>
 <img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=flat-square&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
-<img src="https://img.shields.io/badge/Repos-13-1F6FEB?style=flat-square&logo=github&labelColor=0D1117" alt="Repositories"/>
+<img src="https://img.shields.io/badge/Repos-11-1F6FEB?style=flat-square&logo=github&labelColor=0D1117" alt="Repositories"/>
 <img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=58A6FF&labelColor=0D1117" alt="Views"/>
 <img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
 </div>
@@ -118,8 +118,8 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 <table style="width: 100%; margin: 10px 0;">
 <tr style="background: rgba(88, 166, 255, 0.1);">
-<td style="padding: 8px; text-align: center;"><strong>📚 Repos:</strong> 13</td>
-<td style="padding: 8px; text-align: center;"><strong>⭐ Stars:</strong> 2</td>
+<td style="padding: 8px; text-align: center;"><strong>📚 Repos:</strong> 11</td>
+<td style="padding: 8px; text-align: center;"><strong>⭐ Stars:</strong> 5</td>
 <td style="padding: 8px; text-align: center;"><strong>👥 Followers:</strong> 4</td>
 <td style="padding: 8px; text-align: center;"><strong>📅 Days:</strong> 2111</td>
 </tr>
@@ -136,7 +136,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Footer compact -->
 <div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:37 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->31/08/2025 à 19:49 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
@@ -248,14 +248,14 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **📊 Version Control Excellence**
-- 📈 **Contributions:** 802 commits this year
+- 📈 **Contributions:** 806 commits this year
 - 🌿 **Branching:** Feature branches, merge strategies
 - 🔄 **Pull Requests:** Code review and collaboration
 - 📋 **Issues:** Project management and tracking
 - 🤝 **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-805-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-806-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -281,7 +281,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br><small><b>C Programming</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/📊-805-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<img src="https://img.shields.io/badge/📊-806-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
 <br><small><b>Git Contributions</b></small>
 </td>
 <td align="center" style="padding: 10px;">
