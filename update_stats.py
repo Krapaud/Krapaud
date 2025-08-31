@@ -195,11 +195,12 @@ class GitHubStatsUpdater:
                 'Software Engineering': 'engineeringskills'
             }
             
-            # Generate all skill badges automatically
+            # Generate all skill badges automatically with proper encoding
             skill_badges = []
             for skill_name, percentage in skills.items():
                 color = self.get_skill_color(percentage)
-                badge_name = skill_name.replace(' ', '_').replace('&', '_')
+                # Clean badge name for URL - remove special characters
+                badge_name = skill_name.replace(' ', '_').replace('&', 'and').replace('/', '_').replace('-', '_')
                 logo = skill_logos.get(skill_name, 'star')
                 
                 badge = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
