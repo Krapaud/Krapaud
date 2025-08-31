@@ -95,147 +95,68 @@ class GitHubStatsUpdater:
                 'total_stars': sum(repo.get('stargazers_count', 0) for repo in repos_data if not repo.get('fork')),
                 'languages': sorted_languages,
                 'repos_analyzed': repo_count,
-                'repos_data': repos_data,  # Ajouter les données des repos
                 'user_data': user_data
             }
         except Exception as e:
             print(f"❌ Error fetching GitHub API stats: {e}")
             return {
                 'public_repos': 0, 'followers': 0, 'following': 0, 
-                'total_stars': 0, 'languages': {}, 'repos_analyzed': 0,
-                'repos_data': []  # Ajouter repos_data vide en cas d'erreur
+                'total_stars': 0, 'languages': {}, 'repos_analyzed': 0
             }
     
-    def evaluate_skill_expertise(self, github_languages, repos_data):
-        """Evaluate skills based on experience, complexity and knowledge depth"""
+    def convert_github_languages_to_skills(self, github_languages):
+        """Convert GitHub language percentages to skill badges"""
         
-        # Analyse des projets pour évaluer l'expertise réelle
-        project_analysis = {
-            'C Programming': {'score': 0, 'projects': [], 'complexity': []},
-            'Data Structures': {'score': 0, 'projects': [], 'complexity': []},
-            'Algorithms': {'score': 0, 'projects': [], 'complexity': []},
-            'Python': {'score': 0, 'projects': [], 'complexity': []},
-            'JavaScript': {'score': 0, 'projects': [], 'complexity': []},
-            'Web Development': {'score': 0, 'projects': [], 'complexity': []},
-            'Shell Scripting': {'score': 0, 'projects': [], 'complexity': []},
-            'System Programming': {'score': 0, 'projects': [], 'complexity': []}
+        # Map GitHub languages to skill categories
+        skill_mapping = {
+            'C': ['C Programming', 'Data Structures', 'Algorithms'],
+            'Python': ['Python'],
+            'JavaScript': ['Web Development', 'JavaScript'],
+            'HTML': ['Web Development', 'Frontend'],
+            'CSS': ['Web Development', 'Frontend'],
+            'Shell': ['Shell Scripting', 'DevOps'],
+            'TypeScript': ['Web Development', 'JavaScript'],
+            'Java': ['Java Programming'],
+            'C++': ['C++ Programming', 'Data Structures', 'Algorithms']
         }
         
-        # Analyse des projets par expertise démontré
-        for repo in repos_data:
-            if repo.get('fork'):
-                continue
-                
-            repo_name = repo['name'].lower()
-            
-            # === C PROGRAMMING & SYSTEM PROGRAMMING ===
-            if any(keyword in repo_name for keyword in ['holberton', 'low_level', 'simple_shell', 'printf']):
-                # Projets C de Holberton = expertise approfondie
-                if 'simple_shell' in repo_name:
-                    project_analysis['C Programming']['score'] += 25  # Shell = très avancé
-                    project_analysis['System Programming']['score'] += 30
-                    project_analysis['C Programming']['complexity'].append('Advanced Shell Implementation')
-                    
-                elif 'printf' in repo_name:
-                    project_analysis['C Programming']['score'] += 20  # Printf = gestion mémoire
-                    project_analysis['C Programming']['complexity'].append('Custom Printf Implementation')
-                    
-                elif 'low_level' in repo_name:
-                    project_analysis['C Programming']['score'] += 30  # Low level = expertise système
-                    project_analysis['System Programming']['score'] += 25
-                    project_analysis['C Programming']['complexity'].append('Low-Level Programming Mastery')
-                    
-                project_analysis['C Programming']['projects'].append(repo_name)
-            
-            # === DATA STRUCTURES ===
-            if any(keyword in repo_name for keyword in ['binary_tree', 'linked_list', 'hash', 'doubly']):
-                if 'binary_tree' in repo_name:
-                    project_analysis['Data Structures']['score'] += 25
-                    project_analysis['Data Structures']['complexity'].append('Binary Trees Implementation')
-                    project_analysis['Algorithms']['score'] += 15  # Les arbres = algos
-                    
-                project_analysis['Data Structures']['projects'].append(repo_name)
-            
-            # === ALGORITHMS ===
-            if any(keyword in repo_name for keyword in ['sorting', 'algorithm', 'search']):
-                project_analysis['Algorithms']['score'] += 20
-                project_analysis['Algorithms']['complexity'].append('Sorting Algorithms')
-                project_analysis['Algorithms']['projects'].append(repo_name)
-            
-            # === WEB DEVELOPMENT ===
-            if any(keyword in repo_name for keyword in ['portfolio', 'learning-game', 'holbies']):
-                if 'portfolio' in repo_name:
-                    project_analysis['Web Development']['score'] += 25
-                    project_analysis['Web Development']['complexity'].append('Portfolio Website')
-                    
-                elif 'learning-game' in repo_name:
-                    project_analysis['Web Development']['score'] += 30  # Jeu = plus complexe
-                    project_analysis['JavaScript']['score'] += 25
-                    project_analysis['Web Development']['complexity'].append('Interactive Learning Game')
-                    
-                elif 'holbies' in repo_name:
-                    project_analysis['Web Development']['score'] += 20
-                    project_analysis['Python']['score'] += 20  # Semble être Python/Web
-                    
-                project_analysis['Web Development']['projects'].append(repo_name)
-                project_analysis['JavaScript']['projects'].append(repo_name)
-            
-            # === PYTHON ===
-            if any(keyword in repo_name for keyword in ['learning_python', 'holbies']):
-                project_analysis['Python']['score'] += 15
-                project_analysis['Python']['projects'].append(repo_name)
-                if 'learning_python' in repo_name:
-                    project_analysis['Python']['complexity'].append('Python Learning Projects')
-            
-            # === SHELL SCRIPTING ===
-            if 'shell' in repo_name:
-                project_analysis['Shell Scripting']['score'] += 15
-                project_analysis['Shell Scripting']['projects'].append(repo_name)
+        skills = {}
         
-        # === BONUS D'EXPÉRIENCE HOLBERTON ===
-        # Les projets Holberton démontrent une formation rigoureuse
-        holberton_projects = len([repo for repo in repos_data if 'holberton' in repo['name'].lower()])
-        if holberton_projects >= 5:  # Beaucoup de projets Holberton
-            project_analysis['C Programming']['score'] += 20  # Bonus formation solide
-            project_analysis['Data Structures']['score'] += 15
-            project_analysis['Algorithms']['score'] += 15
-            project_analysis['System Programming']['score'] += 15
+        # Initialize all skills
+        all_skills = set()
+        for lang_skills in skill_mapping.values():
+            all_skills.update(lang_skills)
         
-        # === CALCUL FINAL DES POURCENTAGES ===
-        final_skills = {}
+        for skill in all_skills:
+            skills[skill] = 0
         
-        for skill, data in project_analysis.items():
-            base_score = data['score']
-            project_count = len(data['projects'])
-            complexity_count = len(data['complexity'])
-            
-            # Score final = base + bonus projets + bonus complexité
-            final_score = base_score + (project_count * 5) + (complexity_count * 10)
-            
-            # Ajustements spéciaux basés sur l'expertise démontrée
-            if skill == 'C Programming' and final_score > 0:
-                # Vous avez clairement une expertise C avancée (Shell, Printf, Low-level)
-                final_score = max(final_score, 80)  # Minimum 80% pour C
-                
-            elif skill == 'System Programming' and final_score > 0:
-                # Shell + Low level = expertise système
-                final_score = max(final_score, 70)
-                
-            elif skill == 'Data Structures' and 'binary_tree' in str(data['projects']):
-                # Binary trees = structures avancées
-                final_score = max(final_score, 75)
-                
-            elif skill == 'Algorithms' and final_score > 0:
-                # Sorting + structures = algo solide
-                final_score = max(final_score, 70)
-            
-            # Plafond et plancher
-            final_score = max(0, min(100, final_score))
-            
-            if final_score > 0:
-                final_skills[skill] = final_score
+        # Calculate skill percentages based on GitHub languages
+        for lang, percentage in github_languages.items():
+            if lang in skill_mapping:
+                for skill in skill_mapping[lang]:
+                    # Distribute percentage among related skills
+                    if skill in ['C Programming', 'Python', 'JavaScript']:
+                        # Direct language skills get full percentage
+                        skills[skill] = max(skills[skill], int(percentage))
+                    elif skill in ['Data Structures', 'Algorithms']:
+                        # These skills benefit from C programming
+                        if lang == 'C':
+                            skills[skill] = max(skills[skill], int(percentage * 0.8))
+                    elif skill in ['Web Development', 'Frontend']:
+                        # Web skills from HTML/CSS/JS
+                        if lang in ['HTML', 'CSS', 'JavaScript', 'TypeScript']:
+                            skills[skill] = max(skills[skill], int(percentage * 0.7))
+                    elif skill in ['Shell Scripting', 'DevOps']:
+                        # Shell skills
+                        if lang == 'Shell':
+                            skills[skill] = max(skills[skill], int(percentage * 2))  # Boost shell
         
-        return final_skills
+        # Ensure minimum values for detected skills and reasonable maximums
+        for skill, value in skills.items():
+            if value > 0:
+                skills[skill] = max(15, min(100, value))  # Min 15%, Max 100%
+        
+        return {k: v for k, v in skills.items() if v > 0}  # Only return skills with values > 0
     
     def get_skill_color(self, percentage):
         """Get color based on skill percentage"""
@@ -270,8 +191,8 @@ class GitHubStatsUpdater:
         # Real GitHub API stats
         github_stats = self.get_github_real_stats()
         
-        # Evaluate skills based on EXPERTISE and PROJECT COMPLEXITY
-        skills = self.evaluate_skill_expertise(github_stats['languages'], github_stats.get('repos_data', []))
+        # Convert GitHub languages to skills
+        skills = self.convert_github_languages_to_skills(github_stats['languages'])
         
         self.stats = {
             "last_updated": datetime.now().strftime("%d/%m/%Y à %H:%M UTC"),
@@ -293,9 +214,9 @@ class GitHubStatsUpdater:
         for lang, percentage in list(github_stats['languages'].items())[:6]:
             print(f"   • {lang}: {percentage}%")
             
-        print(f"🎯 EXPERTISE-BASED Skills calculated:")
+        print(f"🎯 Calculated skills:")
         for skill, percentage in skills.items():
-            print(f"   • {skill}: {percentage}% (based on project complexity & experience)")
+            print(f"   • {skill}: {percentage}%")
         
         return self.stats
     
