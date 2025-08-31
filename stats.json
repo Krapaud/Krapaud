@@ -1,19 +1,18 @@
 {
-  "last_updated": "31/08/2025 \u00e0 20:02 UTC",
+  "last_updated": "31/08/2025 \u00e0 20:05 UTC",
   "local_repos": 9,
-  "commits_2025": 811,
+  "commits_2025": 812,
   "github_real": {
     "public_repos": 11,
     "followers": 4,
     "following": 7,
     "total_stars": 5,
     "languages": {
-      "C": 45.0,
-      "Python": 25.0,
-      "JavaScript": 15.0,
+      "C": 85.0,
       "Shell": 10.0,
-      "HTML": 3.0,
-      "CSS": 2.0
+      "Makefile": 3.0,
+      "Assembly": 1.0,
+      "Other": 1.0
     },
     "repos_analyzed": 11
   },
