@@ -101,9 +101,9 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=20&card_width=300&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=8" alt="GitHub Stats"/>
 </td>
 
-<!-- Colonne 2: Top Languages -->
+<!-- Colonne 2: Top Languages (filtered for real skills only) -->
 <td style="width: 33%; vertical-align: top; padding: 10px;">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=4&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8&hide=python,javascript,html,css,typescript,json,dockerfile,yaml,xml&show_icons=true" alt="Top Languages"/>
 </td>
 
 <!-- Colonne 3: Streak Stats -->
