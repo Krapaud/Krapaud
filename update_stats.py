@@ -55,20 +55,20 @@ class GitHubStatsUpdater:
         }
     
     def evaluate_expertise_skills(self):
-        """Evaluate skills based on your actual expertise"""
+        """Evaluate skills based on your actual expertise and real projects"""
         
-        # Vos compétences basées sur vos projets réels et expertise
+        # Vos compétences RÉELLES basées sur vos projets analysés
         skills = {
-            'C Programming': 100,        # Expert: Shell, Printf, Low-level
-            'System Programming': 100,   # Expert: Shell implementation, système
-            'Data Structures': 85,       # Avancé: Binary trees, listes
-            'Algorithms': 80,           # Avancé: Sorting, recherche
-            'Shell Scripting': 85,      # Avancé: Multiples projets shell
-            'Python': 75,               # Solide: Projets d'apprentissage
-            'Web Development': 70,      # Bon: Portfolio, jeux
-            'JavaScript': 65,           # Bon: Frontend, interactivité
-            'Problem Solving': 90,      # Expert: Holberton challenges
-            'Git & Version Control': 85 # Avancé: Workflow développement
+            'C Programming': 100,        # Expert: 217 fichiers C, Shell, Printf, Low-level
+            'System Programming': 100,   # Expert: Shell implementation, système Unix
+            'Data Structures': 90,       # Expert: Binary trees, listes chaînées
+            'Algorithms': 85,           # Avancé: Sorting algorithms, recherche
+            'Shell Scripting': 80,      # Avancé: Scripts shell, automation
+            'Unix/Linux Systems': 95,   # Expert: Environnement complet Unix
+            'Git & Version Control': 90, # Expert: 808 commits, workflow pro
+            'Problem Solving': 95,      # Expert: Holberton challenges complexes
+            'Low-level Programming': 90, # Expert: Malloc, pointeurs, mémoire
+            'Software Engineering': 85  # Avancé: Architecture, documentation
         }
         
         return skills

@@ -1,7 +1,7 @@
 {
-  "last_updated": "31/08/2025 \u00e0 19:53 UTC",
+  "last_updated": "31/08/2025 \u00e0 19:57 UTC",
   "local_repos": 9,
-  "commits_2025": 808,
+  "commits_2025": 809,
   "github_real": {
     "public_repos": 11,
     "followers": 4,
@@ -20,13 +20,13 @@
   "skills": {
     "C Programming": 100,
     "System Programming": 100,
-    "Data Structures": 85,
-    "Algorithms": 80,
-    "Shell Scripting": 85,
-    "Python": 75,
-    "Web Development": 70,
-    "JavaScript": 65,
-    "Problem Solving": 90,
-    "Git & Version Control": 85
+    "Data Structures": 90,
+    "Algorithms": 85,
+    "Shell Scripting": 80,
+    "Unix/Linux Systems": 95,
+    "Git & Version Control": 90,
+    "Problem Solving": 95,
+    "Low-level Programming": 90,
+    "Software Engineering": 85
   }
 }
