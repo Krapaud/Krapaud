@@ -1,7 +1,14 @@
 # Krapaud - App & Web Development Student
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Student+Developer;App+%26+Web+Development;Holberton+School+Student;Programming+Enthusiast;Always+Learning" alt="Typing SVG" />
+
+# 💻 **Krapaud** | Student Developer
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 20px 0; display: inline-block;">
+<h3 style="color: white; margin: 0;">🎓 Holberton School Student</h3>
+<p style="color: #e0e0e0; margin: 10px 0; font-size: 16px;">App & Web Development | Programming Enthusiast | Always Learning</p>
+</div>
+
 </div>
 
 ## 🚀 About Me
@@ -83,7 +90,10 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=700&lines=🏆+Achievement+System+Activated;🎯+Unlocking+Developer+Milestones;🌟+Mastering+the+Code+Journey" alt="Achievements Header" />
+<div style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); border-radius: 20px; padding: 25px; margin: 20px 0; box-shadow: 0 8px 32px rgba(255, 215, 0, 0.3);">
+<h2 style="color: #1a1a1a; margin: 0; font-size: 24px; font-weight: bold;">🎯 Mastering the Code Journey</h2>
+<p style="color: #333; margin: 10px 0; font-size: 16px;">🏆 Achievement System Activated | � Unlocking Developer Milestones</p>
+</div>
 
 </div>
 
@@ -256,14 +266,22 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Motivational Footer -->
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=900&lines=🚀+Every+line+of+code+is+a+step+toward+mastery;💡+Building+the+future%2C+one+project+at+a+time;🎯+From+low-level+systems+to+high-level+solutions" alt="Motivation" />
+
+<div style="background: linear-gradient(135deg, #58A6FF 20%, #667eea 100%); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 6px 20px rgba(88, 166, 255, 0.2);">
+<h3 style="color: white; margin: 0; font-size: 16px;">🚀 Every line of code is a step toward mastery</h3>
+<p style="color: #e0e0e0; margin: 8px 0; font-size: 14px;">💡 Building the future, one project at a time | 🎯 From low-level systems to high-level solutions</p>
+</div>
+
 </div>
 
 ## 🏆 Featured Projects
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=800&lines=🚀+Portfolio+Showcase;💻+Building+Amazing+Projects;🎯+Code+That+Makes+a+Difference" alt="Projects Header" />
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 20px 0; box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);">
+<h2 style="color: white; margin: 0; font-size: 24px; font-weight: bold;">💻 Code That Makes a Difference</h2>
+<p style="color: #e0e0e0; margin: 10px 0; font-size: 16px;">🚀 Portfolio Showcase | � Building Amazing Projects</p>
+</div>
 
 </div>
 
@@ -468,7 +486,12 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Call to Action -->
 <div align="center" style="margin: 30px 0;">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=700&lines=🚀+Explore+my+repositories+for+more+projects!;💡+Each+project+tells+a+story+of+learning;🎯+Building+tomorrow's+solutions+today" alt="Projects Footer" />
+
+<div style="background: linear-gradient(135deg, #58A6FF 0%, #0366d6 100%); border-radius: 15px; padding: 20px; box-shadow: 0 8px 25px rgba(88, 166, 255, 0.3);">
+<h3 style="color: white; margin: 0; font-size: 18px;">🚀 Explore My Repositories</h3>
+<p style="color: #e0e0e0; margin: 10px 0; font-size: 14px;">💡 Each project tells a story of learning | 🎯 Building tomorrow's solutions today</p>
+</div>
+
 </div>
 
 ## 💡 Inspiring Quotes
