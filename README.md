@@ -113,27 +113,24 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </tr>
 </table>
 
-<!-- Activity Graph pleine largeur mais plus compact -->
+<!-- Activity Graph avec métriques intégrées -->
 <div style="margin: 15px 0;">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity&radius=8&height=300" alt="Activity Graph"/>
-</div>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity%20%26%20Languages&radius=8&height=300" alt="Activity Graph"/>
 
 <!-- Badges de performance et langages en ligne (Auto-updated) -->
-<div style="margin: 10px 0;">
+<div style="margin: 15px 0; text-align: center;">
 <img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&style=flat-square&logo=git&label=Commits%202025&query=commits_2025&url=https://raw.githubusercontent.com/Krapaud/Krapaud/main/stats.json" alt="Commits 2025"/>
-<img src="https://img.shields.io/badge/Python-10.7%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/C-70.7%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Python-10.7%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Shell-3.7%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
 <img src="https://img.shields.io/badge/Makefile-1.9%25-FF6600?style=flat-square&logo=gnu&logoColor=white" alt="Makefile"/>
 <img src="https://img.shields.io/badge/HTML-0.5%25-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
 </div>
-</details>
 
 <!-- Footer compact -->
-<div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
+<div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px; text-align: center;">
 <sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->01/09/2025 à 19:45 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
-
 </div>
 
 
