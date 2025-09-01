@@ -103,7 +103,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <!-- Colonne 2: Top Languages (filtered for real skills only) -->
 <td style="width: 33%; vertical-align: top; padding: 10px;">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=4&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8&hide=python,javascript,html,css,typescript,json,dockerfile,yaml,xml&show_icons=true" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8&hide=dockerfile,yaml,xml,json&show_icons=true" alt="Top Languages"/>
 </td>
 
 <!-- Colonne 3: Streak Stats -->
