@@ -447,16 +447,6 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 </div>
 
-<!-- Call to Action -->
-<div align="center" style="margin: 30px 0;">
-
-<div style="background: linear-gradient(135deg, #58A6FF 0%, #0366d6 100%); border-radius: 15px; padding: 20px; box-shadow: 0 8px 25px rgba(88, 166, 255, 0.3);">
-<h3 style="color: white; margin: 0; font-size: 18px;">🚀 Explore My Repositories</h3>
-<p style="color: #e0e0e0; margin: 10px 0; font-size: 14px;">💡 Each project tells a story of learning | 🎯 Building tomorrow's solutions today</p>
-</div>
-
-</div>
-
 ## 💡 Inspiring Quotes
 
 > *"Code is like humor. When you have to explain it, it's bad."* – Cory House
