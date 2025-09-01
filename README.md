@@ -248,15 +248,6 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 ## 🏆 Featured Projects
 
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 20px 0; box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);">
-<h2 style="color: white; margin: 0; font-size: 24px; font-weight: bold;">💻 Code That Makes a Difference</h2>
-<p style="color: #e0e0e0; margin: 10px 0; font-size: 16px;">🚀 Portfolio Showcase | � Building Amazing Projects</p>
-</div>
-
-</div>
-
 <br>
 
 <!-- Projects Grid Layout -->
