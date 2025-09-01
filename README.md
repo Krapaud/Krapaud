@@ -4,13 +4,22 @@
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
-
-  <br><br>
-
-  <img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="200" style="border-radius: 50%; border: 4px solid #36BCF7; box-shadow: 0 8px 25px rgba(54, 188, 247, 0.4);"/>
 </div>
 
+<table>
+<tr>
+<td width="60%" valign="top">
+
 I'm a passionate student developer at **Holberton School**, specialized in **Systems Programming** and **Low-Level Development**. I love learning new technologies and building efficient solutions.
+
+</td>
+<td width="40%" align="center" valign="top">
+
+<img src="https://raw.githubusercontent.com/Krapaud/Krapaud/main/jpeg.jpeg" alt="Krapaud Profile Picture" width="180" style="border-radius: 50%; border: 4px solid #36BCF7; box-shadow: 0 8px 25px rgba(54, 188, 247, 0.4);"/>
+
+</td>
+</tr>
+</table>
 
 ### 🎯 Quick Facts
 
