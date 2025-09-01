@@ -1,5 +1,5 @@
 {
-  "last_updated": "01/09/2025 \u00e0 19:34 UTC",
+  "last_updated": "01/09/2025 \u00e0 19:39 UTC",
   "local_repos": 1,
   "commits_2025": 1,
   "github_real": {
@@ -8,12 +8,11 @@
     "following": 7,
     "total_stars": 3,
     "languages": {
-      "C": 45.0,
-      "Python": 25.0,
-      "JavaScript": 15.0,
-      "Shell": 10.0,
-      "HTML": 3.0,
-      "CSS": 2.0
+      "C": 70.7,
+      "Shell": 3.7,
+      "Python": 23.1,
+      "HTML": 0.5,
+      "Makefile": 1.9
     },
     "repos_analyzed": 13
   },

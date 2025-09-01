@@ -41,39 +41,72 @@ class GitHubStatsUpdater:
         try:
             # Récupérer les stats utilisateur depuis l'API GitHub
             import urllib.request
+            import urllib.error
 
             # Stats utilisateur de base
             user_url = f"https://api.github.com/users/{self.username}"
             with urllib.request.urlopen(user_url) as response:
                 user_data = json.loads(response.read().decode())
 
-            # Récupérer les repos pour calculer les étoiles
+            # Récupérer tous les repos pour calculer les étoiles et langages
             repos_url = f"https://api.github.com/users/{self.username}/repos?per_page=100"
             total_stars = 0
             repos_analyzed = 0
+            all_languages = {}
 
             try:
                 with urllib.request.urlopen(repos_url) as response:
                     repos_data = json.loads(response.read().decode())
                     repos_analyzed = len(repos_data)
                     total_stars = sum(repo.get('stargazers_count', 0) for repo in repos_data)
+
+                    # Analyser les langages de chaque repository
+                    for repo in repos_data:
+                        languages_url = repo.get('languages_url')
+                        if languages_url:
+                            try:
+                                with urllib.request.urlopen(languages_url) as lang_response:
+                                    repo_languages = json.loads(lang_response.read().decode())
+                                    for lang, bytes_count in repo_languages.items():
+                                        all_languages[lang] = all_languages.get(lang, 0) + bytes_count
+                            except (urllib.error.URLError, json.JSONDecodeError):
+                                continue
+
             except (urllib.error.URLError, json.JSONDecodeError):
                 total_stars = 5  # Fallback
                 repos_analyzed = user_data.get('public_repos', 13)
-
-            return {
-                'public_repos': user_data.get('public_repos', 13),
-                'followers': user_data.get('followers', 5),
-                'following': user_data.get('following', 7),
-                'total_stars': total_stars,
-                'languages': {
+                all_languages = {
                     'C': 45.0,
                     'Python': 25.0,
                     'JavaScript': 15.0,
                     'Shell': 10.0,
                     'HTML': 3.0,
                     'CSS': 2.0
-                },
+                }
+
+            # Convertir les bytes en pourcentages
+            if all_languages:
+                total_bytes = sum(all_languages.values())
+                languages_percent = {}
+                for lang, bytes_count in all_languages.items():
+                    percentage = round((bytes_count / total_bytes) * 100, 1)
+                    languages_percent[lang] = percentage
+            else:
+                languages_percent = {
+                    'C': 45.0,
+                    'Python': 25.0,
+                    'JavaScript': 15.0,
+                    'Shell': 10.0,
+                    'HTML': 3.0,
+                    'CSS': 2.0
+                }
+
+            return {
+                'public_repos': user_data.get('public_repos', 13),
+                'followers': user_data.get('followers', 5),
+                'following': user_data.get('following', 7),
+                'total_stars': total_stars,
+                'languages': languages_percent,
                 'repos_analyzed': repos_analyzed
             }
         except (urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
