@@ -229,23 +229,6 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </table>
 </div>
 
-<!-- Badges d'expertise -->
-<div align="center">
-<div style="text-align: center; margin: 25px 0;">
-  <h4 style="color: #58A6FF; margin-bottom: 15px;">🌟 Expertise Badges</h4>
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <img src="https://img.shields.io/badge/💻-C%20Programming%20Expert-brightgreen?style=flat-square&logo=c&logoColor=white" alt="C Expert"/>
-    <img src="https://img.shields.io/badge/🔧-Systems%20Programmer-blue?style=flat-square&logo=linux&logoColor=white" alt="Systems Programmer"/>
-    <img src="https://img.shields.io/badge/🧠-Data%20Structures%20Master-green?style=flat-square&logo=buffer&logoColor=white" alt="Data Structures Master"/>
-    <img src="https://img.shields.io/badge/⚡-Algorithm%20Specialist-yellow?style=flat-square&logo=codeigniter&logoColor=white" alt="Algorithm Specialist"/>
-    <img src="https://img.shields.io/badge/�-Shell%20Scripting%20Pro-orange?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell Pro"/>
-    <img src="https://img.shields.io/badge/🎯-Problem%20Solver-success?style=flat-square&logo=target&logoColor=white" alt="Problem Solver"/>
-    <img src="https://img.shields.io/badge/�-Low_Level%20Expert-red?style=flat-square&logo=chip&logoColor=white" alt="Low Level Expert"/>
-    <img src="https://img.shields.io/badge/📚-Holberton%20Scholar-purple?style=flat-square&logo=book&logoColor=white" alt="Holberton Scholar"/>
-  </div>
-</div>
-</div>
-
 ## 🏆 Featured Projects
 
 <br>
