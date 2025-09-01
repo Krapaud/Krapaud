@@ -79,28 +79,6 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </table>
 </div>
 
-## 📊 GitHub Statistics
-
-<!-- Layout simplifié avec seulement les widgets essentiels -->
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin: 30px 0; align-items: start;">
-
-<!-- GitHub Stats principal -->
-<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.95) 0%, rgba(31, 111, 235, 0.15) 100%); border-radius: 16px; padding: 20px; border: 1px solid rgba(88, 166, 255, 0.3); backdrop-filter: blur(15px);">
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=22&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=00000000&border_radius=12" alt="GitHub Stats"/>
-</div>
-
-<!-- Top Languages compact -->
-<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.95) 0%, rgba(255, 107, 107, 0.1) 100%); border-radius: 16px; padding: 20px; border: 1px solid rgba(88, 166, 255, 0.3); backdrop-filter: blur(15px);">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=5&title_color=58A6FF&text_color=C9D1D9&bg_color=00000000&border_radius=12&hide=dockerfile,yaml,xml,json" alt="Top Languages"/>
-</div>
-
-</div>
-
-<!-- Activity Graph seul -->
-<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 16px; padding: 20px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.2); backdrop-filter: blur(10px);">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=00000000&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=� Contribution Activity&radius=12&height=280" alt="Activity Graph"/>
-</div>
-
 ## 🏆 Developer Achievements & Milestones
 
 <div align="center">
