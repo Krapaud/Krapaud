@@ -6,11 +6,19 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
 </div>
 
+I'm a passionate student developer at **Holberton School**, specialized in **Systems Programming** and **Low-Level Development**. I love learning new technologies and building efficient solutions.
+
 <table>
 <tr>
 <td width="60%" valign="top">
 
-I'm a passionate student developer at **Holberton School**, specialized in **Systems Programming** and **Low-Level Development**. I love learning new technologies and building efficient solutions.
+### 🎯 Quick Facts
+
+- 🎓 **Student** at Holberton School
+- 💻 **Focus**: C Programming, Data Structures & Algorithms
+- 🌱 **Learning**: Advanced Systems Programming, Unix/Linux
+- 🎯 **Goal**: Become a proficient Systems Programmer
+- 🤝 **Open to**: Collaboration and learning opportunities
 
 </td>
 <td width="40%" align="center" valign="top">
@@ -20,14 +28,6 @@ I'm a passionate student developer at **Holberton School**, specialized in **Sys
 </td>
 </tr>
 </table>
-
-### 🎯 Quick Facts
-
-- 🎓 **Student** at Holberton School
-- 💻 **Focus**: C Programming, Data Structures & Algorithms
-- 🌱 **Learning**: Advanced Systems Programming, Unix/Linux
-- 🎯 **Goal**: Become a proficient Systems Programmer
-- 🤝 **Open to**: Collaboration and learning opportunities
 
 ### 💪 Core Skills
 
