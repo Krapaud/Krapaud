@@ -276,6 +276,74 @@ class GitHubStatsUpdater:
                     replacement = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
                     content = re.sub(pattern, replacement, content)
 
+        # Update programming languages badges avec les vrais pourcentages
+        if 'github_real' in self.stats and 'languages' in self.stats['github_real']:
+            languages = self.stats['github_real']['languages']
+
+            # Mapping des langages vers leurs badges et logos
+            language_mappings = {
+                'C': ('C', '00599C', 'c'),
+                'Python': ('Python', '3776AB', 'python'),
+                'Shell': ('Shell', '4EAA25', 'gnu-bash'),
+                'JavaScript': ('JavaScript', 'F7DF1E', 'javascript'),
+                'HTML': ('HTML', 'E34F26', 'html5'),
+                'CSS': ('CSS', '1572B6', 'css3'),
+                'Makefile': ('Makefile', 'FF6600', 'gnu'),
+                'Java': ('Java', 'ED8B00', 'java'),
+                'TypeScript': ('TypeScript', '3178C6', 'typescript'),
+                'Go': ('Go', '00ADD8', 'go'),
+                'Rust': ('Rust', '000000', 'rust'),
+                'SQL': ('SQL', '336791', 'mysql')
+            }
+
+            # Trier les langages par pourcentage pour avoir les plus importants en premier
+            sorted_languages = sorted(languages.items(), key=lambda x: x[1], reverse=True)
+
+            # Mettre à jour chaque badge de langage
+            for lang, percentage in sorted_languages:
+                if lang in language_mappings:
+                    badge_name, color, logo = language_mappings[lang]
+
+                    # Pattern plus flexible pour trouver les badges existants
+                    patterns = [
+                        # Badge standard avec le nom du langage
+                        rf'<img src="[^"]*badge/{re.escape(lang)}-[^"]*"[^>]*alt="{re.escape(lang)}"[^>]*/>',
+                        # Badge markdown
+                        rf'!\[{re.escape(lang)}\]\([^)]+\)',
+                        # Badge avec label=
+                        rf'<img[^>]*label={re.escape(lang)}[^>]*/>',
+                        # Badge avec alt contenant le langage
+                        rf'<img[^>]*alt="{re.escape(lang)}"[^>]*badge[^>]*/>',
+                        # Badge GitHub search (format spécial pour C, Shell, etc.) - pattern amélioré
+                        rf'<img src="https://img\.shields\.io/github/search/[^"]*language%3A{re.escape(lang)}[^"]*"[^>]*alt="{re.escape(lang)}"[^>]*/>',
+                        # Badge search avec label C - pattern plus précis
+                        rf'<img src="[^"]*github/search/[^"]*language%3A{re.escape(lang)}\?[^"]*label={re.escape(lang)}[^"]*" alt="{re.escape(lang)}"[^>]*/>',
+                        # Pattern spécifique pour le format exact trouvé
+                        rf'<img src="https://img\.shields\.io/github/search/[^"]*language%3A{re.escape(lang)}\?[^"]*" alt="{re.escape(lang)}"[^>]*/>',
+                    ]
+
+                    # Nouveau badge avec le vrai pourcentage
+                    new_badge = f'<img src="https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white" alt="{lang}"/>'
+
+                    # Essayer chaque pattern pour remplacer
+                    replaced = False
+                    for pattern in patterns:
+                        if re.search(pattern, content):
+                            content = re.sub(pattern, new_badge, content)
+                            replaced = True
+                            break
+
+                    # Si aucun badge existant trouvé pour ce langage, l'ajouter à la section des badges
+                    if not replaced and percentage >= 5.0:  # Seulement pour les langages significatifs
+                        # Chercher la section des badges de langages et ajouter le nouveau
+                        badge_section_pattern = r'(<img src="[^"]*badge/dynamic/json[^"]*Commits%202025[^>]*/>)'
+                        if re.search(badge_section_pattern, content):
+                            content = re.sub(
+                                badge_section_pattern,
+                                f'\\1\n{new_badge}',
+                                content
+                            )
+
         with open(readme_path, 'w') as f:
             f.write(content)
 

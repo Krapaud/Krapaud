@@ -56,8 +56,8 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div style="text-align: center;">
 
-**📱 App & Web Developer Student**  
-**🎓 Holberton School**  
+**📱 App & Web Developer Student**
+**🎓 Holberton School**
 **🌍 France** 🇫🇷
 
 <br>
@@ -118,31 +118,20 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity&radius=8&height=300" alt="Activity Graph"/>
 </div>
 
-<!-- Métriques détaillées compactes en tableau horizontal -->
-<details>
-<summary><strong>📈 Detailed Metrics</strong> (Click to expand)</summary>
-<br>
-<table style="width: 100%; margin: 10px 0;">
-<tr style="background: rgba(88, 166, 255, 0.1);">
-<td style="padding: 8px; text-align: center;"><strong>📚 Repos:</strong> 13</td>
-<td style="padding: 8px; text-align: center;"><strong>⭐ Stars:</strong> 3</td>
-<td style="padding: 8px; text-align: center;"><strong>👥 Followers:</strong> 5</td>
-<td style="padding: 8px; text-align: center;"><strong>📅 Days:</strong> 2111</td>
-</tr>
-</table>
-
 <!-- Badges de performance et langages en ligne (Auto-updated) -->
 <div style="margin: 10px 0;">
 <img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&style=flat-square&logo=git&label=Commits%202025&query=commits_2025&url=https://raw.githubusercontent.com/Krapaud/Krapaud/main/stats.json" alt="Commits 2025"/>
-<img src="https://img.shields.io/github/search/Krapaud/holbertonschool-low_level_programming/language%3AC?style=flat-square&logo=c&label=C&color=00599C" alt="C"/>
-<img src="https://img.shields.io/github/search/Krapaud/holbertonschool-shell/language%3AShell?style=flat-square&logo=gnu-bash&label=Shell&color=4EAA25" alt="Shell"/>
-<img src="https://img.shields.io/badge/Makefile-Advanced-orange?style=flat-square&logo=gnu&logoColor=white" alt="Makefile"/>
+<img src="https://img.shields.io/badge/Python-10.7%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/C-70.7%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-3.7%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
+<img src="https://img.shields.io/badge/Makefile-1.9%25-FF6600?style=flat-square&logo=gnu&logoColor=white" alt="Makefile"/>
+<img src="https://img.shields.io/badge/HTML-0.5%25-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
 </div>
 </details>
 
 <!-- Footer compact -->
 <div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->01/09/2025 à 19:39 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->01/09/2025 à 19:45 UTC<!--/STATS_UPDATE_TIME--></em></sub>
 </div>
 
 </div>
@@ -511,8 +500,8 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="margin: 20px 0;">
 <h4 style="color: #58A6FF; margin-bottom: 10px;">🛠️ Technologies Used</h4>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;">
-<img src="https://img.shields.io/badge/C-Expert-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Shell-Advanced-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
+<img src="https://img.shields.io/badge/C-87.5%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-1.1%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
 <img src="https://img.shields.io/badge/Git-Proficient-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/Linux-Experienced-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
 <img src="https://img.shields.io/badge/GDB-Debugging-FF6B6B?style=flat-square&logo=bug&logoColor=white" alt="GDB"/>
@@ -547,7 +536,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 ---
 
 <div align="center">
-  
+
   **💻 "Code with passion, learn with curiosity" 🌟**
 </div>
 
