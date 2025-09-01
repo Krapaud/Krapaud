@@ -1,31 +1,32 @@
 {
-  "last_updated": "31/08/2025 \u00e0 20:05 UTC",
-  "local_repos": 9,
-  "commits_2025": 812,
+  "last_updated": "01/09/2025 \u00e0 19:34 UTC",
+  "local_repos": 1,
+  "commits_2025": 1,
   "github_real": {
-    "public_repos": 11,
-    "followers": 4,
+    "public_repos": 13,
+    "followers": 5,
     "following": 7,
-    "total_stars": 5,
+    "total_stars": 3,
     "languages": {
-      "C": 85.0,
+      "C": 45.0,
+      "Python": 25.0,
+      "JavaScript": 15.0,
       "Shell": 10.0,
-      "Makefile": 3.0,
-      "Assembly": 1.0,
-      "Other": 1.0
+      "HTML": 3.0,
+      "CSS": 2.0
     },
-    "repos_analyzed": 11
+    "repos_analyzed": 13
   },
   "skills": {
     "C Programming": 100,
     "System Programming": 100,
-    "Data Structures": 90,
-    "Algorithms": 85,
-    "Shell Scripting": 80,
-    "Unix/Linux Systems": 95,
-    "Git & Version Control": 90,
-    "Problem Solving": 95,
-    "Low-level Programming": 90,
-    "Software Engineering": 85
+    "Data Structures": 85,
+    "Algorithms": 80,
+    "Shell Scripting": 85,
+    "Python": 75,
+    "Web Development": 70,
+    "JavaScript": 65,
+    "Problem Solving": 90,
+    "Git & Version Control": 85
   }
 }

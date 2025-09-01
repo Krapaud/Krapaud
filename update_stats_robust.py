@@ -13,9 +13,9 @@ class GitHubStatsUpdater:
     def __init__(self, username="Krapaud"):
         self.username = username
         self.base_path = "/home/krapaud"
-        self.profile_path = "/home/krapaud/Krapaud"
+        self.profile_path = "/home/krapaud/projet-perso/Krapaud"
         self.stats = {}
-        
+
     def get_git_repos(self):
         """Find all local git repositories"""
         repos = []
@@ -24,7 +24,7 @@ class GitHubStatsUpdater:
             if os.path.isdir(repo_path) and os.path.exists(os.path.join(repo_path, ".git")):
                 repos.append({"name": item, "path": repo_path})
         return repos
-    
+
     def count_commits_2025(self, repo_path):
         """Count commits in 2025 for a repository"""
         try:
@@ -35,28 +35,69 @@ class GitHubStatsUpdater:
             return len(result.stdout.strip().split('\n')) if result.stdout.strip() else 0
         except:
             return 0
-    
+
     def get_current_github_stats(self):
-        """Get current GitHub stats - using reliable data"""
-        return {
-            'public_repos': 11,  # After cleanup
-            'followers': 4,
-            'following': 7,
-            'total_stars': 5,
-            'languages': {
-                'C': 45.0,
-                'Python': 25.0,
-                'JavaScript': 15.0,
-                'Shell': 10.0,
-                'HTML': 3.0,
-                'CSS': 2.0
-            },
-            'repos_analyzed': 11
-        }
-    
+        """Get current GitHub stats from GitHub API"""
+        try:
+            # Récupérer les stats utilisateur depuis l'API GitHub
+            import urllib.request
+
+            # Stats utilisateur de base
+            user_url = f"https://api.github.com/users/{self.username}"
+            with urllib.request.urlopen(user_url) as response:
+                user_data = json.loads(response.read().decode())
+
+            # Récupérer les repos pour calculer les étoiles
+            repos_url = f"https://api.github.com/users/{self.username}/repos?per_page=100"
+            total_stars = 0
+            repos_analyzed = 0
+
+            try:
+                with urllib.request.urlopen(repos_url) as response:
+                    repos_data = json.loads(response.read().decode())
+                    repos_analyzed = len(repos_data)
+                    total_stars = sum(repo.get('stargazers_count', 0) for repo in repos_data)
+            except (urllib.error.URLError, json.JSONDecodeError):
+                total_stars = 5  # Fallback
+                repos_analyzed = user_data.get('public_repos', 13)
+
+            return {
+                'public_repos': user_data.get('public_repos', 13),
+                'followers': user_data.get('followers', 5),
+                'following': user_data.get('following', 7),
+                'total_stars': total_stars,
+                'languages': {
+                    'C': 45.0,
+                    'Python': 25.0,
+                    'JavaScript': 15.0,
+                    'Shell': 10.0,
+                    'HTML': 3.0,
+                    'CSS': 2.0
+                },
+                'repos_analyzed': repos_analyzed
+            }
+        except (urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
+            print(f"⚠️ Erreur lors de la récupération des stats GitHub: {e}")
+            # Fallback avec des données par défaut mises à jour
+            return {
+                'public_repos': 13,
+                'followers': 5,
+                'following': 7,
+                'total_stars': 5,
+                'languages': {
+                    'C': 45.0,
+                    'Python': 25.0,
+                    'JavaScript': 15.0,
+                    'Shell': 10.0,
+                    'HTML': 3.0,
+                    'CSS': 2.0
+                },
+                'repos_analyzed': 13
+            }
+
     def evaluate_expertise_skills(self):
         """Evaluate skills based on your actual expertise"""
-        
+
         # Vos compétences basées sur vos projets réels et expertise
         skills = {
             'C Programming': 100,        # Expert: Shell, Printf, Low-level
@@ -70,9 +111,9 @@ class GitHubStatsUpdater:
             'Problem Solving': 90,      # Expert: Holberton challenges
             'Git & Version Control': 85 # Avancé: Workflow développement
         }
-        
+
         return skills
-    
+
     def get_skill_color(self, percentage):
         """Get color based on skill percentage"""
         if percentage >= 90:
@@ -87,28 +128,28 @@ class GitHubStatsUpdater:
             return "orange"
         else:
             return "red"
-    
+
     def collect_stats(self):
         """Collect all statistics"""
         print("🚀 Collecting comprehensive GitHub statistics...")
         print("=" * 60)
-        
+
         # Local repos for commit counting
         local_repos = self.get_git_repos()
         total_commits_2025 = 0
-        
+
         print("📂 Analyzing local repositories for commits...")
         for repo in local_repos:
             commits_2025 = self.count_commits_2025(repo['path'])
             total_commits_2025 += commits_2025
             print(f"  • {repo['name']}: {commits_2025} commits in 2025")
-        
+
         # Current GitHub stats
         github_stats = self.get_current_github_stats()
-        
+
         # Expertise-based skills
         skills = self.evaluate_expertise_skills()
-        
+
         self.stats = {
             "last_updated": datetime.now().strftime("%d/%m/%Y à %H:%M UTC"),
             "local_repos": len(local_repos),
@@ -116,7 +157,7 @@ class GitHubStatsUpdater:
             "github_real": github_stats,
             "skills": skills
         }
-        
+
         print("=" * 60)
         print("✅ Statistics collection completed!")
         print(f"📊 Summary:")
@@ -125,28 +166,28 @@ class GitHubStatsUpdater:
         print(f"   • Followers: {github_stats['followers']}")
         print(f"   • Total stars: {github_stats['total_stars']}")
         print(f"   • Commits in 2025: {total_commits_2025}")
-        
+
         print(f"🎯 Your expertise-based skills:")
         for skill, percentage in skills.items():
             color_indicator = "🔥" if percentage >= 90 else "💪" if percentage >= 80 else "⭐"
             print(f"   {color_indicator} {skill}: {percentage}%")
-        
+
         return self.stats
-    
+
     def save_stats_json(self):
         """Save statistics to JSON file"""
         stats_file = os.path.join(self.profile_path, "stats.json")
         with open(stats_file, 'w') as f:
             json.dump(self.stats, f, indent=2)
         print(f"💾 Statistics saved to {stats_file}")
-    
+
     def update_readme(self):
         """Update README.md with complete automation"""
         readme_path = os.path.join(self.profile_path, "README.md")
-        
+
         with open(readme_path, 'r') as f:
             content = f.read()
-        
+
         # Update timestamp
         new_timestamp = self.stats['last_updated']
         content = re.sub(
@@ -154,33 +195,33 @@ class GitHubStatsUpdater:
             f'<!--STATS_UPDATE_TIME-->{new_timestamp}<!--/STATS_UPDATE_TIME-->',
             content
         )
-        
+
         # Update GitHub statistics
         github_data = self.stats.get('github_real', {})
-        
+
         # Repository count
         repo_count = github_data.get('public_repos', 0)
         content = re.sub(r'<strong>📚 Repos:</strong> \d+', f'<strong>📚 Repos:</strong> {repo_count}', content)
         content = re.sub(r'badge/Repos-\d+-', f'badge/Repos-{repo_count}-', content)
-        
+
         # Stars count
         star_count = github_data.get('total_stars', 0)
         content = re.sub(r'<strong>⭐ Stars:</strong> \d+', f'<strong>⭐ Stars:</strong> {star_count}', content)
-        
+
         # Followers count
         followers_count = github_data.get('followers', 0)
         content = re.sub(r'<strong>👥 Followers:</strong> \d+', f'<strong>👥 Followers:</strong> {followers_count}', content)
-        
+
         # Commits count
         commits_2025 = self.stats.get('commits_2025', 0)
         content = re.sub(r'badge/Commits-\d+-brightgreen', f'badge/Commits-{commits_2025}-brightgreen', content)
         content = re.sub(r'badge/📊-\d+-blue', f'badge/📊-{commits_2025}-blue', content)
         content = re.sub(r'- 📈 \*\*Contributions:\*\* \d+ commits this year', f'- 📈 **Contributions:** {commits_2025} commits this year', content)
-        
+
         # Update skills badges
         if 'skills' in self.stats:
             skills = self.stats['skills']
-            
+
             skill_mappings = {
                 'C Programming': ('C_Programming', 'c'),
                 'Python': ('Python', 'python'),
@@ -191,20 +232,20 @@ class GitHubStatsUpdater:
                 'JavaScript': ('JavaScript', 'javascript'),
                 'Shell Scripting': ('Shell_Scripting', 'gnu-bash')
             }
-            
+
             for skill_name, (badge_name, logo) in skill_mappings.items():
                 if skill_name in skills:
                     percentage = skills[skill_name]
                     color = self.get_skill_color(percentage)
-                    
+
                     # Update existing badge
                     pattern = rf'!\[{re.escape(skill_name)}\]\([^)]+\)'
                     replacement = f'![{skill_name}](https://img.shields.io/badge/{badge_name}-{percentage}%25-{color}?style=flat-square&logo={logo}&logoColor=white)'
                     content = re.sub(pattern, replacement, content)
-        
+
         with open(readme_path, 'w') as f:
             f.write(content)
-        
+
         print("📝 README.md updated with comprehensive automation!")
         print("✅ All categories now auto-update:")
         print(f"   • Repository count: {repo_count}")
@@ -212,27 +253,27 @@ class GitHubStatsUpdater:
         print(f"   • Followers: {followers_count}")
         print(f"   • Commits 2025: {commits_2025}")
         print("   • All skill badges updated with real expertise levels")
-    
+
     def run(self):
         """Run the complete update process"""
         print("🌟 GitHub Profile Auto-Updater - Complete Automation")
         print("=" * 60)
-        
+
         try:
             self.collect_stats()
             self.save_stats_json()
             self.update_readme()
-            
+
             print("=" * 60)
             print("🎉 SUCCESS! Your profile is now fully automated!")
             print("📊 Next update will run automatically via GitHub Actions")
-            
+
         except Exception as e:
             print(f"❌ Error during update: {e}")
             import traceback
             traceback.print_exc()
             return False
-        
+
         return True
 
 if __name__ == "__main__":
