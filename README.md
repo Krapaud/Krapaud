@@ -22,6 +22,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 #### 🎯 **Quick Facts**
+
 - 🎓 **Student** at Holberton School
 - 🎯 **Focus**: Systems & Low-Level Programming
 - 💻 **Core Skills**: C Programming, Data Structures, Algorithms
@@ -32,6 +33,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 #### 📊 **Skills Progress**
+
 ![C Programming](https://img.shields.io/badge/C_Programming-100%25-brightgreen?style=flat-square&logo=c&logoColor=white)
 ![System Programming](https://img.shields.io/badge/System_Programming-100%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
 ![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
@@ -77,62 +79,141 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </table>
 </div>
 
-##  GitHub Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
 
-<!-- Header compact avec animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=📊+GitHub+Analytics;🚀+Dev+Metrics;💻+Coding+Stats" alt="Stats Header" />
+<!-- Header moderne avec effet glassmorphism -->
+<div style="background: linear-gradient(135deg, rgba(88, 166, 255, 0.1) 0%, rgba(31, 111, 235, 0.1) 100%); backdrop-filter: blur(10px); border-radius: 20px; padding: 25px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.2);">
 
-<!-- Badges de métriques en ligne compacte -->
-<div style="margin: 15px 0;">
-<img src="https://img.shields.io/github/followers/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/Krapaud?affiliations=OWNER&style=flat-square&logo=star&color=FFD700&labelColor=0D1117" alt="Stars"/>
-<img src="https://img.shields.io/badge/Repos-13-1F6FEB?style=flat-square&logo=github&labelColor=0D1117" alt="Repositories"/>
-<img src="https://komarev.com/ghpvc/?username=Krapaud&style=flat-square&color=58A6FF&labelColor=0D1117" alt="Views"/>
-<img src="https://img.shields.io/github/last-commit/Krapaud/Krapaud?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117" alt="Last Commit"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=📊+GitHub+Analytics+Dashboard;🚀+Real-time+Development+Metrics;💻+Code+%26+Contribution+Stats" alt="Stats Header" />
+
+<!-- Métriques clés en cards moderne -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; margin: 25px 0;">
+
+<div style="background: rgba(0, 89, 156, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(0, 89, 156, 0.3);">
+<div style="font-size: 24px; font-weight: bold; color: #58A6FF;">13</div>
+<div style="font-size: 12px; color: #8B949E;">📚 Repositories</div>
 </div>
 
-<!-- Dashboard principal en 3 colonnes -->
-<table style="width: 100%; border-collapse: collapse;">
-<tr>
-<!-- Colonne 1: GitHub Stats -->
-<td style="width: 33%; vertical-align: top; padding: 10px;">
-<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=20&card_width=300&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=0D1117&border_radius=8" alt="GitHub Stats"/>
-</td>
-
-<!-- Colonne 2: Top Languages (filtered for real skills only) -->
-<td style="width: 33%; vertical-align: top; padding: 10px;">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&border_radius=8&hide=dockerfile,yaml,xml,json&show_icons=true" alt="Top Languages"/>
-</td>
-
-<!-- Colonne 3: Streak Stats -->
-<td style="width: 33%; vertical-align: top; padding: 10px;">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=0D1117&border_radius=8" alt="GitHub Streak"/>
-</td>
-</tr>
-</table>
-
-<!-- Activity Graph avec métriques intégrées -->
-<div style="margin: 15px 0;">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity%20%26%20Languages&radius=8&height=300" alt="Activity Graph"/>
-
-<!-- Badges de performance et langages en ligne (Auto-updated) -->
-<div style="margin: 15px 0; text-align: center;">
-<img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&style=flat-square&logo=git&label=Commits%202025&query=commits_2025&url=https://raw.githubusercontent.com/Krapaud/Krapaud/main/stats.json" alt="Commits 2025"/>
-<img src="https://img.shields.io/badge/C-70.7%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Python-10.7%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Shell-3.7%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
-<img src="https://img.shields.io/badge/Makefile-1.9%25-FF6600?style=flat-square&logo=gnu&logoColor=white" alt="Makefile"/>
-<img src="https://img.shields.io/badge/HTML-0.5%25-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
+<div style="background: rgba(255, 215, 0, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(255, 215, 0, 0.3);">
+<div style="font-size: 24px; font-weight: bold; color: #FFD700;">3</div>
+<div style="font-size: 12px; color: #8B949E;">⭐ Total Stars</div>
 </div>
 
-<!-- Footer compact -->
-<div style="margin: 10px 0; padding: 8px; background: rgba(88, 166, 255, 0.05); border-radius: 8px; text-align: center;">
-<sub>🔄 <em>Auto-updated • Last sync: <!--STATS_UPDATE_TIME-->01/09/2025 à 19:45 UTC<!--/STATS_UPDATE_TIME--></em></sub>
+<div style="background: rgba(88, 166, 255, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(88, 166, 255, 0.3);">
+<div style="font-size: 24px; font-weight: bold; color: #58A6FF;">5</div>
+<div style="font-size: 12px; color: #8B949E;">👥 Followers</div>
+</div>
+
+<div style="background: rgba(40, 167, 69, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(40, 167, 69, 0.3);">
+<div style="font-size: 24px; font-weight: bold; color: #28A745;">1</div>
+<div style="font-size: 12px; color: #8B949E;">📈 Commits 2025</div>
+</div>
+
 </div>
 </div>
 
+<!-- Dashboard stats en grid responsive moderne -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<!-- GitHub Stats Card -->
+<div style="background: rgba(13, 17, 23, 0.8); border-radius: 16px; padding: 8px; border: 1px solid rgba(88, 166, 255, 0.2); backdrop-filter: blur(10px);">
+<img src="https://github-readme-stats.vercel.app/api?username=Krapaud&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&line_height=22&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&bg_color=00000000&border_radius=12" alt="GitHub Stats"/>
+</div>
+
+<!-- Top Languages Card -->
+<div style="background: rgba(13, 17, 23, 0.8); border-radius: 16px; padding: 8px; border: 1px solid rgba(88, 166, 255, 0.2); backdrop-filter: blur(10px);">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Krapaud&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&title_color=58A6FF&text_color=C9D1D9&bg_color=00000000&border_radius=12&hide=dockerfile,yaml,xml,json&show_icons=true" alt="Top Languages"/>
+</div>
+
+<!-- Streak Stats Card -->
+<div style="background: rgba(13, 17, 23, 0.8); border-radius: 16px; padding: 8px; border: 1px solid rgba(88, 166, 255, 0.2); backdrop-filter: blur(10px);">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Krapaud&theme=tokyonight&hide_border=true&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=58A6FF&background=00000000&border_radius=12" alt="GitHub Streak"/>
+</div>
+
+</div>
+
+<!-- Activity Graph moderne avec section langages intégrée -->
+<div style="background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(31, 111, 235, 0.1) 100%); border-radius: 20px; padding: 20px; margin: 25px 0; border: 1px solid rgba(88, 166, 255, 0.2); backdrop-filter: blur(10px);">
+
+<div style="text-align: center; margin-bottom: 20px;">
+<h3 style="color: #58A6FF; margin: 0; font-size: 20px; font-weight: 600;">🔥 Contribution Activity</h3>
+<p style="color: #8B949E; margin: 5px 0; font-size: 14px;">Daily coding activity and language distribution</p>
+</div>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Krapaud&bg_color=00000000&color=C9D1D9&line=58A6FF&point=1F6FEB&area=true&hide_border=true&custom_title=&radius=12&height=280" alt="Activity Graph"/>
+
+<!-- Section langages moderne avec progress bars -->
+<div style="margin-top: 25px;">
+<h4 style="color: #58A6FF; text-align: center; margin-bottom: 20px; font-size: 16px; font-weight: 600;">💻 Programming Languages</h4>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+
+<!-- C Language -->
+<div style="background: rgba(0, 89, 156, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(0, 89, 156, 0.3);">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+<span style="color: #00599C; font-weight: 600; display: flex; align-items: center;">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="20" height="20" style="margin-right: 8px;"/>
+C
+</span>
+<span style="color: #C9D1D9; font-weight: 600;">70.7%</span>
+</div>
+<div style="background: rgba(0, 89, 156, 0.2); height: 6px; border-radius: 3px; overflow: hidden;">
+<div style="background: #00599C; height: 100%; width: 70.7%; border-radius: 3px;"></div>
+</div>
+</div>
+
+<!-- Python Language -->
+<div style="background: rgba(55, 118, 171, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(55, 118, 171, 0.3);">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+<span style="color: #3776AB; font-weight: 600; display: flex; align-items: center;">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20" style="margin-right: 8px;"/>
+Python
+</span>
+<span style="color: #C9D1D9; font-weight: 600;">10.7%</span>
+</div>
+<div style="background: rgba(55, 118, 171, 0.2); height: 6px; border-radius: 3px; overflow: hidden;">
+<div style="background: #3776AB; height: 100%; width: 10.7%; border-radius: 3px;"></div>
+</div>
+</div>
+
+<!-- Shell Language -->
+<div style="background: rgba(78, 170, 37, 0.1); border-radius: 12px; padding: 15px; border: 1px solid rgba(78, 170, 37, 0.3);">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+<span style="color: #4EAA25; font-weight: 600; display: flex; align-items: center;">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="20" height="20" style="margin-right: 8px;"/>
+Shell
+</span>
+<span style="color: #C9D1D9; font-weight: 600;">3.7%</span>
+</div>
+<div style="background: rgba(78, 170, 37, 0.2); height: 6px; border-radius: 3px; overflow: hidden;">
+<div style="background: #4EAA25; height: 100%; width: 3.7%; border-radius: 3px;"></div>
+</div>
+</div>
+
+</div>
+
+<!-- Quick badges compacts -->
+<div style="text-align: center; margin-top: 20px;">
+<img src="https://img.shields.io/badge/Makefile-1.9%25-FF6600?style=for-the-badge&logo=gnu&logoColor=white&labelColor=1a1a1a" alt="Makefile"/>
+<img src="https://img.shields.io/badge/HTML-0.5%25-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a1a" alt="HTML"/>
+</div>
+
+</div>
+
+<!-- Footer élégant avec timestamp -->
+<div style="background: rgba(88, 166, 255, 0.05); border-radius: 12px; padding: 15px; margin: 20px 0; border: 1px solid rgba(88, 166, 255, 0.1);">
+<div style="text-align: center; color: #8B949E; font-size: 13px;">
+🔄 <strong>Auto-updated</strong> • Last sync: <code style="background: rgba(88, 166, 255, 0.1); padding: 2px 6px; border-radius: 4px; color: #58A6FF;"><!--STATS_UPDATE_TIME-->01/09/2025 à 19:45 UTC<!--/STATS_UPDATE_TIME--></code>
+<br>
+<div style="margin-top: 8px; font-size: 11px;">
+📊 Real-time data from GitHub API • 🔄 Updates automatically via Actions
+</div>
+</div>
+</div>
+
+</div>
 
 ## 🏆 Developer Achievements & Milestones
 
@@ -151,6 +232,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <td width="50%" valign="top">
 
 ### 🎓 **Academic Excellence**
+
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
 
 <div style="position: absolute; top: -20px; right: -20px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 80px; height: 80px;"></div>
@@ -162,6 +244,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **🎓 Holberton School Student**
+
 - ✅ **Trimestre 1:** Foundations completed
 - 🔄 **Trimestre 2:** Systems programming in progress
 - 📊 **Projects completed:** 15+ successful deliveries
@@ -176,6 +259,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 ### 💻 **Programming Mastery**
+
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
 
 <div style="position: absolute; top: -30px; left: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
@@ -187,6 +271,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **🚀 C Programming Expertise**
+
 - 🔧 **Memory Management:** malloc, free, valgrind proficiency
 - 🧠 **Data Structures:** Linked lists, trees, hash tables
 - ⚡ **Algorithms:** Sorting, searching, optimization
@@ -204,6 +289,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <td width="50%" valign="top">
 
 ### 🐚 **System Programming**
+
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
 
 <div style="position: absolute; bottom: -40px; right: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
@@ -215,6 +301,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **⚡ Unix Shell Mastery**
+
 - 🖥️ **Simple Shell:** Custom command interpreter built
 - 🔄 **Process Control:** Fork, exec, wait system calls
 - 📁 **File Operations:** I/O redirection, pipe handling
@@ -229,6 +316,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 ### 🛠️ **DevOps & Collaboration**
+
 <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 15px; position: relative; overflow: hidden;">
 
 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
@@ -240,6 +328,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <br>
 
 **📊 Version Control Excellence**
+
 - 📈 **Contributions:** 1 commits this year
 - 🌿 **Branching:** Feature branches, merge strategies
 - 🔄 **Pull Requests:** Code review and collaboration
@@ -340,6 +429,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 **🔥 Key Features:**
+
 - ✨ **Format Specifiers:** %c, %s, %d, %i, %%
 - 🔧 **Variadic Functions:** Advanced argument handling
 - 📚 **Documentation:** Complete manual page included
@@ -375,6 +465,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 **🚀 Core Features:**
+
 - 💻 **Command Execution:** Interactive interpreter
 - 🔄 **Process Control:** Fork, exec, wait system calls
 - 📁 **I/O Operations:** File handling and redirection
@@ -412,6 +503,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 **🧠 Implementations:**
+
 - 🏗️ **Tree Operations:** Insert, delete, search
 - 🔄 **Traversals:** Pre/In/Post-order algorithms
 - 📏 **Analysis:** Height, depth, balance calculations
@@ -446,6 +538,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </div>
 
 **💡 Project Areas:**
+
 - 🧮 **Algorithms:** Sorting, searching, recursion
 - 🔗 **Data Structures:** Linked lists, hash tables
 - 💾 **Memory:** Dynamic allocation, pointers
