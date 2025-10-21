@@ -13,17 +13,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=4000&pause=1000&color=00FF41&background=0D1117FF&center=true&vCenter=true&width=600&height=80&lines=%24+whoami;krapaud;%24+ls+skills%2F;c_programming+data_structures+algorithms;%24+cat+goals.txt;Becoming+a+Full-Stack+Developer...;%24+echo+%22Hello%2C+World%21+%F0%9F%91%8B%22" alt="Terminal Animation" />
 </div>
 
-I'm a passionate student developer at **Holberton School**, specialized in app and web application development. I love learning new technologies and building innovative solutions.
+I'm a passionate student developer at **Holberton School**, specialized in app and web application development. I love learning new technologies and building innovative solutions, from low-level systems programming to modern mobile applications with AI.
 
 <br>
 
 #### 🎯 **Quick Facts**
 
 - 🎓 **Student** at Holberton School
-- 🎯 **Focus**: Systems & Low-Level Programming
-- 💻 **Core Skills**: C Programming, Data Structures, Algorithms
-- 🌱 **Currently Learning**: Advanced C, Unix Systems, Low-Level Programming
-- 🎯 **Goal**: Become a proficient Systems Programmer!
+- 🎯 **Focus**: Full-Stack Development & Systems Programming
+- 💻 **Core Skills**: C Programming, Python, REST APIs, Mobile Development
+- 🌱 **Currently Learning**: Python Advanced, REST APIs, Software Architecture
+- 🚀 **Current Project**: HBnB (Rental Platform with REST API)
+- 🎯 **Goal**: Become a proficient Full-Stack Developer!
 - 🤝 **Collaboration**: Always open to learning opportunities!
 
 <br>
@@ -31,15 +32,17 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 #### 📊 **Skills Progress**
 
 ![C Programming](https://img.shields.io/badge/C_Programming-100%25-brightgreen?style=flat-square&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-95%25-brightgreen?style=flat-square&logo=python&logoColor=white)
 ![System Programming](https://img.shields.io/badge/System_Programming-100%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-90%25-brightgreen?style=flat-square&logo=fastapi&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-80%25-green?style=flat-square&logo=react&logoColor=white)
 ![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/Algorithms-80%25-green?style=flat-square&logo=codeigniter&logoColor=white)
 ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-85%25-green?style=flat-square&logo=gnu-bash&logoColor=white)
-![Unix/Linux Systems](https://img.shields.io/badge/Unix_Linux_Systems-95%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
+![SQL Databases](https://img.shields.io/badge/SQL_Databases-90%25-brightgreen?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-85%25-green?style=flat-square&logo=docker&logoColor=white)
 ![Git & Version Control](https://img.shields.io/badge/Git_and_Version_Control-90%25-brightgreen?style=flat-square&logo=git&logoColor=white)
 ![Problem Solving](https://img.shields.io/badge/Problem_Solving-95%25-brightgreen?style=flat-square&logo=target&logoColor=white)
-![Low-level Programming](https://img.shields.io/badge/Low_level_Programming-90%25-brightgreen?style=flat-square&logo=chip&logoColor=white)
-![Software Engineering](https://img.shields.io/badge/Software_Engineering-85%25-green?style=flat-square&logo=engineeringskills&logoColor=white)
 
 </div>
 
@@ -102,9 +105,10 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 **🎓 Holberton School Student**
 
 - ✅ **Trimestre 1:** Foundations completed
-- 🔄 **Trimestre 2:** Systems programming in progress
-- 📊 **Projects completed:** 15+ successful deliveries
-- 🏅 **Betty Style:** Clean code standards mastered
+- ✅ **Trimestre 2:** Systems programming completed
+- 🔄 **Trimestre 3:** Higher-level programming in progress
+- 📊 **Projects completed:** 20+ successful deliveries
+- 🏅 **Clean Code:** Betty Style & PEP 8 standards mastered
 - 🤝 **Peer Learning:** Active collaboration and code reviews
 
 <div align="center" style="margin-top: 15px;">
@@ -121,22 +125,23 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="position: absolute; top: -30px; left: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
 
 <div align="center">
-<img src="https://img.shields.io/badge/💻-C_PROGRAMMING_EXPERT-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=003D5C" alt="C Expert Badge"/>
+<img src="https://img.shields.io/badge/💻-FULL_STACK_DEVELOPER-3776AB?style=for-the-badge&logo=stackshare&logoColor=white&labelColor=2C5F87" alt="Full Stack Badge"/>
 </div>
 
 <br>
 
-**🚀 C Programming Expertise**
+**🚀 Full-Stack Development**
 
-- 🔧 **Memory Management:** malloc, free, valgrind proficiency
-- 🧠 **Data Structures:** Linked lists, trees, hash tables
-- ⚡ **Algorithms:** Sorting, searching, optimization
-- 🔧 **Debugging:** GDB, static analysis tools
-- 📝 **Projects:** printf, simple_shell, binary_trees
+- 🔧 **C Programming:** Memory management, data structures, algorithms
+- 🐍 **Python:** OOP, REST APIs, Flask, TDD
+- 📱 **Mobile:** React Native, cross-platform development
+- 🤖 **AI/ML:** TensorFlow, computer vision, recommendations
+- �️ **Databases:** PostgreSQL, Redis, SQL optimization
+- � **DevOps:** Docker, microservices architecture
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Level-Expert-red?style=flat-square&logo=code&logoColor=white" alt="Level"/>
-<img src="https://img.shields.io/badge/Mastery-90%25-success?style=flat-square&logo=chart-line&logoColor=white" alt="Mastery"/>
+<img src="https://img.shields.io/badge/Level-Advanced-red?style=flat-square&logo=code&logoColor=white" alt="Level"/>
+<img src="https://img.shields.io/badge/Languages-3+-success?style=flat-square&logo=code&logoColor=white" alt="Languages"/>
 </div>
 
 </div>
@@ -239,35 +244,105 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <tr>
 <td width="50%" valign="top" style="padding: 15px;">
 
-<!-- Printf Project Card -->
+
+<!-- Python Higher Level Card -->
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
 
 <div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
-<img src="https://img.shields.io/badge/🖨️-PRINTF_IMPLEMENTATION-8A2BE2?style=for-the-badge&logoColor=white&labelColor=4B0082" alt="Printf Badge"/>
+<img src="https://img.shields.io/badge/��-PYTHON_ADVANCED-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=2C5F87" alt="Python Badge"/>
 </div>
 
 <h3 style="color: white; text-align: center; margin: 15px 0;">
-<a href="https://github.com/Krapaud/holbertonschool-printf" style="color: white; text-decoration: none;">📝 Custom Printf Function</a>
+<a href="https://github.com/Krapaud/holbertonschool-higher_level_programming" style="color: white; text-decoration: none;">⚡ Python Advanced Programming</a>
 </h3>
 
 <div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
-<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete re-implementation of the printf function in C</strong></p>
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Advanced Python concepts and object-oriented programming</strong></p>
 </div>
 
-**🔥 Key Features:**
+**🧠 Topics Covered:**
 
-- ✨ **Format Specifiers:** %c, %s, %d, %i, %%
-- 🔧 **Variadic Functions:** Advanced argument handling
-- 📚 **Documentation:** Complete manual page included
-- 🧪 **Testing Suite:** Comprehensive validation tests
-- 🏅 **Code Quality:** Betty standard compliant
+- 🎯 **OOP:** Classes, inheritance, polymorphism
+- 🦆 **Duck Typing:** Abstract classes, interfaces
+- 📊 **Data Structures:** Lists, dicts, comprehensions
+- 🔧 **Advanced:** Magic methods, decorators
+- 🗄️ **SQL:** Database integration & queries
 
 <div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
-<img src="https://img.shields.io/badge/Grade-Perfect-gold?style=flat-square&logo=star&logoColor=white" alt="Grade"/>
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Projects-15+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
+</div>
+
+</div>
+
+</td>
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
+
+<div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🏠-HBNB_PROJECT-2E8B57?style=for-the-badge&logo=airbnb&logoColor=white&labelColor=1F5F3F" alt="HBnB Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-hbnb" style="color: white; text-decoration: none;">🏘️ Accommodation Rental Platform</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Full-stack rental app with REST API & UML architecture</strong></p>
+</div>
+
+**🚀 Core Features:**
+
+- �️ **Layered Architecture:** Clean separation of concerns
+- 🔌 **REST API:** Flask-RESTX with Swagger docs
+- 📊 **UML Modeling:** Complete technical diagrams
+- 🎨 **Design Patterns:** Facade, Repository
+- ✅ **Testing Suite:** Comprehensive API tests
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Flask-REST_API-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
+<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=check-circle&logoColor=white" alt="Active"/>
+</div>
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Python Higher Level Card -->
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+
+<div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🐍-PYTHON_ADVANCED-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=2C5F87" alt="Python Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-higher_level_programming" style="color: white; text-decoration: none;">⚡ Python Advanced Programming</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Advanced Python concepts and object-oriented programming</strong></p>
+</div>
+
+**🧠 Topics Covered:**
+
+- 🎯 **OOP:** Classes, inheritance, polymorphism
+- 🦆 **Duck Typing:** Abstract classes, interfaces
+- 📊 **Data Structures:** Lists, dicts, comprehensions
+- 🔧 **Advanced:** Magic methods, decorators
+- 🗄️ **SQL:** Database integration & queries
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Projects-15+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
 </div>
 
 </div>
@@ -276,9 +351,9 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <td width="50%" valign="top" style="padding: 15px;">
 
 <!-- Simple Shell Project Card -->
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
 
-<div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
+<div style="position: absolute; bottom: -35px; right: -35px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 110px; height: 110px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
 <img src="https://img.shields.io/badge/🐚-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
@@ -292,7 +367,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Custom Unix shell built from scratch in C</strong></p>
 </div>
 
-**🚀 Core Features:**
+**� Core Features:**
 
 - 💻 **Command Execution:** Interactive interpreter
 - 🔄 **Process Control:** Fork, exec, wait system calls
@@ -313,34 +388,34 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <tr>
 <td width="50%" valign="top" style="padding: 15px;">
 
-<!-- Binary Trees Project Card -->
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+<!-- Printf Project Card -->
+<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
 
-<div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); background: rgba(255,255,255,0.1); border-radius: 50%; width: 90px; height: 90px;"></div>
+<div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
-<img src="https://img.shields.io/badge/🌳-BINARY_TREES-228B22?style=for-the-badge&logo=tree&logoColor=white&labelColor=006400" alt="Trees Badge"/>
+<img src="https://img.shields.io/badge/🖨️-PRINTF-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=003D5C" alt="Printf Badge"/>
 </div>
 
 <h3 style="color: white; text-align: center; margin: 15px 0;">
-<a href="https://github.com/Krapaud/holbertonschool-binary_trees" style="color: white; text-decoration: none;">🌲 Data Structures Mastery</a>
+<a href="https://github.com/Krapaud/holbertonschool-printf" style="color: white; text-decoration: none;">📝 Custom Printf Function</a>
 </h3>
 
 <div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
-<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete binary trees implementation and algorithms</strong></p>
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete re-implementation of printf in C</strong></p>
 </div>
 
-**🧠 Implementations:**
+**🔥 Key Features:**
 
-- 🏗️ **Tree Operations:** Insert, delete, search
-- 🔄 **Traversals:** Pre/In/Post-order algorithms
-- 📏 **Analysis:** Height, depth, balance calculations
-- 🎯 **Validation:** Perfect, full, balanced trees
-- ⚡ **Optimization:** Efficient memory management
+- ✨ **Format Specifiers:** %c, %s, %d, %i, %%
+- � **Variadic Functions:** Advanced argument handling
+- � **Documentation:** Complete manual page
+- 🧪 **Testing Suite:** Comprehensive validation
+- 🏅 **Code Quality:** Betty standard compliant
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Concepts-Advanced-red?style=flat-square&logo=brain&logoColor=white" alt="Advanced"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
 </div>
 
 </div>
@@ -349,7 +424,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <td width="50%" valign="top" style="padding: 15px;">
 
 <!-- Low Level Programming Card -->
-<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+<div style="background: linear-gradient(135deg, #fa8bff 0%, #2bd2ff 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
 
 <div style="position: absolute; bottom: -35px; right: -35px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 110px; height: 110px;"></div>
 
@@ -362,7 +437,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </h3>
 
 <div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
-<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Comprehensive collection of C programming projects</strong></p>
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Comprehensive C programming projects collection</strong></p>
 </div>
 
 **💡 Project Areas:**
@@ -371,7 +446,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - 🔗 **Data Structures:** Linked lists, hash tables
 - 💾 **Memory:** Dynamic allocation, pointers
 - 📄 **File I/O:** System calls and manipulation
-- 🔧 **Functions:** Nested loops, variadic functions
+- 🌳 **Binary Trees:** Complete implementations
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Projects-50+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
