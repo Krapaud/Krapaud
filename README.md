@@ -244,43 +244,10 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <tr>
 <td width="50%" valign="top" style="padding: 15px;">
 
-
-<!-- Python Higher Level Card -->
+<!-- HBnB Project Card -->
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
 
 <div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
-
-<div align="center" style="margin-bottom: 20px;">
-<img src="https://img.shields.io/badge/��-PYTHON_ADVANCED-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=2C5F87" alt="Python Badge"/>
-</div>
-
-<h3 style="color: white; text-align: center; margin: 15px 0;">
-<a href="https://github.com/Krapaud/holbertonschool-higher_level_programming" style="color: white; text-decoration: none;">⚡ Python Advanced Programming</a>
-</h3>
-
-<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
-<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Advanced Python concepts and object-oriented programming</strong></p>
-</div>
-
-**🧠 Topics Covered:**
-
-- 🎯 **OOP:** Classes, inheritance, polymorphism
-- 🦆 **Duck Typing:** Abstract classes, interfaces
-- 📊 **Data Structures:** Lists, dicts, comprehensions
-- 🔧 **Advanced:** Magic methods, decorators
-- 🗄️ **SQL:** Database integration & queries
-
-<div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Projects-15+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
-</div>
-
-</div>
-
-</td>
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
-
-<div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
 <img src="https://img.shields.io/badge/🏠-HBNB_PROJECT-2E8B57?style=for-the-badge&logo=airbnb&logoColor=white&labelColor=1F5F3F" alt="HBnB Badge"/>
@@ -296,7 +263,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **🚀 Core Features:**
 
-- �️ **Layered Architecture:** Clean separation of concerns
+- 🏗️ **Layered Architecture:** Clean separation of concerns
 - 🔌 **REST API:** Flask-RESTX with Swagger docs
 - 📊 **UML Modeling:** Complete technical diagrams
 - 🎨 **Design Patterns:** Facade, Repository
@@ -306,6 +273,42 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Flask-REST_API-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=check-circle&logoColor=white" alt="Active"/>
+</div>
+
+</div>
+
+</td>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Simple Shell Project Card -->
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 300px;">
+
+<div style="position: absolute; bottom: -40px; left: -40px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 120px; height: 120px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🐚-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holberton-simple_shell" style="color: white; text-decoration: none;">⚡ Unix Shell Interpreter</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Custom Unix shell built from scratch in C</strong></p>
+</div>
+
+**💻 Core Features:**
+
+- 💻 **Command Execution:** Interactive interpreter
+- 🔄 **Process Control:** Fork, exec, wait system calls
+- 📁 **I/O Operations:** File handling and redirection
+- 🎯 **Signal Management:** SIGINT, SIGTERM handling
+- 🌐 **Environment:** PATH resolution and variables
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
+<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
 </div>
 
 </div>
@@ -335,7 +338,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 **🧠 Topics Covered:**
 
 - 🎯 **OOP:** Classes, inheritance, polymorphism
-- 🦆 **Duck Typing:** Abstract classes, interfaces
+- �� **Duck Typing:** Abstract classes, interfaces
 - 📊 **Data Structures:** Lists, dicts, comprehensions
 - 🔧 **Advanced:** Magic methods, decorators
 - 🗄️ **SQL:** Database integration & queries
@@ -350,48 +353,10 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </td>
 <td width="50%" valign="top" style="padding: 15px;">
 
-<!-- Simple Shell Project Card -->
+<!-- Printf Project Card -->
 <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
 
 <div style="position: absolute; bottom: -35px; right: -35px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 110px; height: 110px;"></div>
-
-<div align="center" style="margin-bottom: 20px;">
-<img src="https://img.shields.io/badge/🐚-SIMPLE_SHELL-2E8B57?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1F5F3F" alt="Shell Badge"/>
-</div>
-
-<h3 style="color: white; text-align: center; margin: 15px 0;">
-<a href="https://github.com/Krapaud/holberton-simple_shell" style="color: white; text-decoration: none;">⚡ Unix Shell Interpreter</a>
-</h3>
-
-<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
-<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Custom Unix shell built from scratch in C</strong></p>
-</div>
-
-**� Core Features:**
-
-- 💻 **Command Execution:** Interactive interpreter
-- 🔄 **Process Control:** Fork, exec, wait system calls
-- 📁 **I/O Operations:** File handling and redirection
-- 🎯 **Signal Management:** SIGINT, SIGTERM handling
-- 🌐 **Environment:** PATH resolution and variables
-
-<div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
-<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
-</div>
-
-</div>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="padding: 15px;">
-
-<!-- Printf Project Card -->
-<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
-
-<div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
 
 <div align="center" style="margin-bottom: 20px;">
 <img src="https://img.shields.io/badge/🖨️-PRINTF-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=003D5C" alt="Printf Badge"/>
@@ -408,14 +373,51 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 **🔥 Key Features:**
 
 - ✨ **Format Specifiers:** %c, %s, %d, %i, %%
-- � **Variadic Functions:** Advanced argument handling
-- � **Documentation:** Complete manual page
+- 🔧 **Variadic Functions:** Advanced argument handling
+- 📚 **Documentation:** Complete manual page
 - 🧪 **Testing Suite:** Comprehensive validation
 - 🏅 **Code Quality:** Betty standard compliant
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
 <img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
+</div>
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" style="padding: 15px;">
+
+<!-- Binary Trees Project Card -->
+<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); border-radius: 20px; padding: 25px; margin: 10px; position: relative; overflow: hidden; min-height: 280px;">
+
+<div style="position: absolute; top: -30px; right: -30px; background: rgba(255,255,255,0.1); border-radius: 50%; width: 100px; height: 100px;"></div>
+
+<div align="center" style="margin-bottom: 20px;">
+<img src="https://img.shields.io/badge/🌳-BINARY_TREES-228B22?style=for-the-badge&logo=tree&logoColor=white&labelColor=006400" alt="Trees Badge"/>
+</div>
+
+<h3 style="color: white; text-align: center; margin: 15px 0;">
+<a href="https://github.com/Krapaud/holbertonschool-binary_trees" style="color: white; text-decoration: none;">🌲 Data Structures Mastery</a>
+</h3>
+
+<div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 15px; margin: 15px 0;">
+<p style="color: #E8E8E8; text-align: center; margin: 0;"><strong>Complete binary trees implementation and algorithms</strong></p>
+</div>
+
+**🧠 Implementations:**
+
+- 🏗️ **Tree Operations:** Insert, delete, search
+- 🔄 **Traversals:** Pre/In/Post-order algorithms
+- 📏 **Analysis:** Height, depth, balance calculations
+- 🎯 **Validation:** Perfect, full, balanced trees
+- ⚡ **Optimization:** Efficient memory management
+
+<div align="center" style="margin-top: 20px;">
+<img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Concepts-Advanced-red?style=flat-square&logo=brain&logoColor=white" alt="Advanced"/>
 </div>
 
 </div>
@@ -459,12 +461,6 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 </tr>
 </table>
 </div>
-
-<br>
-
-<!-- Project Statistics -->
-<div align="center">
-<div style="background: rgba(88, 166, 255, 0.05); border-radius: 15px; padding: 25px; margin: 25px 0; border: 1px solid rgba(88, 166, 255, 0.3);">
 
 <h3 style="color: #58A6FF; margin-bottom: 20px;">📊 Project Portfolio Overview</h3>
 
