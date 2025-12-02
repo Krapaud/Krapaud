@@ -34,15 +34,13 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 ![C Programming](https://img.shields.io/badge/C_Programming-100%25-brightgreen?style=flat-square&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-75%25-yellowgreen?style=flat-square&logo=python&logoColor=white)
 ![System Programming](https://img.shields.io/badge/System_Programming-100%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-90%25-brightgreen?style=flat-square&logo=fastapi&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-80%25-green?style=flat-square&logo=react&logoColor=white)
 ![Data Structures](https://img.shields.io/badge/Data_Structures-85%25-green?style=flat-square&logo=buffer&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/Algorithms-80%25-green?style=flat-square&logo=codeigniter&logoColor=white)
 ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-85%25-green?style=flat-square&logo=gnu-bash&logoColor=white)
-![SQL Databases](https://img.shields.io/badge/SQL_Databases-90%25-brightgreen?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-85%25-green?style=flat-square&logo=docker&logoColor=white)
-![Git & Version Control](https://img.shields.io/badge/Git_and_Version_Control-90%25-brightgreen?style=flat-square&logo=git&logoColor=white)
-![Problem Solving](https://img.shields.io/badge/Problem_Solving-95%25-brightgreen?style=flat-square&logo=target&logoColor=white)
+![Web Development](https://img.shields.io/badge/Web_Development-70%25-yellowgreen?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-65%25-yellow?style=flat-square&logo=javascript&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-90%25-brightgreen?style=flat-square&logo=target&logoColor=white)
+![Git & Version Control](https://img.shields.io/badge/Git_and_Version_Control-85%25-green?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
@@ -107,7 +105,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Trimestre 1:** Foundations completed
 - **Trimestre 2:** Systems programming completed
 - **Trimestre 3:** Higher-level programming in progress
-- **Projects completed:**20+ successful deliveries
+- **Projects completed:** 20+ successful deliveries
 - **Clean Code:** Betty Style & PEP 8 standards mastered
 - **Peer Learning:** Active collaboration and code reviews
 
@@ -190,7 +188,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **Version Control Excellence**
 
-- **Contributions:**1 commits this year
+- **Contributions:** 328 commits this year
 - **Branching:** Feature branches, merge strategies
 - **Pull Requests:** Code review and collaboration
 - **Issues:** Project management and tracking
@@ -215,16 +213,16 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <table style="background: rgba(88, 166, 255, 0.05); border-radius: 15px; padding: 20px; margin: 20px 0;">
 <tr>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/-15+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Projects"/>
+<img src="https://img.shields.io/badge/-20+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Projects"/>
 <br><small><b>Projects Completed</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/-90%25-brightgreen?style=for-the-badge&logoColor=white&labelColor=28A745" alt="C Mastery"/>
+<img src="https://img.shields.io/badge/-100%25-brightgreen?style=for-the-badge&logoColor=white&labelColor=28A745" alt="C Mastery"/>
 <br><small><b>C Programming</b></small>
 </td>
 <td align="center" style="padding: 10px;">
-<img src="https://img.shields.io/badge/-1-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
-<br><small><b>Git Contributions</b></small>
+<img src="https://img.shields.io/badge/-328-blue?style=for-the-badge&logoColor=white&labelColor=0366D6" alt="Contributions"/>
+<br><small><b>Commits 2025</b></small>
 </td>
 <td align="center" style="padding: 10px;">
 <img src="https://img.shields.io/badge/-Advanced-purple?style=for-the-badge&logoColor=white&labelColor=6F42C1" alt="Level"/>
@@ -337,11 +335,11 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **Topics Covered:**
 
-- OOP:** Classes, inheritance, polymorphism
-- Duck Typing:**Abstract classes, interfaces
-- Data Structures:** Lists, dicts, comprehensions
-- Advanced:**Magic methods, decorators
-- SQL:** Database integration & queries
+- **OOP:** Classes, inheritance, polymorphism
+- **Duck Typing:** Abstract classes, interfaces
+- **Data Structures:** Lists, dicts, comprehensions
+- **Advanced:** Magic methods, decorators
+- **SQL:** Database integration & queries
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
@@ -372,11 +370,11 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **Key Features:**
 
-- Format Specifiers:**%c, %s, %d, %i, %%
-- Variadic Functions:** Advanced argument handling
-- Documentation:**Complete manual page
+- **Format Specifiers:** %c, %s, %d, %i, %%
+- **Variadic Functions:** Advanced argument handling
+- **Documentation:** Complete manual page
 - **Testing Suite:** Comprehensive validation
-- Code Quality:**Betty standard compliant
+- **Code Quality:** Betty standard compliant
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
@@ -409,11 +407,11 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **Implementations:**
 
-- Tree Operations:** Insert, delete, search
-- Traversals:**Pre/In/Post-order algorithms
-- Analysis:** Height, depth, balance calculations
-- Validation:**Perfect, full, balanced trees
-- Optimization:** Efficient memory management
+- **Tree Operations:** Insert, delete, search
+- **Traversals:** Pre/In/Post-order algorithms
+- **Analysis:** Height, depth, balance calculations
+- **Validation:** Perfect, full, balanced trees
+- **Optimization:** Efficient memory management
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
@@ -444,11 +442,11 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 **Project Areas:**
 
-- Algorithms:** Sorting, searching, recursion
-- Data Structures:**Linked lists, hash tables
-- Memory:** Dynamic allocation, pointers
-- File I/O:**System calls and manipulation
-- Binary Trees:** Complete implementations
+- **Algorithms:** Sorting, searching, recursion
+- **Data Structures:** Linked lists, hash tables
+- **Memory:** Dynamic allocation, pointers
+- **File I/O:** System calls and manipulation
+- **Binary Trees:** Complete implementations
 
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Projects-50+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
