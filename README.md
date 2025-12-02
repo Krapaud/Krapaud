@@ -32,7 +32,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 #### **Skills Progress**
 
 ![C Programming](https://img.shields.io/badge/C_Programming-100%25-brightgreen?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-95%25-brightgreen?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-75%25-yellowgreen?style=flat-square&logo=python&logoColor=white)
 ![System Programming](https://img.shields.io/badge/System_Programming-100%25-brightgreen?style=flat-square&logo=linux&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-90%25-brightgreen?style=flat-square&logo=fastapi&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-80%25-green?style=flat-square&logo=react&logoColor=white)
@@ -197,7 +197,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-1-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-328-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -270,7 +270,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Testing Suite:** Comprehensive API tests
 
 <div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Flask-REST_API-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=check-circle&logoColor=white" alt="Active"/>
 </div>
@@ -344,7 +344,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - SQL:** Database integration & queries
 
 <div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Projects-15+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
 </div>
 
@@ -489,8 +489,8 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="margin: 20px 0;">
 <h4 style="color: #58A6FF; margin-bottom: 10px;"> Technologies Used</h4>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;">
-<img src="https://img.shields.io/badge/C-87.5%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Shell-1.1%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
+<img src="https://img.shields.io/badge/C-9.8%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-1.0%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
 <img src="https://img.shields.io/badge/Git-Proficient-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/Linux-Experienced-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
 <img src="https://img.shields.io/badge/GDB-Debugging-FF6B6B?style=flat-square&logo=bug&logoColor=white" alt="GDB"/>

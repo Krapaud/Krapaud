@@ -13,7 +13,7 @@ class GitHubStatsUpdater:
     def __init__(self, username="Krapaud"):
         self.username = username
         self.base_path = "/home/krapaud"
-        self.profile_path = "/home/krapaud/projet-perso/Krapaud"
+        self.profile_path = "/home/krapaud/perso/Krapaud"
         self.stats = {}
 
     def get_git_repos(self):

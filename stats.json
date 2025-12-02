@@ -1,19 +1,26 @@
 {
-  "last_updated": "01/09/2025 \u00e0 19:45 UTC",
-  "local_repos": 1,
-  "commits_2025": 1,
+  "last_updated": "02/12/2025 \u00e0 09:54 UTC",
+  "local_repos": 4,
+  "commits_2025": 328,
   "github_real": {
-    "public_repos": 13,
-    "followers": 5,
-    "following": 7,
-    "total_stars": 3,
+    "public_repos": 18,
+    "followers": 6,
+    "following": 8,
+    "total_stars": 6,
     "languages": {
-      "C": 87.5,
-      "Shell": 1.1,
-      "Python": 10.7,
-      "HTML": 0.7
+      "CSS": 18.3,
+      "HTML": 19.5,
+      "JavaScript": 3.4,
+      "Python": 45.4,
+      "Shell": 1.0,
+      "Batchfile": 0.1,
+      "Dockerfile": 0.0,
+      "C": 9.8,
+      "Mermaid": 0.7,
+      "Makefile": 0.4,
+      "TypeScript": 1.4
     },
-    "repos_analyzed": 13
+    "repos_analyzed": 18
   },
   "skills": {
     "C Programming": 100,
