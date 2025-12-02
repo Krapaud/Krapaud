@@ -38,7 +38,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 ![Algorithms](https://img.shields.io/badge/Algorithms-80%25-green?style=flat-square&logo=codeigniter&logoColor=white)
 ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-85%25-green?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Web Development](https://img.shields.io/badge/Web_Development-70%25-yellowgreen?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-65%25-yellow?style=flat-square&logo=javascript&logoColor=white)
+<img src="https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
 ![Problem Solving](https://img.shields.io/badge/Problem_Solving-90%25-brightgreen?style=flat-square&logo=target&logoColor=white)
 ![Git & Version Control](https://img.shields.io/badge/Git_and_Version_Control-85%25-green?style=flat-square&logo=git&logoColor=white)
 
@@ -195,7 +195,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-328-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-267-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
