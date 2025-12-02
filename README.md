@@ -139,7 +139,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div align="center" style="margin-top: 15px;">
 <img src="https://img.shields.io/badge/Level-Advanced-red?style=flat-square&logo=code&logoColor=white" alt="Level"/>
-<img src="https://img.shields.io/badge/Languages-3+-success?style=flat-square&logo=code&logoColor=white" alt="Languages"/>
+<img src="https://img.shields.io/badge/Languages-5+-success?style=flat-square&logo=code&logoColor=white" alt="Languages"/>
 </div>
 
 </div>
@@ -169,7 +169,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 
 <div align="center" style="margin-top: 15px;">
 <img src="https://img.shields.io/badge/Project-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
-<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
+<img src="https://img.shields.io/badge/Grade-Excellent-brightgreen?style=flat-square&logo=check&logoColor=white" alt="Grade"/>
 </div>
 
 </div>
@@ -271,6 +271,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Flask-REST_API-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=check-circle&logoColor=white" alt="Active"/>
+<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
 </div>
 
 </div>
@@ -306,7 +307,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div align="center" style="margin-top: 20px;">
 <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
 <img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square&logo=check-circle&logoColor=white" alt="Completed"/>
-<img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
+<img src="https://img.shields.io/badge/Stars-4-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
 </div>
 
 </div>
@@ -465,7 +466,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <table style="width: 100%; margin: 15px 0;">
 <tr>
 <td align="center" style="padding: 15px;">
-<img src="https://img.shields.io/badge/-4+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Major Projects"/>
+<img src="https://img.shields.io/badge/-6+-gold?style=for-the-badge&logoColor=white&labelColor=FFD700" alt="Major Projects"/>
 <br><small><b>Major Projects</b></small>
 </td>
 <td align="center" style="padding: 15px;">
