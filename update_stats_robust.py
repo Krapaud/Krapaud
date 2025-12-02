@@ -12,13 +12,27 @@ import re
 class GitHubStatsUpdater:
     def __init__(self, username="Krapaud"):
         self.username = username
-        self.base_path = "/home/krapaud"
-        self.profile_path = "/home/krapaud/perso/Krapaud"
+        # Détection automatique de l'environnement
+        if os.getenv('GITHUB_ACTIONS') == 'true':
+            # Dans GitHub Actions
+            self.base_path = os.getenv('GITHUB_WORKSPACE', os.getcwd())
+            self.profile_path = self.base_path
+        else:
+            # En local
+            self.base_path = "/home/krapaud"
+            self.profile_path = "/home/krapaud/perso/Krapaud"
         self.stats = {}
 
     def get_git_repos(self):
         """Find all local git repositories"""
         repos = []
+        # Dans GitHub Actions, on analyse juste le repo courant
+        if os.getenv('GITHUB_ACTIONS') == 'true':
+            if os.path.exists(os.path.join(self.base_path, ".git")):
+                repos.append({"name": "Krapaud", "path": self.base_path})
+            return repos
+        
+        # En local, on cherche tous les repos
         for item in os.listdir(self.base_path):
             repo_path = os.path.join(self.base_path, item)
             if os.path.isdir(repo_path) and os.path.exists(os.path.join(repo_path, ".git")):

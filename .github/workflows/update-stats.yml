@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'update_stats.py'
+      - 'update_stats_robust.py'
       - '.github/workflows/update-stats.yml'
 
 jobs:
@@ -34,13 +34,12 @@ jobs:
     - name: 📦 Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests
         
     - name: 📊 Run Stats Update
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python update_stats.py
+        python update_stats_robust.py
         
     - name: 🔧 Configure Git
       run: |
