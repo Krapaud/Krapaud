@@ -38,7 +38,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 ![Algorithms](https://img.shields.io/badge/Algorithms-80%25-green?style=flat-square&logo=codeigniter&logoColor=white)
 ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-85%25-green?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Web Development](https://img.shields.io/badge/Web_Development-70%25-yellowgreen?style=flat-square&logo=html5&logoColor=white)
-<img src="https://img.shields.io/badge/JavaScript-3.4%25-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/JavaScript-15.0%25-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
 ![Problem Solving](https://img.shields.io/badge/Problem_Solving-90%25-brightgreen?style=flat-square&logo=target&logoColor=white)
 ![Git & Version Control](https://img.shields.io/badge/Git_and_Version_Control-85%25-green?style=flat-square&logo=git&logoColor=white)
 
@@ -195,7 +195,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Team Work:** Pair programming, peer reviews
 
 <div align="center" style="margin-top: 15px;">
-<img src="https://img.shields.io/badge/Commits-267-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
+<img src="https://img.shields.io/badge/Commits-269-brightgreen?style=flat-square&logo=git&logoColor=white" alt="Commits"/>
 <img src="https://img.shields.io/badge/Workflow-Advanced-blue?style=flat-square&logo=github-actions&logoColor=white" alt="Workflow"/>
 </div>
 
@@ -268,7 +268,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **Testing Suite:** Comprehensive API tests
 
 <div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Python-25.0%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Flask-REST_API-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=check-circle&logoColor=white" alt="Active"/>
 <img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square&logo=star&logoColor=white" alt="Stars"/>
@@ -343,7 +343,7 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 - **SQL:** Database integration & queries
 
 <div align="center" style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Python-45.4%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Python-25.0%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Projects-15+-brightgreen?style=flat-square&logo=folder&logoColor=white" alt="Projects"/>
 </div>
 
@@ -488,8 +488,8 @@ I'm a passionate student developer at **Holberton School**, specialized in app a
 <div style="margin: 20px 0;">
 <h4 style="color: #58A6FF; margin-bottom: 10px;"> Technologies Used</h4>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;">
-<img src="https://img.shields.io/badge/C-9.8%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/Shell-1.0%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
+<img src="https://img.shields.io/badge/C-45.0%25-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/Shell-10.0%25-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell"/>
 <img src="https://img.shields.io/badge/Git-Proficient-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/Linux-Experienced-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
 <img src="https://img.shields.io/badge/GDB-Debugging-FF6B6B?style=flat-square&logo=bug&logoColor=white" alt="GDB"/>
